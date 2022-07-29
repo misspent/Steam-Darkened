@@ -12,4 +12,5 @@
     --popupbg: var(--darkgrey); /* Pop-up background color */
 
 	--scrollbar-toggle: block; /* None = no scrollbar | block = on */
+	--home-and-collection-toggle: none; /* None = off | flex = on */
 }

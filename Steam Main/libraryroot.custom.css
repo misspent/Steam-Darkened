@@ -1,6 +1,8 @@
 /* Squares everywhere */
 *{border-radius: 0 !important;}
 
+.gamelistbar_GameListHomeAndSearch_2TKEa {display: var(--home-and-collection-toggle);}
+
 /* ==========================> Downloads <========================== */
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL, .downloadgraph_DownloadGraph_1BxZD {
     color: rgba(var(--hover-background), 80%);

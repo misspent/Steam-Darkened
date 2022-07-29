@@ -302,6 +302,19 @@ input.community_home_search_app_input, .community_home_search_apps_image, input.
 .apphub_HubDivider {background-image: none !important; background: #252525 !important;}
 
 /* Discussion */
+.group_content {background: linear-gradient(90deg, rgba(30, 30, 30, 0.918) 11.38%, rgba(40, 40, 40, 0.8) 25.23%, rgb(20, 20, 20) 100%) !important; margin-bottom: 42px !important;}
+.grouppage_content_area h2, a.large_title, h2.large_title, .discussions_view_more_link a {color: darkturquoise !important;}
+.discussionSearchTextContainer {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
+.discussionSearchTextContainer:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.group_tab.active {background: linear-gradient( to bottom, rgba(var(--hover-background), 80%) 5%, rgba(var(--hover-background), 20%) 95%) !important;}
+.group_tab.active > span {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 60%) 95%) !important;}
+.discussions_header {border-bottom: 5px solid rgba(var(--hover-background), 100%) !important;}
+a.recent_game_discussion {background-color: #151515 !important;}
+a.recent_game_discussion:hover {background-color: rgba(var(--hover-background), 50%) !important;}
+.discussions_forum_row {background-color: #202020 !important;}
+.discussions_forum_row:hover {background-color: rgba(var(--hover-background), 70%) !important;}
+
+
 
 
 /* ==========================> Scrollbar <========================== */
