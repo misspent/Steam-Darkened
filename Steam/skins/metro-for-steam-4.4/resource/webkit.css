@@ -82,11 +82,12 @@ a#store_search_link img {background-color: rgba(var(--hover-background), 100%) !
 .big_button{background: linear-gradient(90deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
 .big_button:hover {background: linear-gradient(90deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important; filter: brightness(125%) !important;}
 .store_capsule .discount_block > .discount_prices {background-color: rgba(35, 35, 35, 0.8) !important;}
-body.v6 .deep_dive_tag {background-color: rgba(var(--hover-background), 100%) !important;}
+body.v6 .deep_dive_tag {background-color: #353535 !important;}
+body.v6 .deep_dive_tag:hover {background-color: rgba(var(--hover-background), 100%) !important;}
 .friends_recently_purchased .friends_container {background: linear-gradient( to right, rgba(var(--hover-background), 40%) 5%, rgba(var(--hover-background), 70%) 95%) !important;}
 .recommended_creators_ctn .recommended_creators_container {background: #161616 !important; border-top: none !important;}
 .home_tab.active .tab_content {background-color: rgba(var(--hover-background), 100%) !important;}
-.home_tab .tab_content {background: rgba(var(--hover-background), 60%) !important; color: #ccc !important; font-size: 15px !important;}
+.home_tab .tab_content {background: #252525 !important; color: #ccc !important; font-size: 15px !important;}
 .home_tab .tab_content:hover {background: rgba(var(--hover-background), 80%) !important; color: #ccc !important; font-size: 15px !important;}
 .tab_item {background: rgba( 20, 20, 20, 0.9 ) !important;}
 .tab_item.focus {background: linear-gradient( to right, rgba(var(--hover-background), 50%) 5%, rgba(var(--hover-background), 100%) 95%) !important;}
@@ -200,6 +201,10 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .wishlist_row {background-color: #101010 !important;}
 .wishlist_row.dragging {background-color: #202020 !important;}
 .wishlist_row .delete {border-bottom: none !important; color: #c71c1c !important; text-transform: capitalize !important;}
+.DialogContent, .DialogContentTransition {background: radial-gradient(circle at top left, rgba(35, 35, 35, 0.4) 0%, rgba(35, 35, 35, 0) 60%), #202020 !important;}
+.modal_top_bar {background: linear-gradient(to right, rgba(var(--hover-background), 100%), rgba(var(--hover-background), 60%)) !important;}
+.btn_grey_steamui > span {background: linear-gradient( to right, #303030 5%, #303030 95%) !important;}
+.btn_grey_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {background: linear-gradient( to right, #404040 5%, #404040 95%) !important;}
 
 /* The Points Shop */
 .styles_PageHomeBannerFloor_37JZ_, .styles_PageHomeTitleContainer_1gjQL, .styles_PageHomeBannerIcons_3vfTy {display: none !important;}
