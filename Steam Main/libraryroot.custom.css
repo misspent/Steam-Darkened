@@ -3,6 +3,11 @@
 
 .gamelistbar_GameListHomeAndSearch_2TKEa {display: var(--home-and-collection-toggle);}
 
+
+/* DropDowns/Context Menus */
+.contextmenu_contextMenu_LQkrb {background: radial-gradient(ellipse farthest-corner at 50% 0%, #151515 0%, #151515 50%, #101010 100%) !important;}
+
+
 /* ==========================> Downloads <========================== */
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL, .downloadgraph_DownloadGraph_1BxZD {
     color: rgba(var(--hover-background), 80%);
@@ -74,10 +79,11 @@
     background-color: #090909;
 }
 .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs {background: rgba(var(--hover-background), 0.8);}
-/* Context Menu Background */
-.contextmenu_contextMenu_PP7LM {
-  background: #202020 !important;
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
+    background-color: #202020;
 }
+
 /* ==========================> Library <========================== */
 
 /* Library Home section */
@@ -188,6 +194,10 @@
 }
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSectionInner_1dJuv {background: #151515;}
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSection_33Cd4 {margin: 0px;}
+.libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {background: radial-gradient(circle at top left, rgba(15, 15, 15, 0.4) 0%, rgba(25, 25, 25, 0) 60%),#202020;}
+.DialogTextInputBase, ._DialogInputContainer {background: black;}
+.toggle_Toggle_3jXWQ .toggle_ToggleRail_GKYwH.toggle_Highlight_2l9tH {background-color: rgba(var(--hover-background), 60%);}
+.toggle_Toggle_3jXWQ .toggle_ToggleSwitch_2mW8B.toggle_On_1YqUA {background-color: #16a1e1; background-image: linear-gradient(to bottom, rgba(var(--hover-background), 100%), rgba(var(--hover-background), 100%));}
 
 /* Community Content */
 .appdetailscommunityfeed_HeaderStyles_2lNdD {
