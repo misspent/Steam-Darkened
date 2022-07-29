@@ -1,0 +1,309 @@
+/* Squares everywhere */
+*{border-radius: 0 !important;}
+
+/* ==========================> Downloads <========================== */
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL, .downloadgraph_DownloadGraph_1BxZD {
+    color: rgba(var(--hover-background), 80%);
+}
+.downloads_TopBar_SEmVp {
+    background: linear-gradient(to right, rgba(var(--hover-background), 100%), rgba(var(--hover-background), 0.75));
+    filter: brightness(155%);
+}
+.downloadgraph_GraphAndStats_3KDkL {
+    background-color: #090909;
+}
+.downloads_DownloadsPage_1bq4x {
+    background: radial-gradient(farthest-corner at 0px 0px, #242424 0%, #191919 90%);
+}
+.downloads_Active_IbePL .downloads_SectionList_OINnO {
+    border: 2px solid #151515;
+}
+.downloads_Active_IbePL .downloads_SectionList_OINnO:hover {
+    border-color: #323232;
+}
+.downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1 div {
+    background-color: rgba(var(--hover-background));
+    filter: brightness(160%);
+}
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+    background-color: #151515;
+}
+.downloads_SectionItem_1VNuY:hover, .downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB {
+	background-color: #101010;
+}
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled{
+	background: linear-gradient(314.13deg, rgba(var(--hover-background), 0.75) -22.81%, rgba(var(--hover-background), 100%) 19.67%);
+}
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled:hover, .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled:focus {
+    background: linear-gradient(314.13deg, rgba(var(--hover-background), 0.75) -22.81%, rgba(var(--hover-background), 100%) 19.67%);
+	filter: brightness(140%);
+}
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover, .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled, .downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5.DialogButton:enabled {
+    background: #303030;
+}
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:active, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled {
+    background: #303030 !important;
+}
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover, .downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5:hover.DialogButton:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover {
+    background: #454545;
+}
+
+/* ==========================> Sidebar <========================== */
+.gamelistbar_GameListHomeAndSearch_2TKEa {
+    background-color: #101010;
+}
+.gamelisthome_CollectionIcon_nC-pL .gamelisthome_CollectionIconBox_2tyaV {
+	background: #4c4d50ad;
+}
+.gamelisthome_Bar_3pSPl {
+	background-color: #202020;
+}
+.gamelisthome_Bar_3pSPl .gamelisthome_Icon_1ooRO {
+    -webkit-mask-image: linear-gradient(to right, rgba(17, 17, 17, 0.5) 30%, black 50%);
+}
+.gamelistbar_Container_3x1Hk {
+	background-image: linear-gradient(to bottom, #050505 0%, #101010 20%);
+}
+.gamelistsectionheader_Container_2sYIg {
+	background: linear-gradient(to right, #212121 40%, rgba(19, 19, 19, 0.85) 100%);
+	border: none;
+}
+.library_LibraryWindowDivider_276E6 {
+    background-color: #090909;
+}
+.gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs {background: rgba(var(--hover-background), 0.8);}
+/* Context Menu Background */
+.contextmenu_contextMenu_PP7LM {
+  background: #202020 !important;
+}
+/* ==========================> Library <========================== */
+
+/* Library Home section */
+.libraryhomenewupdates_GameIconAndName_3_xMy {background-color: rgba(55,55,55,.4)}
+.libraryhomenewupdates_GameIconAndName_3_xMy:hover {background-color: #303030;}
+
+
+.libraryhome_UpdatesContainer_17uEB {
+    background: radial-gradient(100% 100% at 33% 45%, #151515 30%, #101010 100%);
+}
+.libraryhome_LibraryHome_3Sb2o {background-image: linear-gradient(to bottom, #090909 0%, #101010 20%);}
+.libraryhome_Container_2gSXC {background: #101010;}
+.appportrait_RecentGameFooter_2d1hS {background-color: #202020;}
+.appportrait_FooterBlurImageContainer_RhmvO{filter: blur(20px);}
+.libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd.libraryhomenewupdates_HoversEnabled_278jF:hover .libraryhomenewupdates_EventSummaryContainer_3Rb_j, .gpfocus> .libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd.libraryhomenewupdates_HoversEnabled_278jF .libraryhomenewupdates_EventSummaryContainer_3Rb_j {
+    background-color: rgba(var(--hover-background), 0.6);
+}
+.gamelistsectionheader_Container_2sYIg:hover, .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z, .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z:hover, .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy, .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z :hover, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z:hover, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z :hover {
+	background: rgba(var(--hover-background), 100%);
+}
+.gamelistentry_Container_2-O4Z:hover, .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
+    background-color: rgba(var(--hover-background), 80%);
+}
+.appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY:hover, .appdetailsfriendssection_AvatarAndLabel_1GCZA:hover, button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY:hover, button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY:hover {
+	background: rgba(var(--hover-background), 100%);
+}
+.apppartnereventspage_PartnerEvent_1KsYS, .partnereventdisplay_LibraryEventBodyContainer_32mHv {background-image: radial-gradient(ellipse at top left, #202020, #101010);}
+
+.apppartnereventspage_CloseButton_1_vCR, .apppartnereventspage_ScrollButton_1t_97 {background: #252525; border: 1px solid #555555;}
+.apppartnereventspage_CloseButton_1_vCR:hover, .apppartnereventspage_ScrollButton_1t_97:hover, .apppartnereventspage_ScrollButton_1t_97:hover, .apppartnereventspage_ScrollButton_1t_97:hover {background: #353535; border: 1px solid #858585;}
+.discussionwidget_Container_mKmrO {background-image: radial-gradient(ellipse at top center, rgba(75, 75, 75, 0.1) 10%, rgba(75, 75, 75, 0) 80%);}
+.partnereventdisplay_InLibraryView_3_SEi .partnereventdisplay_EventDetailTitleContainer_3z2NY {background: radial-gradient(ellipse at bottom center, rgba(25, 25, 25, 0.1) 10%, rgba(25, 25, 25, 0) 80%);}
+
+/* Library game section */
+.appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {background-color: rgba(var(--hover-background), 100%) !important;}
+.spotlight_MajorEventContainer_3do5n {border-image-source: radial-gradient(100% 80% at 64% 95%, rgba(var(--hover-background), 45%) 0%, rgba(var(--hover-background), 70%) 40%, rgba(var(--hover-background), 80%) 100%) !important;}
+
+.appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
+    background: linear-gradient(to top, rgba(09, 09, 09, 9) 0%, rgba(12, 12, 12, 0.96) calc(100% - 2px), rgba(07, 07, 07, 0.71) calc(100% - 1px), rgba(05, 05, 05, 0.93) 100%);
+}
+.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ {padding: 0px;}
+.appdetailsgameinfocontainer_Glassy_2QAgO.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ {background-color: #202020;}
+.appdetailsgameinfopanel_Container_2jPMy {background-color: #202020; padding: 0 10px;}
+
+.appdetailsprimarylinkssection_LinksSection_3-V8v {background: rgba(14, 14, 14); padding-right: 0px; padding-left: 0px;}
+.appdetailsprimarylinkssection_LinksSection_3-V8v> div {background: radial-gradient(100% 80% at 64% 95%, rgba(30, 30, 30, 0.99) 40%, rgba(40, 40, 40, 0.99) 100%) !important;}
+
+.appdetailsspotlight_ReviewContainer_3LE-6, .writereview_RatingContainer_2SAb6 {background-color: #202020;}
+.writereview_ReviewThumbButton_1kCN0 {background: rgba(var(--hover-background), 100%); color: #ccc;}
+.writereview_ReviewThumbButton_1kCN0:not(.writereview_Selected_Z3L6K):hover {    background: linear-gradient(-60deg, rgba(var(--hover-background), 60%) 5%, rgba(var(--hover-background), 100%) 95%); filter: brightness(155%);}
+.writereview_RatingContainer_2SAb6 .writereview_LeftContainer_2aeAn .writereview_Playtime_qX4kN {color: rgba(var(--hover-background), 100%);font-weight: bold; filter: brightness(155%);}
+.writereview_ThumbIcon_2Jkk-.writereview_Up_2DXZF {fill: #13b113 !important;}
+.writereview_ThumbIcon_2Jkk-.writereview_Down_32G01 {fill: #a50a0a !important;}
+
+.appdetailsoverview_Glassy_2OOzY .appdetailsoverview_ColumnContainer_OhSdL {
+    background: #050505;
+}
+.spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
+	background: radial-gradient(100% 150% at 33% 45%, rgba(18, 18, 18, 0.7) 0%, rgba(14, 14, 14, 0.9) 100%);
+}
+.spotlightgameplaysummary_SummaryScreenshot_2gFx1 {
+    box-shadow: 2px 2px 8px #050505;
+}
+.posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {background: rgba(30, 30, 30, .6);}
+.posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus {background: rgba(45, 45, 45, .8);}
+.posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu, .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA {background-color: #454545;}
+.posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu:hover {background-color: #555555;}
+.posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja:hover {background: linear-gradient(to right, rgba(var(--hover-background), 45%) 0%, rgba(var(--hover-background), 65%) 60%); filter: brightness(155%);}
+
+.appactivityday_PartnerEventLargeImage_Container_Libri {background: radial-gradient(100% 80% at 64% 95%, rgba(45, 45, 45, 0.3) 0%, rgba(50, 50, 50, 0.13) 40%, rgba(80, 80, 80, 0.1) 100%);}
+.appactivityday_PartnerEventLargeImage_Container_Libri:hover {background: radial-gradient(100% 80% at 64% 95%, rgba(55, 55, 55, 0.3) 0%, rgba(70, 70, 70, 0.13) 40%, rgba(95, 95, 95, 0.1) 100%) !important;}
+.appactivityday_PartnerEventLargeUpdate_39Zk3 {border-image-source: radial-gradient(100% 80% at 64% 95%, rgba(var(--hover-background), 45%) 0%, rgba(var(--hover-background), 70%) 40%, rgba(var(--hover-background), 80%) 100%) !important;}
+.appactivityday_PartnerEventTypeUpdate_29bW1 {color: rgba(var(--hover-background), 100%); filter: brightness(200%);}
+
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {background: rgba(25, 25, 25, .8);}
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur:hover {background-color: rgba(35, 35, 35, .8);}
+
+.appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+    background: linear-gradient(to right, rgba(20, 20, 20, 0.8) 0%, rgba(10, 10, 10, 0.8) 95%);
+}
+.appdetailssection_Highlight_38t1m {
+	background: linear-gradient(to right, #181818 0%, #191919 95%);
+}
+.appdetailsworkshopsection_WorkshopContainer_176QJ {
+	background: radial-gradient(99% 80% at 64% 95%, rgba(30, 30, 30, 0.7) 0%, rgba(35, 35, 35, 0.43) 40%, rgba(40, 40, 40, 0.9) 100%) !important;
+}
+.appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
+    background: radial-gradient(99% 80% at 64% 95%, rgba(30, 30, 30, 0.7) 0%, rgba(22, 22, 22, 0.43) 40%, rgba(15, 15, 15, 0.9) 100%);
+	box-shadow: none;
+}
+.appactivityday_PartnerEventTextOnly_3QRf- {
+    background: radial-gradient(100% 80% at 64% 95%, rgba(20, 20, 20, 0.3) 0%, rgba(24, 24, 24, 0.5) 20%, rgba(30, 30, 30, 0.5) 100%);
+}
+.appactivityday_PartnerEventTextOnly_3QRf-:hover {
+    background: radial-gradient(100% 80% at 64% 95%, rgba(64, 64, 64, 0.3) 0%, rgba(100, 100, 100, 0.13) 40%, rgba(190, 190, 190, 0.1) 100%);
+}
+.appactivityday_PartnerEvent_1AYE1 {
+    background: radial-gradient(100% 80% at 64% 95%, rgba(34, 34, 34, 0.3) 0%, rgba(50, 50, 50, 0.13) 40%, rgba(80, 80, 80, 0.1) 100%);
+}
+.appactivityday_PartnerEventMediumImage_Container_1HZy7 {
+    background: radial-gradient(100% 80% at 64% 95%, rgba(34, 34, 34, 0.3) 0%, rgba(50, 50, 50, 0.13) 40%, rgba(80, 80, 80, 0.1) 100%);
+}
+.appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
+    background: radial-gradient(100% 80% at 64% 95%, rgba(20, 20, 20, 0.3) 0%, rgba(24, 24, 24, 0.5) 20%, rgba(30, 30, 30, 0.5) 100%);
+}
+.appdetailsachievementssection_AdditionalItem_2aVnD {
+	background-color: #252525;
+}
+.appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSectionInner_1dJuv {background: #151515;}
+.appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSection_33Cd4 {margin: 0px;}
+
+/* Community Content */
+.appdetailscommunityfeed_HeaderStyles_2lNdD {
+    background: radial-gradient(circle at 0% 20%, rgba(44, 47, 44, 0.15) 0%, rgba(34, 34, 39, 0) 20%), linear-gradient(to bottom, rgba(35, 35, 35, 0.95) 0%, rgba(55, 58, 51, 0.55) 2px, rgba(27, 27, 27, 0.5) 50%, rgba(34, 34, 39, 0) 100%);
+}
+.appdetailscommunityfeed_CommunityItem_3QS6O {
+    background-color: #202020;
+	box-shadow: none;
+}
+.appdetailscommunityfeed_AuthorSection_1ul9Z {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(76, 81, 88, 0.3) 2px, rgba(74, 81, 92, 0) 24px, rgba(105, 118, 129, 0.3) 100%);
+}
+.appdetailscommunityfeed_ArtItem_1aP1b .appdetailscommunityfeed_BottomSection_3uabi {
+    background: linear-gradient(to right, rgba(25, 25, 25, 0.95) 0%, #121212 100%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .9);
+}
+.appdetailsplaysection_MenuButton_3qDWQ:hover {
+    background-color: #353535;
+}
+.appdetailscommunityfeed_Controls_3lh8a .appdetailscommunityfeed_Control_1GfHt {
+    background-color: #101010;
+}
+
+/* Your Collections page */
+.allcollections_ScrollContainer_u1xD3 {
+    background: radial-gradient(100% 100% at 33% 45%, #101010 0%, #050505 100%);
+}
+.allcollections_Collection_3IWn- {
+    background: #454545;
+}
+.allcollections_Collection_3IWn-:focus, .allcollections_Collection_3IWn-:hover {
+    background: rgba(var(--hover-background), 60%);
+}
+
+/* Scroll to top button */
+.smartscrollcontainer_ScrollToTopButton_1J21t div, .smartscrollcontainer_ScrollToTopButton_1bCHN div {background: linear-gradient(to bottom, rgba(var(--hover-background), 100%) 0, #101010 100%);}
+.smartscrollcontainer_ScrollToTopButton_1J21t {color: #ccc;}
+
+/* Dynamic Collection */
+.collectionview_OuterContainer_2sNr7 {
+    background: radial-gradient(100% 100% at 33% 45%, #252525 0%, #050505 100%);
+}
+.gamelistsearchbar_SearchFilterInput_172OF .gamelistsearchbar_FilterTag_3gzh_ {
+    background-color: rgba(var(--hover-background), 100%) !important;
+    filter: brightness(135%) !important;
+}
+
+/* Gamelistsearchbar container | Library filter popup */
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k, .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k:before {
+	background-color: #202020;
+}
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_, .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):hover { /* Filter button */
+	background-color: #303030;
+}
+
+/* ==========================> Scrollbar <========================== */
+
+::-webkit-scrollbar{ /* Main scrollbar */
+  background-color: #151515 !important;
+  border-radius: 0 !important;
+  width: 18px !important;
+  -webkit-box-shadow: none !important;
+  display: var(--scrollbar-toggle) !important;
+}
+
+.ReactVirtualized__List:hover::-webkit-scrollbar-thumb,
+.gamelist_Container_1ijTa:hover::-webkit-scrollbar-thumb {
+  background: var(--scrollbar) !important;
+  background-clip: padding-box !important;
+  -webkit-box-shadow: none !important;
+  border: 5px solid transparent !important;
+}
+
+.ReactVirtualized__List:hover::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar) !important;
+  background-clip: padding-box !important;
+  -webkit-box-shadow: none !important;
+  border: 5px solid transparent !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar) !important;
+}
+
+.ReactVirtualized__List::-webkit-scrollbar-thumb {
+  background: transparent !important;
+  border: 5px solid transparent !important;
+  -webkit-box-shadow: none !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar) !important;
+  border: 5px solid transparent !important;
+  background-clip: padding-box !important;
+  -webkit-box-shadow: none !important;
+}
+
+.ReactVirtualized__List::-webkit-scrollbar-track {
+  background: transparent !important;
+  border-radius: 0 !important;
+}
+
+.ReactVirtualized__Grid::-webkit-scrollbar { /* sidebar in steam scrollbar */
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+}
+
+.library_LeftListSizableContainer_9sPoV::-webkit-scrollbar:horizontal {
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #151515 !important;
+  border-radius: 0 !important;
+}
+
+::-webkit-scrollbar-corner{
+  border: 0 solid var(--librarybg) !important;
+  background-color: var(--librarybg) !important;
+}
