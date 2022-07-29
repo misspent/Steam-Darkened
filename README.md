@@ -12,7 +12,7 @@
 
 - Download: [Metro Steam Skin](https://metroforsteam.com/)  
 - Download: [SteamPatcher](https://github.com/PhantomGamers/SFP/)  
-- Download the "Steam" Folder and drag it into your Steam Folder.  
+- Download the "Steam" folder here and drag it into your Steam Folder.  
 - Patch it with the SteamPatcher when all files are in the correct directories  
 
 Side note: Library & Friends auto-update, but the store webkit.css doesn't.  
