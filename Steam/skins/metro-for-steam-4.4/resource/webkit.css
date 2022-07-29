@@ -1,11 +1,15 @@
 :root {
 	--hover-background: 66, 16, 165; /* HEX: #4210a5 */
 	--scrollbar: #505050; /* Scrollbar color */
+
+  --steam-footer-text: none; /* none = off | Inherit/block = on | Privacy, Legal, Cookies Valve Corporation at the bottom of pages */
 }
 
 /* Squares everywhere & Focus removal */
 * {border-radius: 0 !important;}
 *:focus {outline: none !important;}
+
+div#footer.compact .footer_content #footerText {display: var(--steam-footer-text) !important;}
 
 /* ==========================> Store <========================== */
 /* Left side on featured page | Gift cards, Recommended + everything else | Delete everything below up to "Store featured page" to remove it all */
@@ -313,8 +317,6 @@ a.recent_game_discussion {background-color: #151515 !important;}
 a.recent_game_discussion:hover {background-color: rgba(var(--hover-background), 50%) !important;}
 .discussions_forum_row {background-color: #202020 !important;}
 .discussions_forum_row:hover {background-color: rgba(var(--hover-background), 70%) !important;}
-
-
 
 
 /* ==========================> Scrollbar <========================== */
