@@ -36,6 +36,17 @@ a.gutter_item {background: #151515 !important;}
 .gutter_header, a.gutter_item {padding: 2px 0 !important; margin: 0px !important;}
 .home_page_gutter {left: -30px !important;}
 
+/* Popup Containers */
+.apppartnereventspage_AppBannerCtn_27-Nn .apppartnereventspage_AppBannerBackground_1zB7W {background-image: none !important;}
+
+.partnereventdisplay_EventBackgroundBlur_eti5E {filter: blur(90px) saturate(0.9) !important;}
+.apppartnereventspage_PartnerEvent_lwprN {background-color: #25282e; background-image: radial-gradient(ellipse at top left, #202020, #151515) !important;}
+.apppartnereventspage_AppPartnerEventsBanner_2yR2O, .eventcalendar_HubBanner_3FLui {background-color: #202020 !important; background-image: radial-gradient(ellipse at bottom center, rgba(20, 20, 20, 0.1) 10%, rgba(20, 20, 20, 0) 80%) !important;}
+.partnereventdisplay_InLibraryView_3X6U9 .partnereventdisplay_EventDetailTitleContainer_35gM9 {background: radial-gradient(ellipse at bottom center, rgba(15, 15, 15, 0.6) 10%, rgba(15, 15, 15, 0.3) 80%) !important;}
+.apppartnereventspage_CloseButton_35HbM, .apppartnereventspage_ScrollButton_357Gu, .apppartnereventspage_ScrollButton_357Gu {background-color: #202020 !important; border: 1px solid #353535 !important;}
+.apppartnereventspage_CloseButton_35HbM:hover, .apppartnereventspage_ScrollButton_357Gu:hover, .apppartnereventspage_ScrollButton_357Gu:hover {background-color: #252525 !important; border: 1px solid #404040 !important;}
+.discussionwidget_Container_3BVe_ {background-image: radial-gradient(ellipse at top center, rgba(10, 10, 10, 0.6) 10%, rgba(10, 10, 10, 0.3) 80%) !important;}
+
 /* Store featured page */
 html, body, body.v6, .home_page_body_ctn, #MessageContent, div.profile_page.has_profile_background, body.profile_page #footer, .labs_cluster, .home_ctn.discovery_queue_ctn, .home_ctn.apps_recommended_by_curators_ctn, .home_ctn.tab_container, body.v6 .game_page_background, .game_page_background.game {background: #090909 !important;} /* Main Backgrounds */
 body.v6 #footer {background: #101010 !important;} /* Main Backgrounds */
