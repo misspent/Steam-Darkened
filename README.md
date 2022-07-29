@@ -9,10 +9,14 @@
 
 <h1 align="center">📥 Installation</h1>
 
-Download: [Metro Steam Skin](https://metroforsteam.com/)  
-Download the "Steam" Folder and drag it into your Steam Folder.  
+
+- Download: [Metro Steam Skin](https://metroforsteam.com/)  
+- Download: [SteamPatcher](https://github.com/PhantomGamers/SFP/)  
+- Download the "Steam" Folder and drag it into your Steam Folder.  
+- Patch it with the SteamPatcher when all files are in the correct directories  
 
 Side note: Library & Friends auto-update, but the store webkit.css doesn't.  
+**If you're struggling, use this guide, it's the best of the best**: [Steam Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1941650801)  
 
 
 <h1 align="center", margin= "0">📷 More Screenshots</h1>
