@@ -1,1 +1,15 @@
 @import url('https://misspent.github.io/Steam-Darkened/Steam Main/libraryroot.custom.css');
+
+:root {
+	--hover-background: 66, 16, 165; /* HEX: #4215a5 */
+	--scrollbar: #505050; /* Scrollbar color */
+	--librarybg: #252525; /* Library background color */
+    --menudrop: var(--darkgrey); /* Filter dropdown menu color */
+	--searchhover: var(--darkgrey); /* Searchbar hover color */
+	--searchfiltermenu: var(--darkgrey); /* Search filter dropdown menu color */
+	--dropdownbg: var(--darkgrey); /* Library category dropdown menu color */
+    --miniprofilebg: var(--darkgrey); /* Miniprofile background color */
+    --popupbg: var(--darkgrey); /* Pop-up background color */
+
+	--scrollbar-toggle: block; /* None = no scrollbar | block = on */
+}
