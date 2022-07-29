@@ -1,0 +1,362 @@
+:root {
+	--hover-background: 66, 16, 165; /* HEX: #4210a5 */
+	--scrollbar: #505050; /* Scrollbar color */
+}
+
+/* Squares everywhere & Focus removal */
+* {border-radius: 0 !important;}
+*:focus {outline: none !important;}
+
+/* ==========================> Store <========================== */
+/* Left side on featured page | Gift cards, Recommended + everything else | Delete everything below up to "Store featured page" to remove it all */
+#responsive_page_template_content > div.home_page_col_wrapper > div.home_page_content.home_gutter_outside > div > div:nth-child(1) > div:nth-child(1):before {
+	content: "" !important;
+	position: absolute !important;
+	width: 100% !important;
+	height: 22px !important;
+	top: 13.4% !important;
+    z-index: 1 !important;
+	background: #202020 !important;
+}
+#responsive_page_template_content > div.home_page_col_wrapper > div.home_page_content.home_gutter_outside > div > div:nth-child(1) > div:nth-child(1):after {
+	content: "Gift Cards" !important;
+	position: absolute !important;
+	color: #c6d4df !important;
+    font-size: 11px !important;
+    text-transform: uppercase !important;
+	width: 100% !important;
+	left: 0 !important;
+	height: 18px !important;
+	top: 13.7% !important;
+    z-index: 101 !important;
+}
+#responsive_page_template_content > div.home_page_col_wrapper > div.home_page_content.home_gutter_outside > div > div:nth-child(1) > div:nth-child(1), #responsive_page_template_content > div.home_page_col_wrapper > div.home_page_content.home_gutter_outside > div > div:nth-child(1) > div:nth-child(1) > a {background: #101010 !important;}
+.gutter_header {background: #202020 !important; text-align: center !important;}
+a.gutter_item {background: #151515 !important;}
+.gutter_header, a.gutter_item {padding: 2px 0 !important; margin: 0px !important;}
+.home_page_gutter {left: -30px !important;}
+
+/* Store featured page */
+html, body, body.v6, .home_page_body_ctn, #MessageContent, div.profile_page.has_profile_background, body.profile_page #footer, .labs_cluster, .home_ctn.discovery_queue_ctn, .home_ctn.apps_recommended_by_curators_ctn, .home_ctn.tab_container, body.v6 .game_page_background, .game_page_background.game {background: #090909 !important;} /* Main Backgrounds */
+body.v6 #footer {background: #101010 !important;} /* Main Backgrounds */
+body.v6.game_bg {background: #202326 !important;}
+
+body.v6 .store_nav .popup_block_new .popup_body {background: linear-gradient(90deg, rgba(20, 20, 20, 0.1) 1.89%, rgba(25, 25, 25, 0) 50%), linear-gradient(180deg, #404040 11.6%, #303030 54.73%, #202020 100%) !important;}
+body.v6 .store_nav .popup_menu_subheader {color: rgba(var(--hover-background), 100%); filter: brightness(155%) !important;}
+#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {background: linear-gradient(90deg, rgba(30, 30, 30, 0.919) 11.38%, rgba(40, 40, 40, 0.8) 25.23%, rgb(20, 20, 20) 100%) !important;}
+.store_nav .tab:hover > span, .store_nav .tab:hover, .store_nav .tab.focus > span, .store_nav .tab.focus {background: linear-gradient(90deg, rgba(var(--hover-background), 20%) 0%, rgba(var(--hover-background), 100%) 50%, rgba(var(--hover-background), 60%)) !important; color: #fff !important;}
+div.store_header_btn_gray {background: rgba(var(--hover-background), 100%) !important;}
+.store_header_btn_gray a:hover {background: rgba(var(--hover-background), 100%) !important; filter: brightness(125%) !important; color: #fff !important;}
+a#store_search_link img {background-color: rgba(var(--hover-background), 100%) !important; background-blend-mode: soft-light !important;}
+.searchbox {background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
+.searchbox:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.game_hover_box {background: linear-gradient(to bottom, rgba(25, 25, 25, 1) 0%, rgba(30, 30, 30, 1) 100%) !important; color: #ccc !important;} .game_hover_box h4 {color: rgba(var(--hover-background), 100%) !important;} /* hover over image or game */
+.hover_body .hover_review_summary {background-color: #252525 !important;}
+.hover_tag_row .app_tag {background-color: rgba(var(--hover-background), 100%) !important;}
+.game_hover_box h4.hover_title {color: rgba(var(--hover-background), 100%) !important; filter: brightness(185%) !important;}
+.hover_details_block, .hover_details_block_full {background-color: #353535 !important;}
+.carousel_container .arrow.right {background: linear-gradient( to right, rgba( 12, 12, 12, 0.2) 5%, rgba( 18, 18, 18, 1) 95%) !important;}
+.carousel_container .arrow.left {background: linear-gradient( to left, rgba( 12, 12, 12, 0.2) 5%, rgba( 18, 18, 18, 1) 95%) !important;}
+.carousel_container .carousel_thumbs > div {border-radius: 0px !important;}
+.store_main_capsule .info {background: linear-gradient(to right, rgba(12, 12, 12, 9) 0%, rgba(20, 20, 20, 0.96) calc(100% - 2px), rgba(09, 09, 09, 0.71) calc(100% - 1px), rgba(07, 07, 07, 0.93) 100%) !important;}
+.store_main_capsule .capsule {margin-right: 0px !important;}
+.store_capsule {background: linear-gradient(to top, rgba(25, 25, 25, 9) 0%, rgba(15, 15, 15, 0.96) calc(100% - 2px), rgba(09, 09, 09, 0.71) calc(100% - 1px), rgba(07, 07, 07, 0.93) 100%) !important;}
+.spotlight_content {background: linear-gradient(to bottom, rgba(12, 12, 12, 100) 0%, rgba(20, 20, 20, 100) calc(100% - 2px), rgba(09, 09, 09, 100) calc(100% - 1px), rgba(07, 07, 07, 100) 100%) !important;}
+.carousel_container.spotlight .carousel_items > * .store_capsule {background: linear-gradient(to left, rgba(25, 25, 25, 100) 0%, rgba(15, 15, 15, 100) calc(100% - 2px), rgba(09, 09, 09, 100) calc(100% - 1px), rgba(07, 07, 07, 100) 100%) !important;}
+.daily_deal .dailydeal_countdown {color: #fff !important;}
+.dailydeal_countdown {background-color: rgba(var(--hover-background), 100%) !important;}
+.store_capsule .discount_block.daily_deal_discount > .discount_prices {background-color: rgba(40, 40, 40, 0.8) !important;}
+.discovery_queue_ctn .begin_exploring {background: linear-gradient( to bottom, #202020 5%, #101010 95%) !important; color: #fff !important;}
+.discovery_queue_ctn .begin_exploring::after {background: linear-gradient( 134deg, #202020 5%, #101010 95%) !important;}
+.big_button{background: linear-gradient(90deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
+.big_button:hover {background: linear-gradient(90deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important; filter: brightness(125%) !important;}
+.store_capsule .discount_block > .discount_prices {background-color: rgba(35, 35, 35, 0.8) !important;}
+body.v6 .deep_dive_tag {background-color: rgba(var(--hover-background), 100%) !important;}
+.friends_recently_purchased .friends_container {background: linear-gradient( to right, rgba(var(--hover-background), 40%) 5%, rgba(var(--hover-background), 70%) 95%) !important;}
+.recommended_creators_ctn .recommended_creators_container {background: #161616 !important; border-top: none !important;}
+.home_tab.active .tab_content {background-color: rgba(var(--hover-background), 100%) !important;}
+.home_tab .tab_content {background: rgba(var(--hover-background), 60%) !important; color: #ccc !important; font-size: 15px !important;}
+.home_tab .tab_content:hover {background: rgba(var(--hover-background), 80%) !important; color: #ccc !important; font-size: 15px !important;}
+.tab_item {background: rgba( 20, 20, 20, 0.9 ) !important;}
+.tab_item.focus {background: linear-gradient( to right, rgba(var(--hover-background), 50%) 5%, rgba(var(--hover-background), 100%) 95%) !important;}
+#tab_preview_container {background: linear-gradient( to left, rgba(var(--hover-background), 50%) 5%, rgba(var(--hover-background), 100%) 95%) !important;}
+.tab_item.focus .tab_item_details span.platform_img.win, .tab_item.focus .tab_item_details span.platform_img.mac, .tab_item.focus .tab_item_details span.platform_img.linux {background-color: #fff !important;}
+.tab_item_name {color: #fff !important;}
+.tab_item.focus .tab_item_name, body.v6 .home_rightcol .tab_preview h2 {color: rgba(var(--hover-background), 100%) !important; filter: brightness(200%) !important;}
+.tab_review_summary, .tab_preview .tags > a {background-color: rgba( 10, 10, 10, 0.6) !important;}
+.tab_item.focus .discount_block .discount_final_price {color: var(--gpColor-Blue) !important;}
+.discount_block .discount_final_price {color: var(--gpColor-DustyBlue) !important;}
+.discount_block .discount_original_price {color: var(--gpColor-Red) !important;}
+.tab_item_details {color: #ccc !important;}
+.home_marketing_message, .home_marketing_message:hover {background: linear-gradient( 135deg, rgba(20, 20, 20, 1) 5%, rgba(25, 25, 25, 1) 95%) !important;}
+.home_content.twowide a.home_content_item, .home_content.fourwide a.home_content_item {background: linear-gradient( 135deg, rgba(20, 20, 20, 1) 5%, rgba(25, 25, 25, 1) 95%) !important;}
+.home_content.single {background: #101010 !important;}
+.home_content.single_buttonbar {background: rgba(05, 05, 05, 1) !important;}
+.home_content.single_buttonbar .btnv6_blue_hoverfade {background: rgba(var(--hover-background), 60%) !important;}
+.home_content.single_buttonbar .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: linear-gradient( -60deg, rgba(var(--hover-background), 70%) 5%, rgba(var(--hover-background), 100%) 95%) !important;}
+.ds_flag.ds_owned_flag {background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKCAYAAABi8KSDAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUNDNzBFNTUyMUM0MTFFNDk1REVFODRBNUU5RjA2MUYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUNDNzBFNTYyMUM0MTFFNDk1REVFODRBNUU5RjA2MUYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5Q0M3MEU1MzIxQzQxMUU0OTVERUU4NEE1RTlGMDYxRiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5Q0M3MEU1NDIxQzQxMUU0OTVERUU4NEE1RTlGMDYxRiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv3vUKAAAAAlSURBVHjaYvz//z8DsYARpFhISAivjnfv3jGSp3jUGeQ4AyDAADZHNe2nyOBrAAAAAElFTkSuQmCC) no-repeat 4px 4px #10ce10 !important;}
+
+/* Store Game page */
+.game_page_background.game, .game_background_glow {background: none !important;}
+.apphub_HomeHeaderContent .btnv6_blue_hoverfade {background: linear-gradient( to right, #0ab59e 5%, #148a85 95%) !important; color: #fff !important;} /* Community Hub button */
+.queue_ctn {background: rgba( 15, 15, 15, 1 ) !important;}
+.btn_next_in_queue {margin-right: -12px !important;}
+.queue_ctn .queue_settings_link_ctn.queue_reason_description {margin-right: 58px !important;}
+.broadcast_embeddable_bordered_container_3cQe7 {background: radial-gradient(100% 80% at 64% 95%, rgba(85, 85, 85, 0.4) 40%, rgba(65, 65, 65, 0.4) 100%) !important;}
+#review_create h1, .reviewDate {color: #199ad8 !important; border-top: none !important;}
+.game_area_play_stats {background: linear-gradient(135deg, rgba(65, 65, 65, 0.3) 0%, rgba(85, 85, 85, 0.3) 100%) !important;}
+#review_create .input_box:focus {outline: none !important;}
+#review_create .input_box {border: 1px solid #101010 !important; background-color: #353535 !important;}
+.dselect_container a.trigger {background: rgba(var(--hover-background), 70%) !important;}
+#review_create .content .controls .dselect_container a.trigger:hover, #review_create .content .controls .dselect_container a.activetrigger, #review_create .content .controls .dselect_container a.activetrigger:hover {background-color: rgba(var(--hover-background), 100%) !important;}
+.dropcontainer ul {background: rgba(var(--hover-background), 100%) !important;}
+.dselect_container a.trigger:hover, .dselect_container .dropcontainer a.highlighted_selection {background: linear-gradient( -60deg, rgba(var(--hover-background), 80%) 5%, rgba(var(--hover-background), 100%) 95%) !important; filter: brightness(155%) !important;}
+#VoteUpBtn {background: #454545 !important; color: #ccc !important;}
+#recommendation_submit {background: linear-gradient( to bottom, rgb(81 155 197) 5%, rgb(30 92 128) 95%) !important; color: #fff !important;}
+.btnv6_border_2px {border: 1px solid #101010 !important;}
+.app_tag {color: #ccc !important; background-color: rgba(var(--hover-background), 100%) !important;}
+.app_tag:hover {background: rgba(var(--hover-background), 100%) !important; filter: brightness(155%) !important;}
+.slider {background: #252525 !important;}
+.highlight_ctn .slider_ctn .slider_left, .highlight_ctn .slider_ctn .slider_right, .highlight_ctn .slider .handle, .slider_ctn .slider_left, .slider_ctn .slider_right, .slider_ctn.store_autoslider .handle {background-color: #353535 !important;}
+.slider_ctn .slider_left:hover, .slider_ctn .slider_right:hover, .slider .handle:hover {background: #454545 !important;}
+.slider_ctn.store_autoslider {background: transparent !important;}
+.game_area_purchase_game, .game_area_offsite_purchase {background: linear-gradient( -60deg, rgba(85, 85, 85, 0.3) 5%, rgba(55, 55, 55, 0.3) 95%) !important;}
+.game_area_dlc_row {background: linear-gradient(135deg, rgba(55, 55, 55, 0.3) 0%, rgba(85, 85, 85, 0.3) 100%) !important;}
+.game_area_dlc_row.even:hover, .game_area_dlc_row.odd:hover {background-color: rgba(var(--hover-background), 100%) !important;}
+div.early_access_banner {background: linear-gradient(135deg,  rgba(35,35,35,1) 0%,rgba(40,40,40,1) 100%) !important;}
+div.early_access_banner > .btn_medium {border: 1px solid #555555 !important;}
+.eventrow_OtherEvents_TextCtn_2AVL1 {background: #151515 !important;}
+a.game_area_details_specs_ctn:hover .label {background: linear-gradient(135deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
+.game_area_details_specs_ctn .label {background: rgba( 150, 150, 150, 0.1 ) !important;}
+.game_area_details_specs_ctn .icon {background: rgba( 100, 100, 100, 0.1 ) !important; padding: 5px 6px !important;}
+.details_block {text-align: center !important;}
+.game_details b {color: #ccc !important;}
+.block a.linkbar {background: rgba( 150, 150, 150, 0.1 ) !important;}
+.block a.linkbar:hover {background: linear-gradient(135deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
+a.communitylink_achievement.communitylink_achivement_plusmore {background-color: rgba( 35, 35, 35, 1 ) !important;}
+a.communitylink_achievement.communitylink_achivement_plusmore:hover {background: linear-gradient(135deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
+.game_description_column .block .block_content a:hover {border: 1px solid rgba( 85, 85, 85, 0.5 ) !important;}
+.game_description_column .block .block_content a {background-color: rgba( 15, 15, 15, 1 ) !important;}
+.small_cap .discount_block > .discount_prices {background: rgba(25, 25, 25, 0.8) !important;}
+.game_description_column .block .block_header .right a {background-color: #202020 !important;}
+.game_description_column .block .block_header .right a:hover {background: linear-gradient(135deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
+.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: linear-gradient( -60deg, rgba(var(--hover-background), 60%) 5%, rgba(var(--hover-background), 100%) 95%) !important;}
+#shareEmbedRow > a:nth-child(1) {background: linear-gradient( to right, #22b0aa 5%, #1b8a85 95%) !important; color: #fff !important;}
+#shareEmbedRow > a:nth-child(2) {background: linear-gradient( to right, #2246b0 5%, #1b338a 95%) !important; color: #fff !important;}
+#ReportAppBtn {background: linear-gradient( to right, #b03622 5%, #8a1b1b 95%) !important; color: #fff !important;}
+#add_to_wishlist_area > a {background: linear-gradient( to right, #22b041 5%, #1b8a2e 95%) !important; color: #fff !important;}
+#queueBtnFollow > div.btnv6_blue_hoverfade.btn_medium.queue_btn_inactive {background: linear-gradient( to right, #224db0 5%, #1b478a 95%) !important; color: #fff !important;}
+#ignoreBtn > div.queue_control_button.queue_btn_ignore > div.btnv6_blue_hoverfade.btn_medium.queue_btn_inactive {background: linear-gradient( to right, #b03622 5%, #8a1b1b 95%) !important; color: #fff !important;}
+.queue_btn_menu > .queue_menu_arrow {background: rgba(55, 55, 55, 0.6) !important;}
+.queue_menu_flyout {background: #202020 !important;}
+#review_histograms_container {background-color: #202020 !important;}
+.user_reviews_filter_options {background-color: #151515 !important;}
+.user_reviews_filter_menu, .user_reviews_filter_display_as {border-left: 1px solid #252525 !important;}
+.user_reviews_filter_display_as select {background: lightgreen !important;}
+#review_show_graph_button , #review_hide_graph_button{background: rgba(var(--hover-background), 100%) !important;}
+.user_reviews_filter_menu:hover, .user_reviews_filter_menu:hover .user_reviews_filter_menu_flyout, .user_reviews_filter_menu_flyout:hover {background-color: #353535 !important;}
+.user_reviews_filter_menu_flyout {color: #ccc !important;}
+.btn_darkblue_white_innerfade, .btn_darkblue_white_innerfade > span, .user_reviews_customize_language a {background: linear-gradient( to bottom, rgba(var(--hover-background), 60%) 5%, rgba(var(--hover-background), 100%) 95%) !important; color: #fff !important;}
+.btn_darkblue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover, .user_reviews_customize_language a:hover {background: linear-gradient( to bottom, rgba(var(--hover-background), 80%) 5%, rgba(var(--hover-background), 100%) 95%) !important; filter: brightness(155%) !important;}
+.user_reviews_steam_labs_desc > a {color: #fff !important;}
+.user_reviews_date_range_explanation, .user_reviews_offtopic_activity_explanation, .user_reviews_playtime_filter_explanation {border-bottom: 1px solid #252525 !important;}
+#app_reviews_playtime_slider .ui-widget-header {background: rgba(var(--hover-background), 100%) !important;}
+.review_box.short {background: linear-gradient(to right, rgba(var(--hover-background), 80%) -1%, rgba(var(--hover-background), 80%) 0%, rgba(var(--hover-background), 40%) 92%, rgba(var(--hover-background), 40%) 100%) !important;}
+.review_box {background-color: rgba( 20, 20, 20, 0.6 ) !Important; border-top: 1px solid #252525 !important; background-image: none !important;}
+.review_box .hr {border-top: 1px solid #252525 !important;}
+.review_award {    background-color: rgba(0, 0, 0, 0.4) !important;}
+.short_header {color: var(--gpColor-BlueHi) !important; background-color: rgba( 0, 0, 0, 0.4 ) !important;}
+.short_header:hover {background: rgba( 05, 05, 05, 0.6 ) !important;}
+.btnv6_grey_black {background: rgba(var(--hover-background), 100%) !important; filter: brightness(110%) !important; border: 1px solid var(--gpBackground-Neutral-LightSofter) !important;}
+.btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: rgba(var(--hover-background), 100%) !important; filter: brightness(130%) !important;}
+
+/* Steam - News popup */
+.btn {background: linear-gradient(to right, rgba(var(--hover-background), 50%) 0%, rgba(var(--hover-background), 70%) 90%) !important;}
+.btn:hover {background: linear-gradient(to right, rgba(var(--hover-background), 75%) 0%, rgba(var(--hover-background), 100%) 100%) !important;}
+
+/* DISCOVERY QUEUE */
+.page_header_ctn {background: none !important;}
+.discovery_queue_customize_ctn {background: #202020 !important; border: 1px solid #404040 !important;}
+.btnv6_blue_hoverfade {background: linear-gradient( -90deg, rgba(85, 85, 85, 0.7) 5%, rgba(60, 60, 60, 0.9) 95%) !important; color: #fff !important;}
+.explore_rightcol_box {background-color: rgba(var(--hover-background), 40%) !important;}
+
+/* Wishlist */
+#wishlist_search {background-color: #101010 !important; box-shadow: none !important; margin-right: 0px !important;}
+#wishlist_search:focus, .wishlist_row:focus {outline: none !important;}
+.wishlist .controls {background: linear-gradient(90deg, rgba(30, 30, 30, 0.918) 11.38%, rgba(40, 40, 40, 0.8) 25.23%, rgb(20, 20, 20) 100%) !important;}
+.wishlist .controls div {margin: 0px !important;}
+.dropdown_container {background-color: #151515 !important;}
+.wishlist_row {background-color: #101010 !important;}
+.wishlist_row.dragging {background-color: #202020 !important;}
+.wishlist_row .delete {border-bottom: none !important; color: #c71c1c !important; text-transform: capitalize !important;}
+
+/* The Points Shop */
+.styles_PageHomeBannerFloor_37JZ_, .styles_PageHomeTitleContainer_1gjQL, .styles_PageHomeBannerIcons_3vfTy {display: none !important;}
+.page_StandardRoot_3uAuM {background: radial-gradient(63.94% 1024px at 50% 200px, #101010 0%, #050505 100%) !important;}
+.styles_PageHomeHowItWorks_2bWxo {border: 1px solid rgba(var(--hover-background), 100%) !important; color: #fff !important; background-image: linear-gradient(to left, transparent, transparent 50%, rgba(var(--hover-background), 100%) 50%, rgba(var(--hover-background), 100%)) !important; margin-top: 50px !important;}
+.globals_ShellHeader_3M7bf, .index_AwardBadgeContainer_2SDnX {background-color: #202020 !important;}
+.profilebundle_ProfileBundleFooter_2uRyM, .appfilterpopup_ManageAppFiltersPopup_15xPy {background: #252525 !important;}
+.globals_ShellHeaderBrandName_MS1bp {color: var(--gpColor-Blue) !important;}
+.loyaltyprimarynav_PrimaryNav_1B_k- {background: linear-gradient(180deg, rgba(55, 55, 55, 0.1) 0%, rgba(30, 30, 30, 0) 28.69%), #151515 !important;}
+.loyaltyprimarynav_SecondaryNavItem_2mFH5 {background-image: linear-gradient(to left, transparent, transparent 50%, #252525 50%, #202020) !important;}
+.loyaltyprimarynav_NavItem_BVtL0 {background: #050505 !important;}
+.banner_Banner_ECzA2, .index_ConvertionSectionTextContainer_xaO4v {background: linear-gradient(144.37deg, rgba(55, 55, 55, 0.32) 28.22%, rgba(20, 20, 20, 0.86) 113.95%) !important;}
+.banner_Banner_ECzA2 .banner_Link_185F6 {background-color: #303030 !important;}
+.banner_Banner_ECzA2 .banner_Link_185F6:focus {outline: none !important;}
+.itembox_ItemBox_2EUBP .itembox_Body_1mnC4 {background: linear-gradient(144.37deg, rgba(25, 25, 25, 0) 68.22%, rgba(35, 35, 35, 0.32) 113.95%) !important;}
+.itembox_ItemBox_2EUBP {background: rgba(65, 65, 65, .25) !important;}
+.rewarditemsection_ActionButton_2c38-, .rewarditemsection_SectionCallout_2tQyo {background-color: #303030 !important;}
+.ModalPosition_TopBar {background: linear-gradient(to right, rgba(var(--hover-background), 100%), rgba(var(--hover-background), 60%)) !important;}
+.redeempointsmodal_ModalContainer_Y6hHM {background: radial-gradient(100% 1000px at 20% 0px, #202020 5%, #151515 100%) !important;}
+.redeempointsmodal_RedeemButton_19X6A .redeempointsmodal_CostContainer_2pwsW {background: linear-gradient(to right, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 60%) !important;}
+.redeempointsmodal_BundleItemContainer_2Lw2P .redeempointsmodal_BundleItemPreviewContainer_26yC- .redeempointsmodal_BundleItemPreview_3gaKB {background-color: rgba(0, 0, 0, .35) !important;}
+.redeempointsmodal_BundleItemContainer_2Lw2P .redeempointsmodal_BundleItemPreviewContainer_26yC- .redeempointsmodal_BundleItemPreview_3gaKB:hover {background-color: rgba(0, 0, 0, .55) !important;}
+.buttons_GrayButton_3Ju8v {background: linear-gradient(0deg, #252525, #252525), #3b9dee !important;}
+.buttons_GrayButton_3Ju8v:hover {background: #303030 !important;}
+
+/* Store Top Sellers/searching for games pages */
+#term {background-color: #050505 !important; border: 1px solid #353535 !important; box-shadow: none !important;}
+#TagSuggest {background-color: #050505 !important; border: 1px solid #353535 !important; box-shadow: none !important;}
+#TagSuggest:focus, #term:focus {outline: none !important;}
+.block_rule {margin: 8px 0px !important;}
+.searchbar {background: linear-gradient(90deg, rgba(30, 30, 30, 0.918) 11.38%, rgba(40, 40, 40, 0.8) 25.23%, rgb(20, 20, 20) 100%) !important;}
+.search_result_row, .search_result_row:hover {background: #101010 !important; border: none !important;}
+.search_result_row:hover {background: #151515 !important; border: none !important;}
+.block_content {background: #151515 !important; border: none !important;}
+.tab_filter_control.checked, .tab_filter_control_row.checked {background: linear-gradient(135deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
+.quadscreenshot_carousel .main {background-color: #151515 !important;}
+ .ds_options > div {background-color: #858585 !important; color: #fff !important;}
+ .ds_options_tooltip {background: #101010 !important;}
+ .tabarea .tab.active .tab_browse_option_label, .tabarea .tab.active .tab_content {background: rgba(var(--hover-background), 100%) !important;}
+ .contenthub_page .tabbar_ctn {box-shadow: 0 5px 0 -1px rgba(var(--hover-background), 100%) !important;}
+ .contenthub_specials_ctn, .contenthub_featured_item_spotlight {background: linear-gradient( to bottom, rgba(var(--hover-background), 60%) 5%, rgba(var(--hover-background), 20%) 95%) !important;}
+ 
+/* News */
+.eventcalendar_EventCalendarContainer_3vzNv .eventcalendar_RowContainer_24NWG .eventcalendar_Rows_1TY7h .eventcalendar_PastSection_2S38Q.eventcalendar_DarkerBackground_iSooR {background-color: #090909 !important;}
+.eventcalendar_EventCalendarContainer_3vzNv .eventcalendar_RowContainer_24NWG .eventcalendar_Rows_1TY7h .eventcalendar_PastSection_2S38Q {background-color: #151515 !important;}
+.eventcalendartile_TileContainer_27AwJ.eventcalendartile_EnableHovers_1fwVU:not(.eventcalendartile_EventType12_KucHh):not(.eventcalendartile_EventType14_1jnLc):not(.eventcalendartile_TileVideoIcon_3_ckM) .eventcalendartile_Tile_a0iPy:hover {background: radial-gradient(circle at top left, #252525 0%, #202020 140%) !important;}
+.eventcalendartile_TileContainer_27AwJ .eventcalendartile_Tile_a0iPy {background: radial-gradient(circle at top left, #252525 10%, #202020 90%) !important;}
+.eventcalendartile_GameTitleContainer_1bEUE.eventcalendartile_EnableHovers_1fwVU:hover {background: rgba(var(--hover-background), 100%) !important;}
+.curatorfeedsuggestrow_FeedSuggestContainerBG_1q6aG {background-image: linear-gradient(115deg, #303030 0%, #252525 100%) !important;     border-bottom: 1px solid #505050 !important;}
+.curatorfeedsuggestrow_FeedSuggestContainer_17xnI {background-image: linear-gradient(90deg, rgba(25, 25, 25, 0.4) 0%, rgba(25, 25, 25, 0.6) 100%) !important;}
+.curatorfeedsuggestrow_BrowseMore_2uAxs, .curatorfeedbrowse_CuratorInfoIcon_1j65n .curatorfeedbrowse_CuratorInfoActionCtn_3UORQ .curatorfeedbrowse_CuratorInfoFollow_M53Y8 {background-color: #151515 !important;}
+.curatorfeedsuggestrow_BrowseMore_2uAxs:hover {background-color: rgba(var(--hover-background), 100%) !important;}
+.eventreminder_ReminderCheckBox_2bkmL.eventreminder_TextMode_2CgU9, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_IconMode_3L1VN:hover, .eventreminder_ReminderDialog_2S_bd .eventreminder_ReminderCheckBox_2bkmL {background-image: radial-gradient(circle at top left, rgba(var(--hover-background), 100%) 10%, rgba(var(--hover-background), 60%) 80%) !important;}
+.eventreminder_ReminderCheckBox_2bkmL.eventreminder_TextMode_2CgU9:hover .eventreminder_ReminderDefault_10z6n, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_TextMode_2CgU9:hover .eventreminder_ReminderOptions_P5dFj, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_TextMode_2CgU9:hover .eventreminder_ReminderCheck_FpEF0, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_TextMode_2CgU9:hover .eventreminder_ReminderOpennedOptions_1Zj38, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_IconMode_3L1VN:hover:hover .eventreminder_ReminderDefault_10z6n, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_IconMode_3L1VN:hover:hover .eventreminder_ReminderOptions_P5dFj, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_IconMode_3L1VN:hover:hover .eventreminder_ReminderCheck_FpEF0, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_IconMode_3L1VN:hover:hover .eventreminder_ReminderOpennedOptions_1Zj38, .eventreminder_ReminderDialog_2S_bd .eventreminder_ReminderCheckBox_2bkmL:hover .eventreminder_ReminderDefault_10z6n, .eventreminder_ReminderDialog_2S_bd .eventreminder_ReminderCheckBox_2bkmL:hover .eventreminder_ReminderOptions_P5dFj, .eventreminder_ReminderDialog_2S_bd .eventreminder_ReminderCheckBox_2bkmL:hover .eventreminder_ReminderCheck_FpEF0, .eventreminder_ReminderDialog_2S_bd .eventreminder_ReminderCheckBox_2bkmL:hover .eventreminder_ReminderOpennedOptions_1Zj38 {background-color: rgba(var(--hover-background), 100%) !important;}
+#popup_target > div > div.ModalPosition > div > div.DialogContent._DialogLayout > div > div.DialogFooter > button {background: linear-gradient(to right, #b73131 0%, #8e1010 60%) !important} /* Dimiss button */
+#popup_target > div > div.ModalPosition > div > div.DialogContent._DialogLayout > div > div.DialogFooter > button {background: linear-gradient(to right, #d63c3c 0%, #a21616 60%) !important;} /* Dimiss button hover */
+.creatorhomeembed_FollowButton_3sfAn {background-color: #256cbd !important;}
+/* News Sidebar */
+.eventcalendar_SidebarContainer_1DLtr {background: #050505 !important;}
+.eventcalendar_NewsChannelGroup_3Zc7j .eventcalendar_NewsChannel_TOM8J.eventcalendar_NewsChannelOnPage_EhtJ_ {border-right: 4px solid rgba(var(--hover-background), 100%) !important; background: linear-gradient(30deg, rgba(var(--hover-background), 30%) 0%, rgba(var(--hover-background), 20%) 100%) !important;}
+.DialogContent, .DialogContentTransition {background: radial-gradient(circle at top left, rgba(35, 35, 35, 0.4) 0%, rgba(35, 35, 35, 0) 60%), #202020 !important;}
+button.DialogButton.Primary {background: linear-gradient(to right, #36c566 0%, #0e86549e 60%) !important;} /* Confirm Button */
+button.DialogButton.Primary:hover {background: linear-gradient(to right, #42e278 0%, #0e8654cc 60%) !important;} /* Confirm Button Hover */
+.eventreminder_ReminderCheckBox_2bkmL.eventreminder_IconMode_3L1VN svg {fill: #b5b522 !important;} /* Notification button/icon */
+.eventcalendar_NewsChannelGroup_3Zc7j .eventcalendar_NewsChannel_TOM8J.eventcalendar_NewsChannelOnPage_EhtJ_ .eventcalendar_NewsChannelTitle_1vRlL, .eventcalendar_NewsChannelGroup_3Zc7j .eventcalendar_NewsChannel_TOM8J.eventcalendar_NewsChannelOnPage_EhtJ_ .eventcalendar_NewsChannelSubtitle_3oo-Z {color: rgba(var(--hover-background), 100%) !important; filter: brightness(155%) !important;}
+.eventcalendar_NewsChannelGroup_3Zc7j .eventcalendar_NewsChannel_TOM8J {background: linear-gradient(30deg, rgba(85, 85, 85, 0.3) 0%, rgba(85, 85, 85, 0) 100%) !important;}
+.eventcalendar_NewsChannelGroup_3Zc7j .eventcalendar_NewsChannel_TOM8J:hover {background-image: linear-gradient(to right, rgba(20, 20, 20, 0.3) 20%, #252525 100%) !important; border-right: 4px solid #454545 !important;}
+.eventcalendar_SidebarContainer_1DLtr .eventcalendar_Sidebar_2A05H .eventcalendar_FilterLink_1-Ujk {background-color: #303030 !important;}
+.eventcalendar_SidebarContainer_1DLtr .eventcalendar_Sidebar_2A05H .eventcalendar_FilterLink_1-Ujk:hover {box-shadow: 2px 2px 10px rgba(0, 0, 0, .4) !important;}
+.eventcalendar_SidebarContainer_1DLtr .eventcalendar_Sidebar_2A05H .eventcalendar_FilterOption_3k3Gi, .eventcalendar_SidebarContainer_1DLtr .eventcalendar_Sidebar_2A05H .eventcalendar_FilterSubOption_hHIh7 {background-color: #252525 !important;}
+
+/* ==========================> Community <========================== */
+
+/* Home */
+#ModalContentContainer > div.apphub_background > div.community_home_sort_options > div.community_home_sort_buttons > a.btn_darkblue_white_innerfade.inner_bevel.btn_small.btn_uppercase, #ModalContentContainer > div.apphub_background > div.community_home_sort_options > div.community_home_sort_buttons > a.btn_grey_grey_outer_bevel.btn_small.btn_uppercase {padding: 0px !important;}
+.btn_grey_grey:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {color: #fff !important; background: rgba(var(--hover-background), 100%) !important;}
+.btn_grey_grey_outer_bevel:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 60%) 95%) !important; filter: brightness(155%) !important;}
+.community_home_app_shortcuts {background: linear-gradient(270deg, rgba(30, 30, 30, 0.918) 11.38%, rgba(40, 40, 40, 0.8) 25.23%, rgb(20, 20, 20) 100%) !important;}
+.community_home_search_box {background: linear-gradient(90deg, rgba(30, 30, 30, 0.918) 11.38%, rgba(40, 40, 40, 0.8) 25.23%, rgb(20, 20, 20) 100%) !important;}
+.community_home_search_apps, .community_home_search_players {background-color: #050505 !important; border: 1px solid #353535 !important; box-shadow: none !important;}
+input.community_home_search_app_input, .community_home_search_apps_image, input.community_home_search_players_input, .community_home_search_players_image {background-color: transparent !important;}
+.apphub_sectionTab.active > span, .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner {background: rgba(var(--hover-background), 20%) !important;}
+.apphub_CardContentType {background-image: none !important; background: rgba(var(--hover-background), 60%) !important;}
+.apphub_sectionTab.active, .apphub_sectionTab.active:hover, .apphub_responsive_tab .responsive_tab_control {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 0%) 95%) !important;}
+.apphub_sectionTab:hover {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 30%) 95%) !important;}
+.apphub_Card.interactable:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.apphub_Card.interactable:hover .apphub_CardContentAuthorBlock {background-color: rgba(var(--hover-background), 30%) !important;}
+.apphub_Card {background-color: #101010 !important;}
+.apphub_CardContentMain .UserReviewCardContent_Footer .gradient {background: linear-gradient( to bottom, rgba(var(--hover-background), 0%) 5%, rgba(var(--hover-background), 10%) 95%) !important;}
+.apphub_BackToTopButton {background-image: none !important; background: rgba(var(--hover-background), 100%) !important;}
+.apphub_CardContentGuideTitle {background-color: #202020 !important;}
+.apphub_sectionTabsHR {background-color: rgba(var(--hover-background), 60%) !important;}
+/* Home - When you click on one of the games */
+.apphub_background {background-image: none !important;}
+.apphub_HubDivider {background-image: none !important; background: #252525 !important;}
+
+/* Discussion */
+
+
+/* ==========================> Scrollbar <========================== */
+::-webkit-scrollbar-thumb {
+  background-clip: padding-box !important;
+  -webkit-box-shadow: none !important;
+  background-color: var(--scrollbar) !important;
+  border: 5px solid var(--darkgrey) !important;
+  border-radius: 0px !important;
+  width: 12px !important;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none !important;
+  background: var(--darkgrey) !important;
+}
+
+::-webkit-scrollbar {
+  background-clip: padding-box !important;
+  border: 5px solid transparent !important;
+  background-color: transparent !important;
+}
+
+.DialogBody::-webkit-scrollbar {
+  display: none !important;
+  border: 5px solid transparent !important;
+}
+
+/* ==========================> Resolution Fix by BallOpener <========================== */
+@media only screen and (min-width: 3000px) {
+  .responsive_page_content {
+    -webkit-transform: scale(2) !important;
+    -webkit-transform-origin: 50% 0 0 !important;
+  }
+
+  .modal_frame {
+    width: 66% !important;
+    height: 80% !important;
+  }
+
+  #footer {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 3400px) {
+  .responsive_page_content {
+    -webkit-transform: scale(1) !important;
+    -webkit-transform-origin: 50% 0 0 !important;
+  }
+
+  .modal_frame {
+    width: 66% !important;
+    height: 80% !important;
+  }
+
+  #footer {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 4000px) {
+  .responsive_page_content {
+    -webkit-transform: scale(2) !important;
+    -webkit-transform-origin: 50% 0 0 !important;
+  }
+
+  .modal_frame {
+    width: 66% !important;
+    height: 80% !important;
+  }
+
+  #footer {
+    display: none !important;
+  }
+}
