@@ -2,6 +2,7 @@
 
 ![Darkened Steam Banner](https://user-images.githubusercontent.com/78914154/181785740-fa85772e-c0aa-43f9-a2b8-c9f992812f40.png)
 
+
 <h1 align="center">Preview</h1>
 
 ![1  Store Main Page](https://user-images.githubusercontent.com/78914154/181789314-42a0cddd-8ccf-4812-89e1-cbdf0a930576.png)
@@ -12,6 +13,7 @@ Download: [Metro Steam Skin](https://metroforsteam.com/)
 Download the "Steam" Folder and drag it into your Steam Folder.  
 
 Side note: Library & Friends auto-update, but the store webkit.css doesn't.  
+
 
 <h1 align="center", margin= "0">📷 More Screenshots</h1>
 
@@ -29,12 +31,19 @@ Side note: Library & Friends auto-update, but the store webkit.css doesn't.
 
 ![2  Store Game](https://user-images.githubusercontent.com/78914154/181786367-1fc3d957-ef82-493b-92b3-76530f8162d2.png)
 
+<h1 align="center", margin= "0">💬 Friends & Chat</h1>
+
+
+| Friends List | Friends Chat |
+| :---------: | :---------: |
+| <img width=300 src="https://user-images.githubusercontent.com/78914154/181792205-c700d2f8-ce82-4ab1-9a39-6740271d21e4.png"></img>  | <img width=700 src="https://user-images.githubusercontent.com/78914154/181792209-a920fd68-5fa5-44ef-9803-373459f84f60.png"></img>  |
 
 <h1 align="center">📌 Information</h1>
 
 If you want to learn how to make your own Steam theme; go here: [Steam Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1941650801)
 
 You can't customize this theme as much as others; a lot of it is hardcoded so that it can go with my windows theme. I might give it a massive touch-up when I learn more about steam theming and if I'm in the mood. The only file that's customizable atm is RoseTheFlower's friends.custom.css.
+
 
 <h1 align="center">📜 Credits</h1>
 
