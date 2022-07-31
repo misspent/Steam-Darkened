@@ -157,18 +157,18 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .game_description_column .block .block_header .right a {background-color: #202020 !important;}
 .game_description_column .block .block_header .right a:hover {background: linear-gradient(135deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: linear-gradient( -60deg, rgba(var(--hover-background), 60%) 5%, rgba(var(--hover-background), 100%) 95%) !important;}
-#shareEmbedRow > a:nth-child(1) {background: linear-gradient( to right, #22b0aa 5%, #1b8a85 95%) !important; color: #fff !important;}
-#shareEmbedRow > a:nth-child(2) {background: linear-gradient( to right, #2246b0 5%, #1b338a 95%) !important; color: #fff !important;}
-#ReportAppBtn {background: linear-gradient( to right, #b03622 5%, #8a1b1b 95%) !important; color: #fff !important;}
-#add_to_wishlist_area > a {background: linear-gradient( to right, #22b041 5%, #1b8a2e 95%) !important; color: #fff !important;}
-#queueBtnFollow > div.btnv6_blue_hoverfade.btn_medium.queue_btn_inactive {background: linear-gradient( to right, #224db0 5%, #1b478a 95%) !important; color: #fff !important;}
-#ignoreBtn > div.queue_control_button.queue_btn_ignore > div.btnv6_blue_hoverfade.btn_medium.queue_btn_inactive {background: linear-gradient( to right, #b03622 5%, #8a1b1b 95%) !important; color: #fff !important;}
+#add_to_wishlist_area > a {background: linear-gradient( to right, #22b041 5%, #1b8a2e 95%) !important; color: #fff !important;} /* Wishlist button */
+#queueBtnFollow > div.btnv6_blue_hoverfade.btn_medium.queue_btn_inactive {background: linear-gradient( to right, #224db0 5%, #1b478a 95%) !important; color: #fff !important;} /* Follow button */
+#ignoreBtn > div.queue_control_button.queue_btn_ignore > div.btnv6_blue_hoverfade.btn_medium.queue_btn_inactive {background: linear-gradient( to right, #b03622 5%, #8a1b1b 95%) !important; color: #fff !important;} /* Ignore button */
+#shareEmbedRow > a:nth-child(1) {background: linear-gradient( to right, #22b0aa 5%, #1b8a85 95%) !important; color: #fff !important;} /* Share button */
+#shareEmbedRow > a:nth-child(2) {background: linear-gradient( to right, #2246b0 5%, #1b338a 95%) !important; color: #fff !important;} /* Embed button */
+#ReportAppBtn {background: linear-gradient( to right, #b03622 5%, #8a1b1b 95%) !important; color: #fff !important;}/* Report/flag button */
 .queue_btn_menu > .queue_menu_arrow {background: rgba(55, 55, 55, 0.6) !important;}
 .queue_menu_flyout {background: #202020 !important;}
 #review_histograms_container {background-color: #202020 !important;}
 .user_reviews_filter_options {background-color: #151515 !important;}
 .user_reviews_filter_menu, .user_reviews_filter_display_as {border-left: 1px solid #252525 !important;}
-.user_reviews_filter_display_as select {background: lightgreen !important;}
+.user_reviews_filter_display_as select {background: lightgreen !important;} /* Summary button */
 #review_show_graph_button , #review_hide_graph_button{background: rgba(var(--hover-background), 100%) !important;}
 .user_reviews_filter_menu:hover, .user_reviews_filter_menu:hover .user_reviews_filter_menu_flyout, .user_reviews_filter_menu_flyout:hover {background-color: #353535 !important;}
 .user_reviews_filter_menu_flyout {color: #ccc !important;}
@@ -300,6 +300,7 @@ input.community_home_search_app_input, .community_home_search_apps_image, input.
 .apphub_BackToTopButton {background-image: none !important; background: rgba(var(--hover-background), 100%) !important;}
 .apphub_CardContentGuideTitle {background-color: #202020 !important;}
 .apphub_sectionTabsHR {background-color: rgba(var(--hover-background), 60%) !important;}
+.apphub_CardBG.workshop {filter: grayscale(1) !important;}
 
 /* Home - When you click on one of the games */
 .apphub_background {background-image: none !important;}
@@ -353,11 +354,11 @@ div.filterselect_options {background-color: rgba(var(--hover-background), 100%) 
 .sectionTab.active > span {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 60%) 95%) !important;}
 .responsive_tab_baseline {background-color: rgba(var(--hover-background), 100%) !important;}
 .sectionTab:hover {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 30%) 95%) !important;}
-.workshopAppsRow {background: linear-gradient( to bottom, rgba(15,15,15,0.6) 5%, rgba(10,10,10,1) 95%) !important; border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.workshopAppsRow {background: linear-gradient( to bottom, rgba(15, 15, 15, 0.6) 5%, rgba(10, 10, 10, 1) 95%) !important; border: 1px solid rgba(var(--hover-background), 100%) !important;}
 .browseApps {background-color: #252525 !important;}
 .searchApps {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
 .searchApps:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
-.detailBox {background: linear-gradient(to right, rgba(30, 30, 30, 0.6) 20%, #202020 100%) !important; padding: 10px 0px 0 8px !important;}
+.detailBox {background: linear-gradient(to right, rgba(30, 30, 30, 0.6) 20%, #202020 100%) !important; padding: 10px !important;}
 .detailBox .headline, .detailBox .headline a {color: darkturquoise !important;}
 .btn_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: rgba(var(--hover-background), 80%) !important;}
 .primary_panel_border {background: linear-gradient(to bottom, rgba(20, 20, 20, 1) 0%, rgba(10, 10, 10, 1) 100%) !important; margin-top: 14px !important;}
@@ -367,27 +368,34 @@ div.filterselect_options {background-color: rgba(var(--hover-background), 100%) 
 .current_player_workshop_title a {color: darkturquoise !important;}
 .current_player_workshop_link, .current_player_workshop_title a {padding-left: 55px !important;}
 .bodytext .current_player_workshop_title a {max-width: -webkit-fill-available !important;}
+/* Steam overlay */
+.apphub_ContentGuides .workshopItemCollection {background-color: rgba( 10, 10, 10, 0.8) !important;}
+.apphub_ContentGuides .workshopItemCollection:hover {background-color: rgba(var(--hover-background), 50%) !important;}
+.guide_home_category_selection {height: 64px !important; margin-right: 0px !important;}
+.browseOption.notSelected:hover, .browseOption.notSelected.gpfocus {background-color: rgba(var(--hover-background), 50%) !important;}
+.guideTop {background-color: #101010 !important;}
+.guideTop .workshopItemControls {background-color: #202020 !important;}
+.commentthread_area .commentthread_header {background-color: #090909 !important;}
 /* When you clock on one of the workshops */
 .apphub_HeaderTop.workshop {background-image: none !important;}
-.workshop_browse_menu_area {background: linear-gradient( to right, rgba( 20, 20, 20, 1 ) 5%,rgba( 25, 25, 25, 1 ) 95%) !important;}
+.workshop_browse_menu_area {background: linear-gradient( to right, rgba( 20, 20, 20, 1 ) 5%, rgba( 25, 25, 25, 1 ) 95%) !important;}
 .workshop_browse_search {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
 .workshop_browse_search:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
-.browse_option a:hover, .filterOption:hover, .filterOption:hover {background-color: rgba(var(--hover-background), 35%) !important;}
+.browse_option a:hover, .filterOption:hover {background-color: rgba(var(--hover-background), 35%) !important;}
 .slider .handle {background: #252525 !important;}
 .slider_container .slider_left, .slider_container .slider_right {background-color: #353535 !important;}
 .slider_container .slider_left:hover, .slider_container .slider_right:hover, .slider_container .handle:hover {background: #454545 !important;}
-.home_tab.active {background: linear-gradient(to bottom,  rgba(var(--hover-background), 100%) 0%,rgba(var(--hover-background), 0%) 100%) !important;}
+.home_tab.active {background: linear-gradient(to bottom, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 0%) 100%) !important;}
 .workshop_item_row:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
 .hover_box {background-color: rgba(var(--hover-background), 100%) !important;}
 .hover_arrow_inner {background-image: none !important;}
 .section_title, .section_title a {color: darkturquoise !important;}
-.navContent {background-color: #252525 !important;}
-.general_btn.createCollection {background-image: none !important; background: #353535!important;}
+.general_btn.createCollection {background-image: none !important; background: #353535 !important;}
 .browseOptionImage {filter: grayscale(1) !important;}
 /* When you click "See all comments" */
 .partnereventdisplay_EventDetailsPageContainer_2Ptra {background: #202020 !important;}
 .partnereventdisplay_EventBody_3aht- {background-image: radial-gradient(ellipse at top left, #151515, #101010) !important;}
-.eventbbcodesketchfab_dynamiclink_box_2OrAL {background: linear-gradient(60deg, rgba(10, 10, 10, 033) 5%, rgba(09, 09, 09, 0.60) 95%) !important;}
+.eventbbcodesketchfab_dynamiclink_box_2OrAL {background: linear-gradient(60deg, rgba(10, 10, 10, 033) 5%, rgba(09, 09, 09, 0.6) 95%) !important;}
 .discussionwidget_Container_mKmrO {background-image: radial-gradient(ellipse at top center, rgba(55, 55, 55, 0.2) 10%, rgba(25, 25, 25, 0.2) 80%) !important;}
 .partnereventdisplay_AppSummaryCtn_Wk21c {border-top: 1px dotted #454545 !important; background: linear-gradient(#101010, rgba(15, 15, 16, 0.4)) !important;}
 .creatorhomeembed_DevSummaryWidgetCtn_A2B2V {background: radial-gradient(ellipse at top left, rgba(35, 35, 35, 0.8), rgba(25, 25, 25, 0.8)) !important;}
@@ -396,6 +404,21 @@ div.filterselect_options {background-color: rgba(var(--hover-background), 100%) 
 .navContent > hr {background-color: #404040 !important;}
 
 /* Market */
+.market_tab_well_tabs {background: #151515 !important; border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;}
+.market_listing_table_active a.market_listing_row_link:hover .market_listing_row {border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.market_listing_table_header, .market_listing_table_message {background-color: #000000 !important;}
+.market_listing_row {background-color: rgba(0, 0, 0, 0.4) !important;}
+.market_search_sidebar_section_tip_small {color: darkturquoise !important;}
+#findItemsSearchBox {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
+#findItemsSearchBox:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.market_search_advanced_button, .game_button > span {background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(35, 35, 35, 1), rgba(30, 30, 30, 1)) repeat scroll 0 0 !important; border-image: linear-gradient(to bottom, #353535 0%, #303030 100%) !important;}
+.market_search_advanced_button:hover, .game_button:hover > span, .game_button .game_button_preload {background: rgba(var(--hover-background), 70%) !important;}
+.newmodal {background: radial-gradient(circle at top left, rgba(25, 25, 25, 0.4) 0%, rgba(25, 25, 25, 0) 60%), #151515 !important;}
+#market_advancedsearch_dialog .market_search_sidebar_search_box {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
+#market_advancedsearch_dialog .market_search_sidebar_search_box:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
+#market_advancedsearch_appselect, .market_advancedsearch_filters {background-color: #202020 !important; border: 1px solid #252525 !important;}
+
+/* ==========================> Profile <========================== */
 
 
 
