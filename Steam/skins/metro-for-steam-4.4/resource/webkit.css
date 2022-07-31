@@ -47,8 +47,8 @@ a.gutter_item {background: #151515 !important;}
 .apppartnereventspage_PartnerEvent_lwprN {background-color: #25282e; background-image: radial-gradient(ellipse at top left, #202020, #151515) !important;}
 .apppartnereventspage_AppPartnerEventsBanner_2yR2O, .eventcalendar_HubBanner_3FLui {background-color: #202020 !important; background-image: radial-gradient(ellipse at bottom center, rgba(20, 20, 20, 0.1) 10%, rgba(20, 20, 20, 0) 80%) !important;}
 .partnereventdisplay_InLibraryView_3X6U9 .partnereventdisplay_EventDetailTitleContainer_35gM9 {background: radial-gradient(ellipse at bottom center, rgba(15, 15, 15, 0.6) 10%, rgba(15, 15, 15, 0.3) 80%) !important;}
-.apppartnereventspage_CloseButton_35HbM, .apppartnereventspage_ScrollButton_357Gu, .apppartnereventspage_ScrollButton_357Gu {background-color: #202020 !important; border: 1px solid #353535 !important;}
-.apppartnereventspage_CloseButton_35HbM:hover, .apppartnereventspage_ScrollButton_357Gu:hover, .apppartnereventspage_ScrollButton_357Gu:hover {background-color: #252525 !important; border: 1px solid #404040 !important;}
+.apppartnereventspage_CloseButton_35HbM, .apppartnereventspage_ScrollButton_357Gu {background-color: #202020 !important; border: 1px solid #353535 !important;}
+.apppartnereventspage_CloseButton_35HbM:hover, .apppartnereventspage_ScrollButton_357Gu:hover {background-color: #252525 !important; border: 1px solid #404040 !important;}
 .discussionwidget_Container_3BVe_ {background-image: radial-gradient(ellipse at top center, rgba(10, 10, 10, 0.6) 10%, rgba(10, 10, 10, 0.3) 80%) !important;}
 
 /* Store featured page */
@@ -139,7 +139,7 @@ body.v6 .deep_dive_tag:hover {background-color: rgba(var(--hover-background), 10
 .game_area_purchase_game, .game_area_offsite_purchase {background: linear-gradient( -60deg, rgba(85, 85, 85, 0.3) 5%, rgba(55, 55, 55, 0.3) 95%) !important;}
 .game_area_dlc_row {background: linear-gradient(135deg, rgba(55, 55, 55, 0.3) 0%, rgba(85, 85, 85, 0.3) 100%) !important;}
 .game_area_dlc_row.even:hover, .game_area_dlc_row.odd:hover {background-color: rgba(var(--hover-background), 100%) !important;}
-div.early_access_banner {background: linear-gradient(135deg,  rgba(35,35,35,1) 0%,rgba(40,40,40,1) 100%) !important;}
+div.early_access_banner {background: linear-gradient(135deg, rgba(35, 35, 35, 1) 0%, rgba(40, 40, 40, 1) 100%) !important;}
 div.early_access_banner > .btn_medium {border: 1px solid #555555 !important;}
 .eventrow_OtherEvents_TextCtn_2AVL1 {background: #151515 !important;}
 a.game_area_details_specs_ctn:hover .label {background: linear-gradient(135deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
@@ -250,7 +250,7 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
  .tabarea .tab.active .tab_browse_option_label, .tabarea .tab.active .tab_content {background: rgba(var(--hover-background), 100%) !important;}
  .contenthub_page .tabbar_ctn {box-shadow: 0 5px 0 -1px rgba(var(--hover-background), 100%) !important;}
  .contenthub_specials_ctn, .contenthub_featured_item_spotlight {background: linear-gradient( to bottom, rgba(var(--hover-background), 60%) 5%, rgba(var(--hover-background), 20%) 95%) !important;}
- 
+
 /* News */
 .eventcalendar_EventCalendarContainer_3vzNv .eventcalendar_RowContainer_24NWG .eventcalendar_Rows_1TY7h .eventcalendar_PastSection_2S38Q.eventcalendar_DarkerBackground_iSooR {background-color: #090909 !important;}
 .eventcalendar_EventCalendarContainer_3vzNv .eventcalendar_RowContainer_24NWG .eventcalendar_Rows_1TY7h .eventcalendar_PastSection_2S38Q {background-color: #151515 !important;}
@@ -263,13 +263,12 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .curatorfeedsuggestrow_BrowseMore_2uAxs:hover {background-color: rgba(var(--hover-background), 100%) !important;}
 .eventreminder_ReminderCheckBox_2bkmL.eventreminder_TextMode_2CgU9, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_IconMode_3L1VN:hover, .eventreminder_ReminderDialog_2S_bd .eventreminder_ReminderCheckBox_2bkmL {background-image: radial-gradient(circle at top left, rgba(var(--hover-background), 100%) 10%, rgba(var(--hover-background), 60%) 80%) !important;}
 .eventreminder_ReminderCheckBox_2bkmL.eventreminder_TextMode_2CgU9:hover .eventreminder_ReminderDefault_10z6n, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_TextMode_2CgU9:hover .eventreminder_ReminderOptions_P5dFj, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_TextMode_2CgU9:hover .eventreminder_ReminderCheck_FpEF0, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_TextMode_2CgU9:hover .eventreminder_ReminderOpennedOptions_1Zj38, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_IconMode_3L1VN:hover:hover .eventreminder_ReminderDefault_10z6n, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_IconMode_3L1VN:hover:hover .eventreminder_ReminderOptions_P5dFj, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_IconMode_3L1VN:hover:hover .eventreminder_ReminderCheck_FpEF0, .eventreminder_ReminderCheckBox_2bkmL.eventreminder_IconMode_3L1VN:hover:hover .eventreminder_ReminderOpennedOptions_1Zj38, .eventreminder_ReminderDialog_2S_bd .eventreminder_ReminderCheckBox_2bkmL:hover .eventreminder_ReminderDefault_10z6n, .eventreminder_ReminderDialog_2S_bd .eventreminder_ReminderCheckBox_2bkmL:hover .eventreminder_ReminderOptions_P5dFj, .eventreminder_ReminderDialog_2S_bd .eventreminder_ReminderCheckBox_2bkmL:hover .eventreminder_ReminderCheck_FpEF0, .eventreminder_ReminderDialog_2S_bd .eventreminder_ReminderCheckBox_2bkmL:hover .eventreminder_ReminderOpennedOptions_1Zj38 {background-color: rgba(var(--hover-background), 100%) !important;}
-#popup_target > div > div.ModalPosition > div > div.DialogContent._DialogLayout > div > div.DialogFooter > button {background: linear-gradient(to right, #b73131 0%, #8e1010 60%) !important} /* Dimiss button */
-#popup_target > div > div.ModalPosition > div > div.DialogContent._DialogLayout > div > div.DialogFooter > button {background: linear-gradient(to right, #d63c3c 0%, #a21616 60%) !important;} /* Dimiss button hover */
+#popup_target > div > div.ModalPosition > div > div.DialogContent._DialogLayout > div > div.DialogFooter > button {background: linear-gradient(to right, #b73131 0%, #8e1010 60%) !important;} /* Dimiss button */
+#popup_target > div > div.ModalPosition > div > div.DialogContent._DialogLayout > div > div.DialogFooter > button:hover {background: linear-gradient(to right, #d63c3c 0%, #a21616 60%) !important;} /* Dimiss button hover */
 .creatorhomeembed_FollowButton_3sfAn {background-color: #256cbd !important;}
 /* News Sidebar */
 .eventcalendar_SidebarContainer_1DLtr {background: #050505 !important;}
 .eventcalendar_NewsChannelGroup_3Zc7j .eventcalendar_NewsChannel_TOM8J.eventcalendar_NewsChannelOnPage_EhtJ_ {border-right: 4px solid rgba(var(--hover-background), 100%) !important; background: linear-gradient(30deg, rgba(var(--hover-background), 30%) 0%, rgba(var(--hover-background), 20%) 100%) !important;}
-.DialogContent, .DialogContentTransition {background: radial-gradient(circle at top left, rgba(35, 35, 35, 0.4) 0%, rgba(35, 35, 35, 0) 60%), #202020 !important;}
 button.DialogButton.Primary {background: linear-gradient(to right, #36c566 0%, #0e86549e 60%) !important;} /* Confirm Button */
 button.DialogButton.Primary:hover {background: linear-gradient(to right, #42e278 0%, #0e8654cc 60%) !important;} /* Confirm Button Hover */
 .eventreminder_ReminderCheckBox_2bkmL.eventreminder_IconMode_3L1VN svg {fill: #b5b522 !important;} /* Notification button/icon */
@@ -301,8 +300,10 @@ input.community_home_search_app_input, .community_home_search_apps_image, input.
 .apphub_BackToTopButton {background-image: none !important; background: rgba(var(--hover-background), 100%) !important;}
 .apphub_CardContentGuideTitle {background-color: #202020 !important;}
 .apphub_sectionTabsHR {background-color: rgba(var(--hover-background), 60%) !important;}
+
 /* Home - When you click on one of the games */
 .apphub_background {background-image: none !important;}
+.profile_small_header_texture {background: rgba(10, 10, 10, 1) !important; margin: 0px !important;}
 .apphub_HubDivider {background-image: none !important; background: #252525 !important;}
 
 /* Discussion */
@@ -317,6 +318,85 @@ a.recent_game_discussion {background-color: #151515 !important;}
 a.recent_game_discussion:hover {background-color: rgba(var(--hover-background), 50%) !important;}
 .discussions_forum_row {background-color: #202020 !important;}
 .discussions_forum_row:hover {background-color: rgba(var(--hover-background), 70%) !important;}
+/* Cool button gradients */
+.btn_grey_white_innerfade {background: linear-gradient( to bottom, #454545 5%, #353535 95%) !important;}
+.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: linear-gradient( to bottom, #505050 5%, #404040 95%) !important;}
+.btn_grey_white_innerfade > span {background: linear-gradient( to bottom, #353535 5%, #252525 95%) !important;}
+.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {background: linear-gradient( to bottom, #404040 5%, #303030 95%) !important;}
+
+.pagebtn, a.pagebtn {background-color: rgba( 85, 85, 85, 0.4 ) !important;}
+.pagebtn:not(.disabled):hover, a.pagebtn:not(.disabled):hover {background-color: rgba(var(--hover-background), 100%) !important;}
+.forum_paging_pagelink.active, .forum_paging_controls .commentthread_pagelink.active {color: rgba(var(--hover-background), 100%) !important;}
+.forum_paging {background-color: #151515 !important; color: #ccc !important;}
+.forum_topic {background-color: #202020 !important;}
+.forum_topic:hover {background-color: #303030 !important;}
+.rightbox_list_selection_background {left: -10px !important; background-image: none !important; background: rgba(var(--hover-background), 100%) !important; width: 287px !important;}
+.rightbox .rule {background-color: #252525 !important; width: 295px !important;}
+/* Tooltip/popup */
+.forum_topic_tooltip {border: 1px solid #454545 !important; background-color: #353535 !important;}
+/* When you're actually on the topic page */
+.forum_op {background-color: #202020 !important; background-image: none !important; border: 1px solid #252525 !important;}
+.forumtopic_comments .commentthread_comment {background-color: #151515 !important; border: 1px solid #202020 !important;}
+a.forum_comment_action {background-color: rgba( 0, 0, 0, 0.4 ) !important;}
+a.forum_comment_action:hover {background-color: #252525 !important;}
+.forum_newtopic_box, .forum_formarea_box, .forum_newtopic_header {background-color: #000000 !important;}
+input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {background-color: #101010 !important; border: 1px solid #151515 !important;}
+/* Tooltip */
+.forum_comment_action_menu {background-color: #252525 !important;}
+.popup_block_new .popup_body {border: 1px solid #252525 !important; background-color: #252525 !important;}
+
+/* Workshop */
+div.filterselect {background: rgba( 55, 55, 55, 0.6 ) !important;}
+div.filterselect:hover {background: rgba(var(--hover-background), 100%) !important;}
+div.filterselect_options {background-color: rgba(var(--hover-background), 100%) !important;} /* filter dropdown */
+.sectionTab.active {background: linear-gradient( to bottom, rgba(var(--hover-background), 80%) 5%, rgba(var(--hover-background), 20%) 95%) !important;}
+.sectionTab.active > span {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 60%) 95%) !important;}
+.responsive_tab_baseline {background-color: rgba(var(--hover-background), 100%) !important;}
+.sectionTab:hover {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 30%) 95%) !important;}
+.workshopAppsRow {background: linear-gradient( to bottom, rgba(15,15,15,0.6) 5%, rgba(10,10,10,1) 95%) !important; border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.browseApps {background-color: #252525 !important;}
+.searchApps {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
+.searchApps:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.detailBox {background: linear-gradient(to right, rgba(30, 30, 30, 0.6) 20%, #202020 100%) !important; padding: 10px 0px 0 8px !important;}
+.detailBox .headline, .detailBox .headline a {color: darkturquoise !important;}
+.btn_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: rgba(var(--hover-background), 80%) !important;}
+.primary_panel_border {background: linear-gradient(to bottom, rgba(20, 20, 20, 1) 0%, rgba(10, 10, 10, 1) 100%) !important; margin-top: 14px !important;}
+.primary_panel {background: none !important;}
+.avatar_workshop_overlay {background: none !important;}
+.joinGroup {width: inherit !important; filter: grayscale(1) !important;}
+.current_player_workshop_title a {color: darkturquoise !important;}
+.current_player_workshop_link, .current_player_workshop_title a {padding-left: 55px !important;}
+.bodytext .current_player_workshop_title a {max-width: -webkit-fill-available !important;}
+/* When you clock on one of the workshops */
+.apphub_HeaderTop.workshop {background-image: none !important;}
+.workshop_browse_menu_area {background: linear-gradient( to right, rgba( 20, 20, 20, 1 ) 5%,rgba( 25, 25, 25, 1 ) 95%) !important;}
+.workshop_browse_search {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
+.workshop_browse_search:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.browse_option a:hover, .filterOption:hover, .filterOption:hover {background-color: rgba(var(--hover-background), 35%) !important;}
+.slider .handle {background: #252525 !important;}
+.slider_container .slider_left, .slider_container .slider_right {background-color: #353535 !important;}
+.slider_container .slider_left:hover, .slider_container .slider_right:hover, .slider_container .handle:hover {background: #454545 !important;}
+.home_tab.active {background: linear-gradient(to bottom,  rgba(var(--hover-background), 100%) 0%,rgba(var(--hover-background), 0%) 100%) !important;}
+.workshop_item_row:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.hover_box {background-color: rgba(var(--hover-background), 100%) !important;}
+.hover_arrow_inner {background-image: none !important;}
+.section_title, .section_title a {color: darkturquoise !important;}
+.navContent {background-color: #252525 !important;}
+.general_btn.createCollection {background-image: none !important; background: #353535!important;}
+.browseOptionImage {filter: grayscale(1) !important;}
+/* When you click "See all comments" */
+.partnereventdisplay_EventDetailsPageContainer_2Ptra {background: #202020 !important;}
+.partnereventdisplay_EventBody_3aht- {background-image: radial-gradient(ellipse at top left, #151515, #101010) !important;}
+.eventbbcodesketchfab_dynamiclink_box_2OrAL {background: linear-gradient(60deg, rgba(10, 10, 10, 033) 5%, rgba(09, 09, 09, 0.60) 95%) !important;}
+.discussionwidget_Container_mKmrO {background-image: radial-gradient(ellipse at top center, rgba(55, 55, 55, 0.2) 10%, rgba(25, 25, 25, 0.2) 80%) !important;}
+.partnereventdisplay_AppSummaryCtn_Wk21c {border-top: 1px dotted #454545 !important; background: linear-gradient(#101010, rgba(15, 15, 16, 0.4)) !important;}
+.creatorhomeembed_DevSummaryWidgetCtn_A2B2V {background: radial-gradient(ellipse at top left, rgba(35, 35, 35, 0.8), rgba(25, 25, 25, 0.8)) !important;}
+/* Tooltip */
+.navContent {background-color: #252525 !important;}
+.navContent > hr {background-color: #404040 !important;}
+
+/* Market */
+
 
 
 /* ==========================> Scrollbar <========================== */
@@ -391,3 +471,18 @@ a.recent_game_discussion:hover {background-color: rgba(var(--hover-background), 
     display: none !important;
   }
 }
+
+/* Border radius that don't apply with "*" */
+.btn_green_white_innerfade > span, .btn_grey_black > span {border-radius: 0px !important;}
+
+/* Shit that doesn't work at the moment -> Community -> Home -> Reviews -> click on one */
+#modalContentTitleBar {background-color: #202020 !important;}
+#modalContent.modal_frame {border: 2px solid #353535 !important;}
+.friendBlock {background-color: #101010 !important;}
+.friendBlock:hover {background-color: #181818 !important;}
+.mediaTop .mediaSidebar {background-color: #151515 !important;}
+.commentthread_entry_quotebox {border-radius: 0px !important; border: 1px solid #000 !important;}
+.mediaSidebar .commentthread_comment:hover {background: #202020 !important;}
+.profile_subpage_column .maincontent, body.migrated_profile_page .profile_subpage_column #BG_bottom.maincontent, .profile_subpage_column .profile_small_header_bg {background-image: linear-gradient(90deg, rgba(15, 15, 15, 0.918) 11.38%, rgba(25, 25, 25, 0.8) 25.23%, rgb(10, 10, 10) 100%) !important;}
+.bluefade {background-image: none !important;}
+body .pagecontent.profile_subpage_column .maincontent {width: auto !important;}
