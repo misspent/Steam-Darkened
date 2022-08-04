@@ -10,7 +10,7 @@
 <h1 align="center">📥 Installation</h1>
 
 
-- Download: [Metro Steam Skin](https://metroforsteam.com/)  
+- Download: [Metro Steam Skin](https://metroforsteam.com/)/[Compact](https://github.com/badanka/Compact)   
 - Download: [SteamPatcher](https://github.com/PhantomGamers/SFP/)  
 - Download the "Steam" folder here and drag it into your Steam Folder.  
 - Patch it with the SteamPatcher when all files are in the correct directories  
