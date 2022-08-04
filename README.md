@@ -12,9 +12,9 @@
 
 - Download: [Metro Steam Skin](https://metroforsteam.com/)/[Compact](https://github.com/badanka/Compact)   
 - Download: [SteamPatcher](https://github.com/PhantomGamers/SFP/)  
-- Download the "Steam" folder here and drag it into your Steam Folder.  
+- Download the "Steam" folder here and drag it onto your Steam Folder.  
 - Patch it with the SteamPatcher when all files are in the correct directories  
-- Webkit.css goes in `Steam/skins/(skin name)/resource` | libraryroot.custom.css goes in `Steam/steamui` and friends.custom.css goes in `Steam/clientui`.  
+- **[Useful Info]** Webkit.css goes in `Steam/skins/(skin name)/resource` | libraryroot.custom.css goes in `Steam/steamui` and friends.custom.css goes in `Steam/clientui`.  
 
 Side note: Library & Friends auto-update, but the store webkit.css doesn't.  
 **If you're struggling, use this guide, it's the best of the best**: [Steam Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1941650801)  
