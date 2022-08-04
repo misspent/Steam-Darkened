@@ -3,12 +3,13 @@
 
 .gamelistbar_GameListHomeAndSearch_2TKEa {display: var(--home-and-collection-toggle);}
 
-
-/* DropDowns/Context Menus */
-.contextmenu_contextMenu_LQkrb {background: radial-gradient(ellipse farthest-corner at 50% 0%, #151515 0%, #151515 50%, #101010 100%) !important;}
+/* New to library container */
+.appportrait_AppPortraitBanner_N8aJr {background-color: rgba(var(--hover-background), 100%); box-shadow: 0px 1px 8px 0px #202020;}
 
 
 /* ==========================> Downloads <========================== */
+/* DropDowns/Context Menus */
+.contextmenu_contextMenu_LQkrb {background: #252525 !important;}
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL, .downloadgraph_DownloadGraph_1BxZD {
     color: rgba(var(--hover-background), 80%);
 }
@@ -82,6 +83,13 @@
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
     background-color: #202020;
+}
+.gamelistentry_HasContextMenuOpen_3km84 { /* When you right click a game */
+    border: 1px solid rgba(var(--hover-background), 100%);
+    background-color: rgba(var(--hover-background), 50%);
+}
+.library_ContextMenuAction_Z5iAX.Download, .library_ContextMenuAction_Z5iAX.Update, .library_ContextMenuAction_Z5iAX.PreLoad, .library_ContextMenuAction_Z5iAX.Resume, .library_ContextMenuAction_Z5iAX.Pause, .library_ContextMenuAction_Z5iAX.BorrowApp, .library_ContextMenuAction_Z5iAX.Stop, .library_ContextMenuAction_Z5iAX.Cancel, .library_ContextMenuAction_Z5iAX.Install, .library_ContextMenuAction_Z5iAX.PurchaseApp {
+    background: linear-gradient(to right, rgba(66, 226, 120, var(--gradient-opacity)) 0%, rgba(54, 155, 102, var(--gradient-opacity)) 160%); /* Install button when you right click a game */
 }
 
 /* ==========================> Library <========================== */
@@ -252,6 +260,7 @@
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_, .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):hover { /* Filter button */
 	background-color: #303030;
 }
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Disabled_1Gjk2 {background-color: #202020;}
 
 /* ==========================> Scrollbar <========================== */
 
