@@ -10,6 +10,13 @@
 /* ==========================> Downloads <========================== */
 /* DropDowns/Context Menus */
 .contextmenu_contextMenu_LQkrb {background: #252525 !important;}
+/* .game_hover_box {background: linear-gradient(to bottom,  rgba(20,20,20,1) 0%,rgba(25,25,25,1) 100%) !i;}
+.game_hover_box h4.hover_title {color: rgba(var(--hover-background), 100%) !important;}
+.game_hover_box .hover_release, .hover_body_block, .hover_body {color: #ccc !important;}
+.hover_body .hover_review_summary {color: #c6d4df; background-color: #202020 !important;}
+.hover_tag_row .app_tag {background-color: rgba(var(--hover-background), 100%) !important; color: rgba(227,234,239,1) !important; border-radius: 0px !important;} */
+
+
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL, .downloadgraph_DownloadGraph_1BxZD {
     color: rgba(var(--hover-background), 80%);
 }
@@ -200,7 +207,6 @@
 .appdetailsachievementssection_AdditionalItem_2aVnD {
 	background-color: #252525;
 }
-.appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSectionInner_1dJuv {background: #151515;}
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSection_33Cd4 {margin: 0px;}
 .libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {background: radial-gradient(circle at top left, rgba(15, 15, 15, 0.4) 0%, rgba(25, 25, 25, 0) 60%),#202020;}
 .DialogTextInputBase, ._DialogInputContainer {background: black;}
@@ -215,8 +221,18 @@
     background-color: #202020;
 	box-shadow: none;
 }
+.appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_GuideTitle_23Pup {
+    background: #151515;
+    border-bottom: 1px solid #252525;
+}
+.appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSectionInner_1dJuv {
+    background: linear-gradient(300deg, #101010, #151515);
+}
+.appdetailscommunityfeed_CommunityItem_3QS6O .appdetailscommunityfeed_ChildItem_2EOPV {
+    border-bottom: 1px solid #252525;
+}
 .appdetailscommunityfeed_AuthorSection_1ul9Z {
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(76, 81, 88, 0.3) 2px, rgba(74, 81, 92, 0) 24px, rgba(105, 118, 129, 0.3) 100%);
+	background: linear-gradient(180deg, #101010, transparent);
 }
 .appdetailscommunityfeed_ArtItem_1aP1b .appdetailscommunityfeed_BottomSection_3uabi {
     background: linear-gradient(to right, rgba(25, 25, 25, 0.95) 0%, #121212 100%);

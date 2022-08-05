@@ -154,10 +154,13 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .game_description_column .block .block_content a:hover {border: 1px solid rgba( 85, 85, 85, 0.5 ) !important;}
 .game_description_column .block .block_content a {background-color: rgba( 15, 15, 15, 1 ) !important;}
 .small_cap .discount_block > .discount_prices {background: rgba(25, 25, 25, 0.8) !important;}
-.game_description_column .block .block_header .right a {background-color: #202020 !important;}
+.partnereventwebrowembed_SectionButton_1-yPT {bottom: 28px !important; right: 3px !important;}
+.game_description_column .block .block_header .right a {margin-top: 6px !important; background-color: rgba(0, 0, 0, 0.3) !important;}
 .game_description_column .block .block_header .right a:hover {background: linear-gradient(135deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
 .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: linear-gradient( -60deg, rgba(var(--hover-background), 60%) 5%, rgba(var(--hover-background), 100%) 95%) !important;}
+#add_to_wishlist_area_success .wishlist_added_temp_notice {background: #202020 !important; color: #ccc !important;}
 #add_to_wishlist_area > a {background: linear-gradient( to right, #22b041 5%, #1b8a2e 95%) !important; color: #fff !important;} /* Wishlist button */
+#view_wishlist_btn {background: linear-gradient( to right, #b03622 5%, #8a1b1b 95%) !important; color: #fff !important;} /* Remove from wishlist button */
 #queueBtnFollow > div.btnv6_blue_hoverfade.btn_medium.queue_btn_inactive {background: linear-gradient( to right, #224db0 5%, #1b478a 95%) !important; color: #fff !important;} /* Follow button */
 #ignoreBtn > div.queue_control_button.queue_btn_ignore > div.btnv6_blue_hoverfade.btn_medium.queue_btn_inactive {background: linear-gradient( to right, #b03622 5%, #8a1b1b 95%) !important; color: #fff !important;} /* Ignore button */
 #shareEmbedRow > a:nth-child(1) {background: linear-gradient( to right, #22b0aa 5%, #1b8a85 95%) !important; color: #fff !important;} /* Share button */
@@ -165,6 +168,7 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 #ReportAppBtn {background: linear-gradient( to right, #b03622 5%, #8a1b1b 95%) !important; color: #fff !important;}/* Report/flag button */
 .queue_btn_menu > .queue_menu_arrow {background: rgba(55, 55, 55, 0.6) !important;}
 .queue_menu_flyout {background: #202020 !important;}
+.queue_menu_option:hover {background: #252525 !important;}
 #review_histograms_container {background-color: #202020 !important;}
 .user_reviews_filter_options {background-color: #151515 !important;}
 .user_reviews_filter_menu, .user_reviews_filter_display_as {border-left: 1px solid #252525 !important;}
@@ -185,6 +189,14 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .short_header:hover {background: rgba( 05, 05, 05, 0.6 ) !important;}
 .btnv6_grey_black {background: rgba(var(--hover-background), 100%) !important; filter: brightness(110%) !important; border: 1px solid var(--gpBackground-Neutral-LightSofter) !important;}
 .btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: rgba(var(--hover-background), 100%) !important; filter: brightness(130%) !important;}
+body.v6 .game_area_description h2.bb_tag {color: darkturquoise !important;}
+.game_description_column h2, .recommendation_bodytext h2 {background-image: repeating-linear-gradient(45deg, #151515, #101010 135px) !important; padding-left: 3px !important;}
+.sysreq_tabs, .discselect_tabs {background: linear-gradient( to right, rgba(var(--hover-background), 30%) 0%, rgba(09, 09, 09, 0.1) 100%) !important; padding: 0px !important;}
+.sysreq_tab.active, .discselect_tab.active {background-color: rgba(var(--hover-background), 60%) !important; color: darkturquoise !important;}
+.game_page_autocollapse_fade {background: none !important;}
+.review_box.partial .content .gradient {background: linear-gradient( to bottom, rgba( 20, 20, 20, 0) 5%, rgba(var(--hover-background), 25%) 95%) !important;}
+/* Tooltip */
+.store_tooltip {background: #202020 !important; color: #ccc !important;}
 
 /* Steam - News popup */
 .btn {background: linear-gradient(to right, rgba(var(--hover-background), 50%) 0%, rgba(var(--hover-background), 70%) 90%) !important;}
@@ -235,7 +247,8 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .buttons_GrayButton_3Ju8v:hover {background: #303030 !important;}
 
 /* Store Top Sellers/searching for games pages */
-#term {background-color: #050505 !important; border: 1px solid #353535 !important; box-shadow: none !important;}
+#term {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
+#term:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
 #TagSuggest {background-color: #050505 !important; border: 1px solid #353535 !important; box-shadow: none !important;}
 #TagSuggest:focus, #term:focus {outline: none !important;}
 .block_rule {margin: 8px 0px !important;}
@@ -287,7 +300,8 @@ button.DialogButton.Primary:hover {background: linear-gradient(to right, #42e278
 .btn_grey_grey_outer_bevel:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 60%) 95%) !important; filter: brightness(155%) !important;}
 .community_home_app_shortcuts {background: linear-gradient(270deg, rgba(30, 30, 30, 0.918) 11.38%, rgba(40, 40, 40, 0.8) 25.23%, rgb(20, 20, 20) 100%) !important;}
 .community_home_search_box {background: linear-gradient(90deg, rgba(30, 30, 30, 0.918) 11.38%, rgba(40, 40, 40, 0.8) 25.23%, rgb(20, 20, 20) 100%) !important;}
-.community_home_search_apps, .community_home_search_players {background-color: #050505 !important; border: 1px solid #353535 !important; box-shadow: none !important;}
+.community_home_search_apps, .community_home_search_players {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
+.community_home_search_apps:hover, .community_home_search_players:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
 input.community_home_search_app_input, .community_home_search_apps_image, input.community_home_search_players_input, .community_home_search_players_image {background-color: transparent !important;}
 .apphub_sectionTab.active > span, .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner {background: rgba(var(--hover-background), 20%) !important;}
 .apphub_CardContentType {background-image: none !important; background: rgba(var(--hover-background), 60%) !important;}
@@ -444,7 +458,8 @@ div#headerSearch.friend_activity_header_search:hover {border: 1px solid rgba(var
 .friends_search_text_box, .groups_search_text_box:hover, .community_search_text_box:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
 .friend_block_v2 {background-color: #151515 !important;}
 .count, .friends_nav h4 {color: darkturquoise !important;}
-button.DialogButton {background: #353535 !important;}
+button.DialogButton {background: linear-gradient( to bottom, #353535 5%, #252525 95%) !important; color: #b3babd !important;}
+button.DialogButton:hover {background: linear-gradient( to bottom, #404040 5%, #303030 95%) !important;}
 .noCoplayHistory {border: 1px solid rgba(var(--hover-background), 100%) !important;}
 
 /* Badges */
