@@ -80,7 +80,7 @@ a#store_search_link img {background-color: rgba(var(--hover-background), 100%) !
 .carousel_container.spotlight .carousel_items > * .store_capsule {background: linear-gradient(to left, rgba(25, 25, 25, 100) 0%, rgba(15, 15, 15, 100) calc(100% - 2px), rgba(09, 09, 09, 100) calc(100% - 1px), rgba(07, 07, 07, 100) 100%) !important;}
 .daily_deal .dailydeal_countdown {color: #fff !important;}
 .dailydeal_countdown {background-color: rgba(var(--hover-background), 100%) !important;}
-.store_capsule .discount_block.daily_deal_discount > .discount_prices {background-color: rgba(40, 40, 40, 0.8) !important;}
+.store_capsule .discount_block.daily_deal_discount > .discount_prices {background-color: rgba(0,0,0,0.4) !important;}
 .discovery_queue_ctn .begin_exploring {background: linear-gradient( to bottom, #202020 5%, #101010 95%) !important; color: #fff !important;}
 .discovery_queue_ctn .begin_exploring::after {background: linear-gradient( 134deg, #202020 5%, #101010 95%) !important;}
 .big_button{background: linear-gradient(90deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
@@ -101,7 +101,7 @@ body.v6 .deep_dive_tag:hover {background-color: rgba(var(--hover-background), 10
 .tab_item.focus .tab_item_name, body.v6 .home_rightcol .tab_preview h2 {color: rgba(var(--hover-background), 100%) !important; filter: brightness(200%) !important;}
 .tab_review_summary, .tab_preview .tags > a {background-color: rgba( 10, 10, 10, 0.6) !important;}
 .tab_item.focus .discount_block .discount_final_price {color: var(--gpColor-Blue) !important;}
-.discount_block .discount_final_price {color: var(--gpColor-DustyBlue) !important;}
+.discount_block .discount_final_price {color: orange !important;}
 .discount_block .discount_original_price {color: var(--gpColor-Red) !important;}
 .tab_item_details {color: #ccc !important;}
 .home_marketing_message, .home_marketing_message:hover {background: linear-gradient( 135deg, rgba(20, 20, 20, 1) 5%, rgba(25, 25, 25, 1) 95%) !important;}
@@ -127,7 +127,7 @@ body.v6 .deep_dive_tag:hover {background-color: rgba(var(--hover-background), 10
 #review_create .content .controls .dselect_container a.trigger:hover, #review_create .content .controls .dselect_container a.activetrigger, #review_create .content .controls .dselect_container a.activetrigger:hover {background-color: rgba(var(--hover-background), 100%) !important;}
 .dropcontainer ul {background: rgba(var(--hover-background), 100%) !important;}
 .dselect_container a.trigger:hover, .dselect_container .dropcontainer a.highlighted_selection {background: linear-gradient( -60deg, rgba(var(--hover-background), 80%) 5%, rgba(var(--hover-background), 100%) 95%) !important; filter: brightness(155%) !important;}
-#VoteUpBtn {background: #454545 !important; color: #ccc !important;}
+#VoteUpBtn {background: #454545 !important;}
 #recommendation_submit {background: linear-gradient( to bottom, rgb(81 155 197) 5%, rgb(30 92 128) 95%) !important; color: #fff !important;}
 .btnv6_border_2px {border: 1px solid #101010 !important;}
 .app_tag {color: #ccc !important; background-color: rgba(var(--hover-background), 100%) !important;}
@@ -222,6 +222,16 @@ body.v6 .game_area_description h2.bb_tag {color: darkturquoise !important;}
 .btn_grey_steamui > span {background: linear-gradient( to right, #303030 5%, #303030 95%) !important;}
 .btn_grey_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {background: linear-gradient( to right, #404040 5%, #404040 95%) !important;}
 
+/* Store Cart */
+.store_header_btn_green a {color: #fff !important;}
+.cart_item_price .price {color: orange !important;}
+.cart_status_message {background-color: mediumseagreen !important;}
+.checkout_content_box .checkout_content.cart, .checkout_content_box .checkout_content.confirm, .cart_notice_section {background: #101010 !important;}
+.cart_row {background: linear-gradient(45deg, #0d190d, #124812) !important;}
+.cart_item_price .remove_link, .remove_link {color: darkred !important;}
+.checkout_content_box a:hover {color: red !important;}
+.dailydeal_ctn {background: linear-gradient(to bottom, #202020 75%,#151515 95%) !important;}
+
 /* The Points Shop */
 .styles_PageHomeBannerFloor_37JZ_, .styles_PageHomeTitleContainer_1gjQL, .styles_PageHomeBannerIcons_3vfTy {display: none !important;}
 .page_StandardRoot_3uAuM {background: radial-gradient(63.94% 1024px at 50% 200px, #101010 0%, #050505 100%) !important;}
@@ -255,7 +265,7 @@ body.v6 .game_area_description h2.bb_tag {color: darkturquoise !important;}
 .searchbar {background: linear-gradient(90deg, rgba(30, 30, 30, 0.918) 11.38%, rgba(40, 40, 40, 0.8) 25.23%, rgb(20, 20, 20) 100%) !important;}
 .search_result_row, .search_result_row:hover {background: #101010 !important; border: none !important;}
 .search_result_row:hover {background: #151515 !important; border: none !important;}
-.block_content {background: #151515 !important; border: none !important;}
+.block_content {background: #151515 !important; border: none !important;} .block .block_content_inner #AwardsDefault {padding: 0px !important;}
 .tab_filter_control.checked, .tab_filter_control_row.checked {background: linear-gradient(135deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
 .quadscreenshot_carousel .main {background-color: #151515 !important;}
  .ds_options > div {background-color: #858585 !important; color: #fff !important;}
@@ -405,7 +415,7 @@ div.filterselect_options {background-color: rgba(var(--hover-background), 100%) 
 .hover_arrow_inner {background-image: none !important;}
 .section_title, .section_title a {color: darkturquoise !important;}
 .general_btn.createCollection {background-image: none !important; background: #353535 !important;}
-.browseOptionImage {filter: grayscale(1) !important;}
+.browseOptionImage {filter: grayscale(1) !important; top: inherit !important;}
 /* When you click "See all comments" */
 .partnereventdisplay_EventDetailsPageContainer_2Ptra {background: #202020 !important;}
 .partnereventdisplay_EventBody_3aht- {background-image: radial-gradient(ellipse at top left, #151515, #101010) !important;}
