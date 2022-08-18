@@ -49,6 +49,7 @@ a.gutter_item {background: #151515 !important;}
 .partnereventdisplay_InLibraryView_3X6U9 .partnereventdisplay_EventDetailTitleContainer_35gM9 {background: radial-gradient(ellipse at bottom center, rgba(15, 15, 15, 0.6) 10%, rgba(15, 15, 15, 0.3) 80%) !important;}
 .apppartnereventspage_CloseButton_35HbM, .apppartnereventspage_ScrollButton_357Gu {background-color: #202020 !important; border: 1px solid #353535 !important;}
 .apppartnereventspage_CloseButton_35HbM:hover, .apppartnereventspage_ScrollButton_357Gu:hover {background-color: #252525 !important; border: 1px solid #404040 !important;}
+.salepreviewwidgets_StoreSaleWidgetContainer_UlvFk.salepreviewwidgets_SaleItemDefaultCapsuleDisplay_34o91 {background: linear-gradient(to bottom, #151515 5%, #101010 95%) !important;}
 .discussionwidget_Container_3BVe_ {background-image: radial-gradient(ellipse at top center, rgba(10, 10, 10, 0.6) 10%, rgba(10, 10, 10, 0.3) 80%) !important;}
 
 /* Store featured page */
@@ -347,6 +348,8 @@ a.recent_game_discussion {background-color: #151515 !important;}
 a.recent_game_discussion:hover {background-color: rgba(var(--hover-background), 50%) !important;}
 .discussions_forum_row {background-color: #202020 !important;}
 .discussions_forum_row:hover {background-color: rgba(var(--hover-background), 70%) !important;}
+.apphub_CardAnnouncementBG {filter: hue-rotate(45deg) !important;}
+div.bb_h2, .bb_wysiwyg h2 {color: indianred !important;}
 /* Cool button gradients */
 .btn_grey_white_innerfade {background: linear-gradient( to bottom, #454545 5%, #353535 95%) !important;}
 .btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: linear-gradient( to bottom, #505050 5%, #404040 95%) !important;}
@@ -375,8 +378,10 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 .popup_block_new .popup_body {border: 1px solid #252525 !important; background-color: #252525 !important;}
 
 /* Workshop */
+.workshop_item_header {background: linear-gradient( to bottom, rgba(var(--hover-background), 40%) 5%, rgba(var(--hover-background), 20%) 95%) !important;}
+.game_area_purchase_game {border: 1px solid rgba(var(--hover-background), 100%) !important;} .game_area_purchase_game > h1 span {color: darkturquoise !important;} .btn_border_2px {border: none !important;}
 div.filterselect {background: rgba( 55, 55, 55, 0.6 ) !important;}
-div.filterselect:hover {background: rgba(var(--hover-background), 100%) !important;}
+div.filterselect:hover, .workshopItemControls .general_btn:hover {background: rgba(var(--hover-background), 100%) !important;}
 div.filterselect_options {background-color: rgba(var(--hover-background), 100%) !important;} /* filter dropdown */
 .sectionTab.active {background: linear-gradient( to bottom, rgba(var(--hover-background), 80%) 5%, rgba(var(--hover-background), 20%) 95%) !important;}
 .sectionTab.active > span {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 60%) 95%) !important;}
@@ -386,6 +391,7 @@ div.filterselect_options {background-color: rgba(var(--hover-background), 100%) 
 .browseApps {background-color: #252525 !important;}
 .searchApps {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
 .searchApps:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.detailBox.altFooter {background: linear-gradient(to right, rgba(15, 15, 15, 0.6) 20%, rgb(20, 20, 20) 100%) !important;}
 .detailBox {background: linear-gradient(to right, rgba(30, 30, 30, 0.6) 20%, #202020 100%) !important; padding: 10px !important;}
 .detailBox .headline, .detailBox .headline a {color: darkturquoise !important;}
 .btn_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: rgba(var(--hover-background), 80%) !important;}
@@ -396,6 +402,7 @@ div.filterselect_options {background-color: rgba(var(--hover-background), 100%) 
 .current_player_workshop_title a {color: darkturquoise !important;}
 .current_player_workshop_link, .current_player_workshop_title a {padding-left: 55px !important;}
 .bodytext .current_player_workshop_title a {max-width: -webkit-fill-available !important;}
+.searchTextContainer {filter: grayscale(1) contrast(1.3);} /* Searchbox in Guides */
 /* Steam overlay */
 .apphub_ContentGuides .workshopItemCollection {background-color: rgba( 10, 10, 10, 0.8) !important;}
 .apphub_ContentGuides .workshopItemCollection:hover {background-color: rgba(var(--hover-background), 50%) !important;}
@@ -404,7 +411,7 @@ div.filterselect_options {background-color: rgba(var(--hover-background), 100%) 
 .guideTop {background-color: #101010 !important;}
 .guideTop .workshopItemControls {background-color: #202020 !important;}
 .commentthread_area .commentthread_header {background-color: #090909 !important;}
-/* When you clock on one of the workshops */
+/* When you click on one of the workshops */
 .apphub_HeaderTop.workshop {background-image: none !important;}
 .workshop_browse_menu_area {background: linear-gradient( to right, rgba( 20, 20, 20, 1 ) 5%, rgba( 25, 25, 25, 1 ) 95%) !important;}
 .workshop_browse_search {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
