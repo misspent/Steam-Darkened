@@ -121,6 +121,9 @@ body.v6 .deep_dive_tag:hover {background-color: rgba(var(--hover-background), 10
 .game_page_background.game, .game_background_glow {background: none !important;}
 .apphub_HomeHeaderContent .btnv6_blue_hoverfade {background: linear-gradient( to right, #0ab59e 5%, #148a85 95%) !important; color: #fff !important;} /* Community Hub button */
 .queue_ctn {background: rgba( 15, 15, 15, 1 ) !important;}
+.game_area_comingsoon .not_yet {color: darkturquoise !important;}
+.game_area_comingsoon {background: linear-gradient(135deg, rgba(var(--hover-background), 40%) 10%,rgba(var(--hover-background), 40%) 100%) !important;}
+.game_area_comingsoon .wishlist_add_reminder {background: linear-gradient(135deg, rgba(10, 10, 10, 0.4) 10%,rgba(15, 15, 15, 0.4) 100%) !important;}
 .btn_next_in_queue {margin-right: -12px !important;}
 .queue_ctn .queue_settings_link_ctn.queue_reason_description {margin-right: 58px !important;}
 .broadcast_embeddable_bordered_container_3cQe7 {background: radial-gradient(100% 80% at 64% 95%, rgba(85, 85, 85, 0.4) 40%, rgba(65, 65, 65, 0.4) 100%) !important;}

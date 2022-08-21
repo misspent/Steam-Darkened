@@ -144,6 +144,7 @@
 /* Library game section */
 .appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {background-color: rgba(var(--hover-background), 100%) !important;}
 .spotlight_MajorEventContainer_3do5n {border-image-source: radial-gradient(100% 80% at 64% 95%, rgba(var(--hover-background), 45%) 0%, rgba(var(--hover-background), 70%) 40%, rgba(var(--hover-background), 80%) 100%) !important;}
+.appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {color: #ccc;}
 
 .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
     background: linear-gradient(to top, rgba(09, 09, 09, 9) 0%, rgba(12, 12, 12, 0.96) calc(100% - 2px), rgba(07, 07, 07, 0.71) calc(100% - 1px), rgba(05, 05, 05, 0.93) 100%);
@@ -229,7 +230,7 @@
 
 .artworkmodal_ModalBox_1Lfu7 {background: radial-gradient(132% 155% at 50% 28%, rgba(10, 10, 10, 0.5) 0%, rgba(10, 10, 10, 0) 60%),#202020;} .artworkmodal_ArtworkContainer_1DyzX {background: #202020;}
 
-.comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover {background-color: #202020;}
+.comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover  {background-color: #202020;}
 
 /* Community Content */
 .appdetailscommunityfeed_HeaderStyles_2lNdD {
