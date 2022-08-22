@@ -1,39 +1,3 @@
-:root {
-  --chatfont: 13px; /* Font size for chat messages */
-  --scrollbarSize: 15px;
-
-  /* Colors: */
-  --focus: 102, 36, 226; /* Default Metro skin purple accent */
-  /* 0, 114, 198; /* Blue accent option */
-  --W10close_Red_h: 232, 18, 35; /* Window close button color on hover */
-  --W10close_Red_p: 241, 112, 121; /* Window close button color when pressed */
-  --clientBG: 15, 15, 15;
-  --header_dark: 00, 00, 00;
-  --title-backgrounds: 00, 00, 00;
-  --online: 93, 178, 255;
-  --ingame: 130, 186, 0;
-  --offline: 145, 145, 145;
-  --golden: 255, 255, 99;
-  --scroll: 32, 32, 32;
-  --textentry: 10, 10, 10;
-  --white05: 255, 255, 255, 0.05;
-  --white10: 255, 255, 255, 0.1;
-  --white12: 255, 255, 255, 0.12;
-  --white24: 255, 255, 255, 0.24;
-  --white25: 255, 255, 255, 0.25;
-  --white45: 255, 255, 255, 0.45;
-  --white50: 255, 255, 255, 0.5;
-  --white75: 255, 255, 255, 0.75;
-  --white: 255, 255, 255;
-  --black35: 0, 0, 0, 0.35;
-  --frameBorder: 15, 15, 15;
-  --textentrybuttons: 200, 200, 200;
-}
-
-/* DO NOT ADD THE TOP PART TO THE GITHUB! IT IS ALREADY ADDED */
-
-
-
 /* Remove animations, round corners and delays */
 * {
     box-shadow: none !important;
@@ -49,6 +13,7 @@
   .friendGroup.offlineFriends .groupName {color: #ccc !important; background: rgba(var(--title-backgrounds)) !important; border-bottom: 1px solid red !important;}
   .groupHeaderContainer .SortByRecent {margin-right: 0px !important; background: rgba(var(--title-backgrounds)) !important; border-bottom: 1px solid red !important;}
   .friendGroup .friend, .friendGroup .SteamPlayerGroupFooter {background: #090909 !important; margin: 0px !important; padding: 4px 0px 0px 6px !important;}
+  .friendListFooter {display: none;}
   
   /* User's name and status */
   .currentUserContainer .labelHolder {

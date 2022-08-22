@@ -57,8 +57,8 @@ html, body, body.v6, .home_page_body_ctn, #MessageContent, div.profile_page.has_
 body.v6 #footer {background: #101010 !important;} /* Main Backgrounds */
 body.v6.game_bg {background: #202326 !important;}
 
-.spotlight_block .spotlight_content>h2, .spotlight_body {color: darksalmon;}
-.dailydeal_desc {color: #347133;}
+.spotlight_block .spotlight_content>h2, .spotlight_body {color: darksalmon !important; text-decoration: underline !important;}
+.dailydeal_desc {color: #347133 !important;}
 body.v6 .store_nav .popup_block_new .popup_body {background: linear-gradient(90deg, rgba(20, 20, 20, 0.1) 1.89%, rgba(25, 25, 25, 0) 50%), linear-gradient(180deg, #404040 11.6%, #303030 54.73%, #202020 100%) !important;}
 body.v6 .store_nav .popup_menu_subheader {color: rgba(var(--hover-background), 100%); filter: brightness(155%) !important;}
 #store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {background: linear-gradient(90deg, rgba(30, 30, 30, 0.919) 11.38%, rgba(40, 40, 40, 0.8) 25.23%, rgb(20, 20, 20) 100%) !important;}
@@ -361,10 +361,19 @@ div.bb_h2, .bb_wysiwyg h2 {color: indianred !important;}
 
 .pagebtn, a.pagebtn {background-color: rgba( 85, 85, 85, 0.4 ) !important;}
 .pagebtn:not(.disabled):hover, a.pagebtn:not(.disabled):hover {background-color: rgba(var(--hover-background), 100%) !important;}
+
 .forum_paging_pagelink.active, .forum_paging_controls .commentthread_pagelink.active {color: rgba(var(--hover-background), 100%) !important;}
 .forum_paging {background-color: #151515 !important; color: #ccc !important;}
 .forum_topic {background-color: #202020 !important;}
 .forum_topic:hover {background-color: #303030 !important;}
+.forum_topic_icon {filter: hue-rotate(45deg) saturate(8) !important;} /* Envelope Icons */
+.forum_topic_op {color: deepskyblue !important;} /* Creators name */
+.forum_topic_icon[title="This thread is pinned."] {filter: sepia(100) hue-rotate(325deg) saturate(100) !important;}
+.forum_topic_icon[title="This thread is locked."] {filter: sepia(100) hue-rotate(360deg) saturate(5) !important;}
+.forum_topic_icon[title="No new replies in this thread."] {filter: grayscale(1) !important;}
+.forum_topic_lastpost {color: mediumspringgreen !important;} /* Date/Time thread was created */
+.forum_topic_award_count img {filter: hue-rotate(215deg) saturate(5) !important;} /* Award medal */
+
 .rightbox_list_selection_background {left: -10px !important; background-image: none !important; background: rgba(var(--hover-background), 100%) !important; width: 287px !important;}
 .rightbox .rule {background-color: #252525 !important; width: 295px !important;}
 /* Tooltip/popup */
