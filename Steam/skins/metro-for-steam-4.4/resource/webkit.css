@@ -108,6 +108,7 @@ body.v6 .deep_dive_tag:hover {background-color: rgba(var(--hover-background), 10
 .tab_review_summary, .tab_preview .tags > a {background-color: rgba( 10, 10, 10, 0.6) !important;}
 .tab_item.focus .discount_block .discount_final_price {color: var(--gpColor-Blue) !important;}
 .discount_block .discount_final_price {color: orange !important;}
+.game_purchase_action .game_purchase_price {color: orangered !important;}
 .discount_block .discount_original_price {color: var(--gpColor-Red) !important;}
 .btn_blue_steamui > span {background: linear-gradient( to right, #0ba295 5%, #0b6b75 60%) !important;} /* Bundle info button */
 .btn_blue_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {background: linear-gradient( to right, #17d6c5 5%, #0e808d 60%) !important;} /* Bundle info button hover */
@@ -213,9 +214,10 @@ body.v6 .game_area_description h2.bb_tag {color: darkturquoise !important;}
 .sysreq_tabs, .discselect_tabs {background: linear-gradient( to right, rgba(var(--hover-background), 30%) 0%, rgba(09, 09, 09, 0.1) 100%) !important; padding: 0px !important;}
 .sysreq_tab.active, .discselect_tab.active {background-color: rgba(var(--hover-background), 60%) !important; color: darkturquoise !important;}
 .game_page_autocollapse_fade {background: none !important;}
-#widget {border: 1px solid #303030 !important; background-color: #202020 !important;}
+#widget {border: 1px solid #303030 !important; background: #202020 !important;}
 .review_box.partial .content .gradient {background: linear-gradient( to bottom, rgba( 20, 20, 20, 0) 5%, rgba(var(--hover-background), 25%) 95%) !important;}
 .salepreviewwidgets_StoreSaleWidgetContainer_UlvFk.salepreviewwidgets_LibraryAssetExpandedDisplay_3b-fA {background: linear-gradient(to bottom, #151515 5%, #101010 95%) !important;}
+#app_agegate select {background-color: rgba(var(--hover-background), 80%) !important; color: darkturquoise !important;}
 .deckverified_LearnMorePC_3OSxY, .deckverified_LearnMore_1Vhpn {background-color: green !important;}
 .game_purchase_discount_countdown, .all_languages, a.game_area_details_specs_ctn .label, .game_review_summary.positive, a.communitylink_achievement.communitylink_achivement_plusmore, #game_highlights a, .details_block a, .block a.linkbar, .game_language_options td span, .review_box.partial .view_more a {color: darkturquoise !important;}
 .glance_ctn .user_reviews, .glance_ctn .dev_row .subtitle, .glance_ctn .release_date .subtitle, .glance_ctn .user_reviews .title, .glance_tags_label, .user_reviews_most_helpful_days {color: #828282 !important;}
@@ -230,10 +232,12 @@ body.v6 .game_description_column .game_page_autocollapse.sys_req h2 {text-align:
 .item_store_items_game_page_container {background: linear-gradient(135deg, #151515 0%, #202020 100%) !important;}
 .item_store_overlay_link:hover {border: 2px solid darkturquoise !important;}
 .btnv6_lightblue_blue {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 100%) 95%) !important; color: darkturquoise !important;}
-/* Tooltip */
+.btnv6_lightblue_blue > span {color: darkturquoise !important;}
+/* Tooltip/popup */
 .store_tooltip {background: #202020 !important; color: #ccc !important;}
+.screenshot_popup_modal_content {background: linear-gradient( 135deg, #252525 5%, #181818 95%) !important;}
 
-#game_area_description > img {text-align: center !important;}
+
 
 /* Steam - News popup */
 .btn {background: linear-gradient(to right, rgba(var(--hover-background), 50%) 0%, rgba(var(--hover-background), 70%) 90%) !important;}
