@@ -10,8 +10,10 @@
 *:focus {outline: none !important;}
 .game_purchase_action_bg, #widget .btn_addtocart .btn_addtocart_content {border-radius: 0px !important;}
 
+/* Optional stuff */
 div#footer.compact .footer_content #footerText {display: var(--steam-footer-text) !important;}
 #game_area_legal {display: var(--steam-footer-text);}
+.game_purchase_action .game_purchase_price:before {content: "Not sale price" !important; color: orangered !important; font-size: small !important; border-right: 1px solid #626366 !important; padding-right: 6px !important;}
 
 /* ==========================> Store <========================== */
 /* Left side on featured page | Gift cards, Recommended + everything else | Delete everything below up to "Store featured page" to remove it all */
@@ -63,7 +65,7 @@ body.v6.game_bg {background: #202326 !important;}
 .dailydeal_desc {color: #347133 !important;}
 body.v6 .store_nav .popup_block_new .popup_body {background: linear-gradient(90deg, rgba(20, 20, 20, 0.1) 1.89%, rgba(25, 25, 25, 0) 50%), linear-gradient(180deg, #404040 11.6%, #303030 54.73%, #202020 100%) !important;}
 body.v6 .store_nav .popup_menu_subheader {color: rgba(var(--hover-background), 100%); filter: brightness(155%) !important;}
-#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {background: linear-gradient(90deg, rgba(30, 30, 30, 0.919) 11.38%, rgba(40, 40, 40, 0.8) 25.23%, rgb(20, 20, 20) 100%) !important;}
+#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {background: linear-gradient(90deg, rgba(30, 30, 30, 1) 11.38%, rgba(40, 40, 40, 1) 25.23%, rgb(20, 20, 20) 100%) !important;}
 .store_nav .tab:hover > span, .store_nav .tab:hover, .store_nav .tab.focus > span, .store_nav .tab.focus {background: linear-gradient(90deg, rgba(var(--hover-background), 20%) 0%, rgba(var(--hover-background), 100%) 50%, rgba(var(--hover-background), 60%)) !important; color: #fff !important;}
 div.store_header_btn_gray {background: rgba(var(--hover-background), 100%) !important;}
 .store_header_btn_gray a:hover {background: rgba(var(--hover-background), 100%) !important; filter: brightness(125%) !important; color: #fff !important;}
@@ -108,7 +110,7 @@ body.v6 .deep_dive_tag:hover {background-color: rgba(var(--hover-background), 10
 .tab_review_summary, .tab_preview .tags > a {background-color: rgba( 10, 10, 10, 0.6) !important;}
 .tab_item.focus .discount_block .discount_final_price {color: var(--gpColor-Blue) !important;}
 .discount_block .discount_final_price {color: orange !important;}
-.game_purchase_action .game_purchase_price {color: orangered !important;}
+
 .discount_block .discount_original_price {color: var(--gpColor-Red) !important;}
 .btn_blue_steamui > span {background: linear-gradient( to right, #0ba295 5%, #0b6b75 60%) !important;} /* Bundle info button */
 .btn_blue_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {background: linear-gradient( to right, #17d6c5 5%, #0e808d 60%) !important;} /* Bundle info button hover */
@@ -143,7 +145,6 @@ body.v6 .deep_dive_tag:hover {background-color: rgba(var(--hover-background), 10
 #review_create .content .controls .dselect_container a.trigger:hover, #review_create .content .controls .dselect_container a.activetrigger, #review_create .content .controls .dselect_container a.activetrigger:hover {background-color: rgba(var(--hover-background), 100%) !important;}
 .dropcontainer ul {background: rgba(var(--hover-background), 100%) !important;}
 .dselect_container a.trigger:hover, .dselect_container .dropcontainer a.highlighted_selection {background: linear-gradient( -60deg, rgba(var(--hover-background), 80%) 5%, rgba(var(--hover-background), 100%) 95%) !important; filter: brightness(155%) !important;}
-#VoteUpBtn {background: #454545 !important;}
 #recommendation_submit {background: linear-gradient( to bottom, rgb(81 155 197) 5%, rgb(30 92 128) 95%) !important; color: #fff !important;}
 .btnv6_border_2px {border: 1px solid #101010 !important;}
 .app_tag {color: #ccc !important; background-color: rgba(var(--hover-background), 100%) !important;}
@@ -211,12 +212,13 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .review_box .control_block .text {display: none !important;} .vote_button_ctn {padding: 0px !important;} .review_box .hr {background-color: #151515 !important;} .rightcol .review_box .hr {background-color: mediumslateblue !important;}
 body.v6 .game_area_description h2.bb_tag {color: darkturquoise !important;}
 .game_description_column h2, .recommendation_bodytext h2 {background-image: repeating-linear-gradient(45deg, #151515, #101010 135px) !important; padding-left: 3px !important;} /* Cool gradient title background on store game page */
-.sysreq_tabs, .discselect_tabs {background: linear-gradient( to right, rgba(var(--hover-background), 30%) 0%, rgba(09, 09, 09, 0.1) 100%) !important; padding: 0px !important;}
+.sysreq_tabs, .discselect_tabs {background: linear-gradient( to right, rgba(var(--hover-background), 50%) 0%, rgba(var(--hover-background), 20%) 100%) !important; padding: 0px !important; margin-bottom: 0px !important;}
 .sysreq_tab.active, .discselect_tab.active {background-color: rgba(var(--hover-background), 60%) !important; color: darkturquoise !important;}
 .game_page_autocollapse_fade {background: none !important;}
-#widget {border: 1px solid #303030 !important; background: #202020 !important;}
+[id="widget"] {border: 1px solid #303030 !important; background: #202020 !important;}
 .review_box.partial .content .gradient {background: linear-gradient( to bottom, rgba( 20, 20, 20, 0) 5%, rgba(var(--hover-background), 25%) 95%) !important;}
 .salepreviewwidgets_StoreSaleWidgetContainer_UlvFk.salepreviewwidgets_LibraryAssetExpandedDisplay_3b-fA {background: linear-gradient(to bottom, #151515 5%, #101010 95%) !important;}
+.salepreviewwidgets_StoreSaleWidgetRight_1lRFu .salepreviewwidgets_StoreSaleWidgetBgTint_1yLV1 img {opacity: .2 !important;}
 #app_agegate select {background-color: rgba(var(--hover-background), 80%) !important; color: darkturquoise !important;}
 .deckverified_LearnMorePC_3OSxY, .deckverified_LearnMore_1Vhpn {background-color: green !important;}
 .game_purchase_discount_countdown, .all_languages, a.game_area_details_specs_ctn .label, .game_review_summary.positive, a.communitylink_achievement.communitylink_achivement_plusmore, #game_highlights a, .details_block a, .block a.linkbar, .game_language_options td span, .review_box.partial .view_more a {color: darkturquoise !important;}
@@ -233,11 +235,22 @@ body.v6 .game_description_column .game_page_autocollapse.sys_req h2 {text-align:
 .item_store_overlay_link:hover {border: 2px solid darkturquoise !important;}
 .btnv6_lightblue_blue {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 100%) 95%) !important; color: darkturquoise !important;}
 .btnv6_lightblue_blue > span {color: darkturquoise !important;}
+/* View DLC in store */
+.background_header_ctn {max-width: -webkit-fill-available !important; background: #090909 !important; z-index: 1 !important;} .dlc_curator .background_gradient_ctn, .background_gradient_ctn {max-width: max-content !important;}
+.light_container.bezel {background: linear-gradient( to bottom, rgba(15, 15, 15, 1) 5%, rgba(25, 25, 25, 0) 50% ), linear-gradient( to right, rgba(15, 15, 15, 0) 10%, rgba(10, 10, 10, 0.95) 25%, rgba(10, 10, 10, 0.95) 75%, rgba(15, 15, 15, 0) 90% ) 1800px 90% !important;}
+.navigation_bar > a.selected {background-color: rgba(var(--hover-background), 100%) !important; color: #fff !important;}
+.navigation_bar {border-bottom: 1px solid #202020 !important;}
+body.v6 .page_content.browse_reviews {background: #101010 !important;}
+.page_content_ctn.dlc_associated_franchise {background: #101010 !important;}
+.browse_tabs a:hover, .browse_tabs a.selected {background-color: rgba(var(--hover-background), 50%) !important;}
+.dlc_curator .background_gradient_ctn {background: #090909 !important;}
+.browse_ctn_background {border-top: 1px solid #202020 !important; background: #101010 !important;}
+.lists_more_container .item .overlay {background: linear-gradient( 160deg, rgba(10, 10, 10, 1.0) 5%,rgba(var(--hover-background), 100%) 95%) !important;}
+.light_container, #footer_spacer {background: #090909 !important;}
 /* Tooltip/popup */
 .store_tooltip {background: #202020 !important; color: #ccc !important;}
 .screenshot_popup_modal_content {background: linear-gradient( 135deg, #252525 5%, #181818 95%) !important;}
-
-
+.gamehover_BottomShelf_2tBkj {background: linear-gradient(359.91deg, #151515 30%, rgba(85, 85, 85, 0.3) 85%);}
 
 /* Steam - News popup */
 .btn {background: linear-gradient(to right, rgba(var(--hover-background), 50%) 0%, rgba(var(--hover-background), 70%) 90%) !important;}
@@ -262,6 +275,11 @@ body.v6 .game_description_column .game_page_autocollapse.sys_req h2 {text-align:
 .modal_top_bar {background: linear-gradient(to right, rgba(var(--hover-background), 100%), rgba(var(--hover-background), 60%)) !important;}
 .btn_grey_steamui > span {background: linear-gradient( to right, #303030 5%, #303030 95%) !important;}
 .btn_grey_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {background: linear-gradient( to right, #404040 5%, #404040 95%) !important;}
+/* Important ones */
+body.v6.wishlist.game_bg {background: #090909 !important;}
+body.v6.wishlist.game_bg .game_page_background.game .page_content_ctn {background: #090909 !important;}
+body.v6.wishlist.game_bg .game_page_background.game .responsive_store_nav_ctn_spacer {background: #090909 !important; margin-bottom: -16px !important;}
+.wishlist_header {padding-top: 16px !important;}
 
 /* Store Cart */
 .store_header_btn_green a {color: #fff !important;}
@@ -401,7 +419,7 @@ div.bb_h2, .bb_wysiwyg h2 {color: indianred !important;}
 .pagebtn, a.pagebtn {background-color: rgba( 85, 85, 85, 0.4 ) !important;}
 .pagebtn:not(.disabled):hover, a.pagebtn:not(.disabled):hover {background-color: rgba(var(--hover-background), 100%) !important;}
 
-.forum_paging_pagelink.active, .forum_paging_controls .commentthread_pagelink.active {color: rgba(var(--hover-background), 100%) !important;}
+.forum_paging_pagelink.active, .forum_paging_controls .commentthread_pagelink.active {color: mediumseagreen !important;}
 .forum_paging {background-color: #151515 !important; color: #ccc !important;}
 .forum_topic {background-color: #202020 !important;}
 .forum_topic:hover {background-color: #303030 !important;}
@@ -412,6 +430,11 @@ div.bb_h2, .bb_wysiwyg h2 {color: indianred !important;}
 .forum_topic_icon[title="No new replies in this thread."] {filter: grayscale(1) !important;}
 .forum_topic_lastpost {color: mediumspringgreen !important;} /* Date/Time thread was created */
 .forum_topic_award_count img {filter: hue-rotate(215deg) saturate(5) !important;} /* Award medal */
+.forumtopic_comments .commentthread_comment_text a {color: hsl(197deg, calc(var(--saturation-factor, 1) * 100%), 47.8%) !important;}
+.forum_audit, .forum_comment_permlink a {color: #707070 !important;}
+.forum_audit a {color: #cecece !important;}
+.forumtopic_comments .commentthread_comment .commentthread_comment_author {opacity: 0.75 !important;}
+blockquote.bb_blockquote, .bb_wysiwyg blockquote {border: 1px solid #303030 !important;}
 
 .rightbox_list_selection_background {left: -10px !important; background-image: none !important; background: rgba(var(--hover-background), 100%) !important; width: 287px !important;}
 .rightbox .rule {background-color: #252525 !important; width: 295px !important;}
@@ -422,9 +445,12 @@ div.bb_h2, .bb_wysiwyg h2 {color: indianred !important;}
 .forumtopic_comments .commentthread_comment {background-color: #151515 !important; border: 1px solid #202020 !important;}
 a.forum_comment_action {background-color: rgba( 0, 0, 0, 0.4 ) !important;}
 a.forum_comment_action:hover {background-color: #252525 !important;}
-.forum_newtopic_box, .forum_formarea_box, .forum_newtopic_header {background-color: #000000 !important;}
-input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {background-color: #101010 !important; border: 1px solid #151515 !important;}
+.forum_newtopic_box, .forum_formarea_box, .forum_newtopic_header {background-color: rgba(var(--hover-background), 30%) !important;}
+input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {background-color: rgba(var(--hover-background), 30%) !important; border: 1px solid 1px solid rgba(var(--hover-background), 60%) !important; margin-bottom: 0px !important;}
+.emoticon_popup_content {max-height: 200px !important;}
+.forum_op_author {color: mediumseagreen !important;} .forumtopic_comments .commentthread_comment .commentthread_comment_author a.commentthread_author_link {color: darkturquoise !important; filter: brightness(115%) !important;}
 /* Tooltip */
+.emoticon_popup {background-color: #202020 !important;}
 .forum_comment_action_menu {background-color: #252525 !important;}
 .popup_block_new .popup_body {border: 1px solid #252525 !important; background-color: #252525 !important;}
 
@@ -432,7 +458,7 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 .workshop_item_header {background: linear-gradient( to bottom, rgba(var(--hover-background), 40%) 5%, rgba(var(--hover-background), 20%) 95%) !important;}
 .game_area_purchase_game {border: 1px solid rgba(var(--hover-background), 100%) !important;} .game_area_purchase_game > h1 span {color: darkturquoise !important;} .btn_border_2px {border: none !important;}
 div.filterselect {background: rgba( 55, 55, 55, 0.6 ) !important;}
-div.filterselect:hover, .workshopItemControls .general_btn:hover {background: rgba(var(--hover-background), 100%) !important;}
+div.filterselect:hover {background: rgba(var(--hover-background), 100%) !important;}
 div.filterselect_options {background-color: rgba(var(--hover-background), 100%) !important;} /* filter dropdown */
 .sectionTab.active {background: linear-gradient( to bottom, rgba(var(--hover-background), 80%) 5%, rgba(var(--hover-background), 20%) 95%) !important;}
 .sectionTab.active > span {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 60%) 95%) !important;}
@@ -453,11 +479,22 @@ div.filterselect_options {background-color: rgba(var(--hover-background), 100%) 
 .current_player_workshop_title a {color: darkturquoise !important;}
 .current_player_workshop_link, .current_player_workshop_title a {padding-left: 55px !important;}
 .bodytext .current_player_workshop_title a {max-width: -webkit-fill-available !important;}
+/* Guides Section Stuff */
+.general_btn.createCollection {background-image: none !important; background: #353535 !important;}
 .searchTextContainer {filter: grayscale(1) contrast(1.3);} /* Searchbox in Guides */
+.guide_categories.collapsed {height: 174px !important;}
+.guide_home_category_selection {background: linear-gradient( to bottom, rgba(var(--hover-background), 40%) 5%, rgba(var(--hover-background), 80%) 95%) !important; height: 64px !important; margin-right: 0px !important;}
+.guide_home_category_selection:hover {background: linear-gradient( to bottom, rgba(var(--hover-background), 60%) 5%, rgba(var(--hover-background), 100%) 95%) !important; border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.guide_home_category_selection .guide_category_icon {filter: hue-rotate(55deg) saturate(2) !important; margin-top: 4px !important;}
+.guide_home_category_count {color: darkturquoise !important;}
+.guides_home_section_title {color: mediumpurple !important;}
+.workshopItemCollection .workshopItemShortDesc, .workshopItemCollection .workshopItemAuthorLine {color: #4fb3c3 !important;}
+.workshopItemCollection .workshopItemAuthorName {color: mediumpurple !important;}
+.apphub_ContentGuides .workshopItemCollection .workshopItemTitle {border-bottom: none !important;}
+.guideTopContent .dotHR {border-bottom: 1px #444444 solid !important;}
 /* Steam overlay */
 .apphub_ContentGuides .workshopItemCollection {background-color: rgba( 10, 10, 10, 0.8) !important;}
 .apphub_ContentGuides .workshopItemCollection:hover {background-color: rgba(var(--hover-background), 50%) !important;}
-.guide_home_category_selection {height: 64px !important; margin-right: 0px !important;}
 .browseOption.notSelected:hover, .browseOption.notSelected.gpfocus {background-color: rgba(var(--hover-background), 50%) !important;}
 .guideTop {background-color: #101010 !important;}
 .guideTop .workshopItemControls {background-color: #202020 !important;}
@@ -467,6 +504,9 @@ div.filterselect_options {background-color: rgba(var(--hover-background), 100%) 
 .workshop_browse_menu_area {background: linear-gradient( to right, rgba( 20, 20, 20, 1 ) 5%, rgba( 25, 25, 25, 1 ) 95%) !important;}
 .workshop_browse_search {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
 .workshop_browse_search:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
+.workshopItemControls .general_btn:hover {background-color: rgba(var(--hover-background), 40%) !important;}
+.workshopTagsTitle {color: dodgerblue !important;}
+.subSectionTitle {color: darkturquoise !important;}
 .browse_option a:hover, .filterOption:hover {background-color: rgba(var(--hover-background), 35%) !important;}
 .slider .handle {background: #252525 !important;}
 .slider_container .slider_left, .slider_container .slider_right {background-color: #353535 !important;}
@@ -476,7 +516,6 @@ div.filterselect_options {background-color: rgba(var(--hover-background), 100%) 
 .hover_box {background-color: rgba(var(--hover-background), 100%) !important;}
 .hover_arrow_inner {background-image: none !important;}
 .section_title, .section_title a {color: darkturquoise !important;}
-.general_btn.createCollection {background-image: none !important; background: #353535 !important;}
 .browseOptionImage {filter: grayscale(1) !important; top: inherit !important;}
 /* When you click "See all comments" */
 .partnereventdisplay_EventDetailsPageContainer_2Ptra {background: #202020 !important;}
