@@ -36,6 +36,10 @@ Side note: Library & Friends auto-update, but the store webkit.css doesn't.
 
 ![2  Store Game](https://user-images.githubusercontent.com/78914154/181786367-1fc3d957-ef82-493b-92b3-76530f8162d2.png)
 
+<h3 align="center">Store Game Wishlist</h3>
+
+![Store wishlist](https://user-images.githubusercontent.com/78914154/187027896-72e23263-9632-40e8-85d8-5f410cad34bb.png)
+
 <h3 align="center">Store Points</h3>
 
 ![Store Points Shop](https://user-images.githubusercontent.com/78914154/182877466-2418ccaf-c05b-4611-a415-aeb570588a0e.png)
