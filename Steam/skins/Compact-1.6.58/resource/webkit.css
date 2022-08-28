@@ -160,6 +160,7 @@ body.v6 .deep_dive_tag:hover {background-color: rgba(var(--hover-background), 10
 div.early_access_banner {background: linear-gradient(135deg, rgba(35, 35, 35, 1) 0%, rgba(40, 40, 40, 1) 100%) !important;}
 div.early_access_banner > .btn_medium {border: 1px solid #555555 !important;}
 .eventrow_OtherEvents_TextCtn_2AVL1 {background: #151515 !important;}
+.eventrow_OtherEvents_EventCtn_17gGs.eventrow_HorizontalEvent_1RS0b {background: #151515 !important;}
 a.game_area_details_specs_ctn:hover .label {background: linear-gradient(135deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
 .game_area_details_specs_ctn .label {background: rgba( 150, 150, 150, 0.1 ) !important;}
 .game_area_details_specs_ctn .icon {background: rgba( 100, 100, 100, 0.1 ) !important; padding: 5px 6px !important;}
@@ -247,6 +248,12 @@ body.v6 .page_content.browse_reviews {background: #101010 !important;}
 .browse_ctn_background {border-top: 1px solid #202020 !important; background: #101010 !important;}
 .lists_more_container .item .overlay {background: linear-gradient( 160deg, rgba(10, 10, 10, 1.0) 5%,rgba(var(--hover-background), 100%) 95%) !important;}
 .light_container, #footer_spacer {background: #090909 !important;}
+/* Support Section */
+.help_app_header_divider {background-color: rgba(var(--hover-background), 100%) !important;}
+.help_highlight_text {color: dodgerblue !important;}
+.help_purchase_detail_box {background-color: #202020 !important;}
+.help_page_title {color: darkturquoise !important;}
+.help_wizard_button {border-color: #505050 !important; background-color: #303030 !important;}
 /* Tooltip/popup */
 .store_tooltip {background: #202020 !important; color: #ccc !important;}
 .screenshot_popup_modal_content {background: linear-gradient( 135deg, #252525 5%, #181818 95%) !important;}
@@ -372,13 +379,14 @@ button.DialogButton.Primary:hover {background: linear-gradient(to right, #42e278
 .community_home_search_apps, .community_home_search_players {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}
 .community_home_search_apps:hover, .community_home_search_players:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
 input.community_home_search_app_input, .community_home_search_apps_image, input.community_home_search_players_input, .community_home_search_players_image {background-color: transparent !important;}
+.apphub_StorePrice {border: 1px solid darkorange !important; color: orange !important;}
 .apphub_sectionTab.active > span, .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner {background: rgba(var(--hover-background), 20%) !important;}
 .apphub_CardContentType {background-image: none !important; background: rgba(var(--hover-background), 60%) !important;}
 .apphub_sectionTab.active, .apphub_sectionTab.active:hover, .apphub_responsive_tab .responsive_tab_control {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 0%) 95%) !important;}
 .apphub_sectionTab:hover {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 30%) 95%) !important;}
 .apphub_CardContentAppName, .apphub_CardContentAppName a {color: darkturquoise !important;}
 .apphub_Card.interactable:hover {border: 1px solid rgba(var(--hover-background), 100%) !important;}
-.apphub_Card.interactable:hover .apphub_CardContentAuthorBlock {background-color: rgba(var(--hover-background), 30%) !important;}
+.apphub_Card.interactable:hover .apphub_CardContentAuthorBlock, .apphub_Card.interactable:hover .apphub_CardContentDiscussionType {background-color: rgba(var(--hover-background), 30%) !important;}
 .apphub_CardContentAuthorBlock {border-top: 1px solid #252525 !important;}
 .apphub_Card {background-color: #101010 !important;}
 .apphub_CardContentMain .UserReviewCardContent_Footer .gradient {background: linear-gradient( to bottom, rgba(var(--hover-background), 0%) 5%, rgba(var(--hover-background), 10%) 95%) !important;}
@@ -390,6 +398,7 @@ input.community_home_search_app_input, .community_home_search_apps_image, input.
 .apphub_UserReviewCardContent .review_award_aggregated > img, .apphub_CardMetaData .review_award_aggregated > img {filter: hue-rotate(215deg) saturate(5) !important;} /* Award medal */
 .apphub_CardRating.rateUp {filter: hue-rotate(250deg) saturate(1.3) !important;} /* Thumbs up/positive + amount */
 .new_items_num , .new_items_text, .apphub_UserReviewCardContent .review_award_aggregated {color: darkturquoise !important;}
+.apphub_CardContentAuthorName a {color: deepskyblue !important;}
 
 /* Home - When you click on one of the games */
 .apphub_background {background-image: none !important;}
@@ -410,6 +419,7 @@ a.recent_game_discussion:hover {background-color: rgba(var(--hover-background), 
 .discussions_forum_row:hover {background-color: rgba(var(--hover-background), 70%) !important;}
 .apphub_CardAnnouncementBG {filter: hue-rotate(45deg) !important;}
 div.bb_h2, .bb_wysiwyg h2 {color: indianred !important;}
+.search_match_info {background-color: #101010 !important;}
 /* Cool button gradients */
 .btn_grey_white_innerfade {background: linear-gradient( to bottom, #454545 5%, #353535 95%) !important;}
 .btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: linear-gradient( to bottom, #505050 5%, #404040 95%) !important;}
@@ -435,7 +445,6 @@ div.bb_h2, .bb_wysiwyg h2 {color: indianred !important;}
 .forum_audit a {color: #cecece !important;}
 .forumtopic_comments .commentthread_comment .commentthread_comment_author {opacity: 0.75 !important;}
 blockquote.bb_blockquote, .bb_wysiwyg blockquote {border: 1px solid #303030 !important;}
-
 .rightbox_list_selection_background {left: -10px !important; background-image: none !important; background: rgba(var(--hover-background), 100%) !important; width: 287px !important;}
 .rightbox .rule {background-color: #252525 !important; width: 295px !important;}
 /* Tooltip/popup */
@@ -617,7 +626,7 @@ button.DialogButton:hover {background: linear-gradient( to bottom, #404040 5%, #
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: none !important;
-  background: var(--darkgrey) !important;
+  background: #151515 !important;
 }
 
 ::-webkit-scrollbar {
