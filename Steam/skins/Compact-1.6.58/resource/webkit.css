@@ -165,7 +165,7 @@ a.game_area_details_specs_ctn:hover .label {background: linear-gradient(135deg, 
 .game_area_details_specs_ctn .label {background: rgba( 150, 150, 150, 0.1 ) !important;}
 .game_area_details_specs_ctn .icon {background: rgba( 100, 100, 100, 0.1 ) !important; padding: 5px 6px !important;}
 .details_block {text-align: center !important;}
-.game_details b {color: #ccc !important;}
+.game_details b {color: #ccc !important;} .game_details {color: #dadada !important;}
 .block a.linkbar {background: rgba( 150, 150, 150, 0.1 ) !important;}
 .block a.linkbar:hover {background: linear-gradient(135deg, rgba(var(--hover-background), 100%) 0%, rgba(var(--hover-background), 60%) 100%) !important;}
 a.communitylink_achievement.communitylink_achivement_plusmore {background-color: rgba( 35, 35, 35, 1 ) !important;}
@@ -211,7 +211,7 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .btnv6_grey_black {background: rgba(var(--hover-background), 100%) !important; filter: brightness(110%) !important; border: 1px solid var(--gpBackground-Neutral-LightSofter) !important;}
 .btnv6_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {background: rgba(var(--hover-background), 100%) !important; filter: brightness(130%) !important;}
 .review_box .control_block .text {display: none !important;} .vote_button_ctn {padding: 0px !important;} .review_box .hr {background-color: #151515 !important;} .rightcol .review_box .hr {background-color: mediumslateblue !important;}
-body.v6 .game_area_description h2.bb_tag {color: darkturquoise !important;}
+.game_page_autocollapse_readmore {color: darkturquoise !important;}
 .game_description_column h2, .recommendation_bodytext h2 {background-image: repeating-linear-gradient(45deg, #151515, #101010 135px) !important; padding-left: 3px !important;} /* Cool gradient title background on store game page */
 .sysreq_tabs, .discselect_tabs {background: linear-gradient( to right, rgba(var(--hover-background), 50%) 0%, rgba(var(--hover-background), 20%) 100%) !important; padding: 0px !important; margin-bottom: 0px !important;}
 .sysreq_tab.active, .discselect_tab.active {background-color: rgba(var(--hover-background), 60%) !important; color: darkturquoise !important;}
@@ -225,6 +225,12 @@ body.v6 .game_area_description h2.bb_tag {color: darkturquoise !important;}
 .game_purchase_discount_countdown, .all_languages, a.game_area_details_specs_ctn .label, .game_review_summary.positive, a.communitylink_achievement.communitylink_achivement_plusmore, #game_highlights a, .details_block a, .block a.linkbar, .game_language_options td span, .review_box.partial .view_more a {color: darkturquoise !important;}
 .glance_ctn .user_reviews, .glance_ctn .dev_row .subtitle, .glance_ctn .release_date .subtitle, .glance_ctn .user_reviews .title, .glance_tags_label, .user_reviews_most_helpful_days {color: #828282 !important;}
 .review_box .vote_info, .recommendation_row .vote_info {color: #9ab1bf !important;}
+/* Early Access Game container */
+div.early_access_header .heading {background: linear-gradient(135deg, rgba(87,164,208,1) 0%,rgba(48,93,122,1) 100%) !important;}
+div.early_access_header .heading h2 {background: linear-gradient(135deg,  rgb(83 158 202) 0%,rgb(53 98 127) 100%) !important;}
+div.early_access_header {background: rgb(37 86 117) !important;}
+div.early_access_header .devnotes > .devs_say {color: #e4ff00 !important;}
+div.early_access_header .devnotes > div {color: #ccc !important;}
 /* System Requirements */
 body.v6 .game_description_column .game_page_autocollapse.sys_req h2 {text-align: center !important; margin-bottom: 0px !important; color: indianred !important; border-top: 1px solid #202020 !important; border-left: 1px solid #202020 !important; border-right: 1px solid #202020 !important;}
 .sysreq_contents {margin-top: 0px !important;  background: #101010 !important; border: 1px solid #202020 !important;}
@@ -457,7 +463,7 @@ a.forum_comment_action:hover {background-color: #252525 !important;}
 .forum_newtopic_box, .forum_formarea_box, .forum_newtopic_header {background-color: rgba(var(--hover-background), 30%) !important;}
 input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {background-color: rgba(var(--hover-background), 30%) !important; border: 1px solid 1px solid rgba(var(--hover-background), 60%) !important; margin-bottom: 0px !important;}
 .emoticon_popup_content {max-height: 200px !important;}
-.forum_op_author {color: mediumseagreen !important;} .forumtopic_comments .commentthread_comment .commentthread_comment_author a.commentthread_author_link {color: darkturquoise !important; filter: brightness(115%) !important;}
+.forum_op_author {color: mediumseagreen !important;} .forumtopic_comments .commentthread_comment .commentthread_comment_author a.commentthread_author_link {color: dodgerblue !important; filter: brightness(115%) !important;}
 /* Tooltip */
 .emoticon_popup {background-color: #202020 !important;}
 .forum_comment_action_menu {background-color: #252525 !important;}
@@ -501,6 +507,10 @@ div.filterselect_options {background-color: rgba(var(--hover-background), 100%) 
 .workshopItemCollection .workshopItemAuthorName {color: mediumpurple !important;}
 .apphub_ContentGuides .workshopItemCollection .workshopItemTitle {border-bottom: none !important;}
 .guideTopContent .dotHR {border-bottom: 1px #444444 solid !important;}
+.subSectionDesc, .detailBox ul, .detailBox ol {color: #bcbcbc !important;}
+.guide .bb_ul li > b {color: #dedede !important;}
+.stats_table tr > td:first-child {color: limegreen !important;}
+.breadcrumbs, .breadcrumbs a {color: indianred !important;}
 /* Steam overlay */
 .apphub_ContentGuides .workshopItemCollection {background-color: rgba( 10, 10, 10, 0.8) !important;}
 .apphub_ContentGuides .workshopItemCollection:hover {background-color: rgba(var(--hover-background), 50%) !important;}
@@ -692,7 +702,7 @@ button.DialogButton:hover {background: linear-gradient( to bottom, #404040 5%, #
 
 /* Community -> Home -> Reviews -> click on one + achivements section */
 #modalContentTitleBar {background-color: #202020 !important;}
-#modalContent.modal_frame {border: 2px solid #353535 !important;}
+#modalContent.modal_frame {border: 1px solid #353535 !important;}
 .friendBlock {background-color: #101010 !important;}
 .friendBlock:hover {background-color: #181818 !important;}
 .mediaTop .mediaSidebar {background-color: #151515 !important;}
@@ -700,3 +710,11 @@ button.DialogButton:hover {background: linear-gradient( to bottom, #404040 5%, #
 .mediaSidebar .commentthread_comment:hover {background: #202020 !important;}
 .profile_subpage_column .maincontent, body.migrated_profile_page .profile_subpage_column #BG_bottom.maincontent, .profile_subpage_column .profile_small_header_bg {background-image: linear-gradient(90deg, rgba(15, 15, 15, 0.918) 11.38%, rgba(25, 25, 25, 0.8) 25.23%, rgb(10, 10, 10) 100%) !important;}
 .bluefade {background-image: none !important;}
+/* Image popup when you click on the screenshot on a profile | Not applying
+#modalContentTitleBar {background-color: #090909 !important;}
+.friendBlock {background-color: rgba( 66, 16, 165, 0.2) !important;}
+.mediaTop .mediaSidebar {background-color: #151515 !important;}
+.general_btn, .modalFullItemLink, .modalFullItemLink:hover, .modalFullItemLink:visited {border-radius: 0px !important;}
+#modalMediaRightScroll .general_btn:hover {background-color: rgba( 66, 16, 165, 0.4 ) !important;}
+.mediaSidebar .commentthread_area {border-top: 1px solid #303030 !important;}
+.commentthread_entry_quotebox, .commentthread_subscribe_checkbox {border-right: 1px solid #202020 !important; border-bottom: 1px solid #202020 !important;} */
