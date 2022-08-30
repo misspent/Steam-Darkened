@@ -1,4 +1,4 @@
-<h3 align="center"> This is a WIP. I'm not finished and I have no idea when I will be.</h3>
+<h3 align="center"> This is a WIP.</h3>
 
 ![Darkened Steam Banner](https://user-images.githubusercontent.com/78914154/181785740-fa85772e-c0aa-43f9-a2b8-c9f992812f40.png)
 
