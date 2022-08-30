@@ -17,7 +17,17 @@
 .chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj {background-color: #202020 !important;}
 /* Chat bar section */
 .chatentry_chatEntryControls_1WEr4, .chatentry_chatEntryActionsGroup_9UuAR {background-color: #151515 !important;}
-.chatentry_chatSubmitButton_6Xysd.chatentry_disabled_Ui4aK, .chatentry_chatSubmitButton_6Xysd.chatentry_EmbedButton_1WXoD, .chatentry_chatSubmitButton_6Xysd.chatentry_EmoticonPickerButton_1j3sI {background-color: #303030 !important;}
+.chatentry_chatSubmitButton_6Xysd.chatentry_disabled_Ui4aK, .chatentry_chatSubmitButton_6Xysd.chatentry_EmbedButton_1WXoD, .chatentry_chatSubmitButton_6Xysd.chatentry_EmoticonPickerButton_1j3sI {background-color: #252525 !important;}
+.chatentry_chatSubmitButton_6Xysd .SVGIcon_Submit path {fill: #c3c3c3 !important;}
+.chatentry_EmoticonPickerButton_1j3sI .SVGIcon_Emoticon line, .chatentry_EmoticonPickerButton_1j3sI .SVGIcon_Emoticon circle, .chatentry_EmoticonPickerButton_1j3sI .SVGIcon_Emoticon path, .chatentry_EmbedButton_1WXoD .SVGIcon_Paperclip path {stroke: #c3c3c3 !important;}
+.messages_MsgWithAddons_32Uri:hover {background-color: #202020 !important;}
+.messages_MsgWithAddons_32Uri .messages_Addons_1pGgX {background-color: #101010 !important; border: 1px solid #252525 !important;}
+.chatentry_chatSubmitButton_6Xysd {background-color: rgba(var(--hover-background), 60%) !important;}
+/* Emoji popup */
+.contextmenu_contextMenu_2sA-f {background: #151515 !important;}
+.addonpicker_Tabs_1Z82c {border-bottom: 2px solid #252525 !important;}
+.addonpicker_FilterInputContainer_2QDXL .addonpicker_FilterInput_Wna0l {background-color: #202020 !important;}
+.addonpicker_Tab_2-W60.addonpicker_Active_Lu2DJ {border-bottom: 4px solid rgba(var(--hover-background), 100%) !important;}
 
 /* User's name and status */
 .currentUserContainer .labelHolder {

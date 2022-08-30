@@ -205,7 +205,8 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .review_box.short {background: linear-gradient(to right, rgba(var(--hover-background), 80%) -1%, rgba(var(--hover-background), 80%) 0%, rgba(var(--hover-background), 40%) 92%, rgba(var(--hover-background), 40%) 100%) !important;}
 .review_box {background-color: rgba( 20, 20, 20, 0.6 ) !Important; border-top: none !important; background-image: none !important;}
 .review_box .hr {border-top: 1px solid #252525 !important;}
-.review_award {    background-color: rgba(0, 0, 0, 0.4) !important;}
+.review_award {background-color: rgba(0, 0, 0, 0.4) !important;}
+.review_ctn {margin-bottom: 0px !important;}
 .short_header {color: var(--gpColor-BlueHi) !important; background-color: rgba( 0, 0, 0, 0.4 ) !important;}
 .short_header:hover {background: rgba( 05, 05, 05, 0.6 ) !important;}
 .btnv6_grey_black {background: rgba(var(--hover-background), 100%) !important; filter: brightness(110%) !important; border: 1px solid var(--gpBackground-Neutral-LightSofter) !important;}
@@ -226,8 +227,8 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .glance_ctn .user_reviews, .glance_ctn .dev_row .subtitle, .glance_ctn .release_date .subtitle, .glance_ctn .user_reviews .title, .glance_tags_label, .user_reviews_most_helpful_days {color: #828282 !important;}
 .review_box .vote_info, .recommendation_row .vote_info {color: #9ab1bf !important;}
 /* Early Access Game container */
-div.early_access_header .heading {background: linear-gradient(135deg, rgba(87,164,208,1) 0%,rgba(48,93,122,1) 100%) !important;}
-div.early_access_header .heading h2 {background: linear-gradient(135deg,  rgb(83 158 202) 0%,rgb(53 98 127) 100%) !important;}
+div.early_access_header .heading {background: linear-gradient(135deg, rgba(87, 164, 208, 1) 0%, rgba(48, 93, 122, 1) 100%) !important;}
+div.early_access_header .heading h2 {background: linear-gradient(135deg, rgb(83 158 202) 0%, rgb(53 98 127) 100%) !important;}
 div.early_access_header {background: rgb(37 86 117) !important;}
 div.early_access_header .devnotes > .devs_say {color: #e4ff00 !important;}
 div.early_access_header .devnotes > div {color: #ccc !important;}
@@ -252,7 +253,7 @@ body.v6 .page_content.browse_reviews {background: #101010 !important;}
 .browse_tabs a:hover, .browse_tabs a.selected {background-color: rgba(var(--hover-background), 50%) !important;}
 .dlc_curator .background_gradient_ctn {background: #090909 !important;}
 .browse_ctn_background {border-top: 1px solid #202020 !important; background: #101010 !important;}
-.lists_more_container .item .overlay {background: linear-gradient( 160deg, rgba(10, 10, 10, 1.0) 5%,rgba(var(--hover-background), 100%) 95%) !important;}
+.lists_more_container .item .overlay {background: linear-gradient( 160deg, rgba(10, 10, 10, 1) 5%, rgba(var(--hover-background), 100%) 95%) !important;}
 .light_container, #footer_spacer {background: #090909 !important;}
 /* Support Section */
 .help_app_header_divider {background-color: rgba(var(--hover-background), 100%) !important;}
@@ -327,6 +328,10 @@ body.v6.wishlist.game_bg .game_page_background.game .responsive_store_nav_ctn_sp
 .redeempointsmodal_BundleItemContainer_2Lw2P .redeempointsmodal_BundleItemPreviewContainer_26yC- .redeempointsmodal_BundleItemPreview_3gaKB:hover {background-color: rgba(0, 0, 0, .55) !important;}
 .buttons_GrayButton_3Ju8v {background: linear-gradient(0deg, #252525, #252525), #3b9dee !important;}
 .buttons_GrayButton_3Ju8v:hover {background: #303030 !important;}
+/* Bundle containers in point shop */
+.bundle_BundleContainer_2p-sr {background: linear-gradient(114.67deg, #151515 34.26%, #202020 78.13%) !important;}
+.bundle_ItemCard_1zIyr {background: linear-gradient(to bottom right, #252525 40%, #353535) !important;}
+.bundle_BundleFooter_zpf5C {background: linear-gradient(103.01deg, #454545 -32.22%, #101010 -25%, #151515 74.49%) !important;}
 
 /* Store Top Sellers/searching for games pages */
 #term {background-image: none !important; background-color: #050505 !important; box-shadow: none !important; border: 1px solid rgba( 35, 35, 35, 1) !important;}

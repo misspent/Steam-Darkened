@@ -2,6 +2,7 @@
 
 :root {
   --chatfont: 13px; /* Font size for chat messages */
+  --hover-background: 66, 16, 165; /* HEX: #4210a5 */
   --scrollbarSize: 15px;
 
   /* Colors: */
