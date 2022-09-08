@@ -1251,6 +1251,12 @@
 .suggestdialog_mentionDialog_2hRnz {
   padding: 0px 0px 0px 0px !important;
 }
+.suggestdialog_mentionDialog_9ShUB {
+  background: #202020 !important;
+}
+.suggestdialog_suggestOption_DkUzD.suggestdialog_selected_EcLIN {
+  background-color: #303030 !important;
+}
 
 .currentUserContainer .ContextMenuButton {
   padding-top: 0px !important;
