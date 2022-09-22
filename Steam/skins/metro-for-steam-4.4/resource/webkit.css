@@ -564,7 +564,8 @@ div.sortselect_options div.option:hover {background-color: #353535 !important;}
 .hover_box {background-color: rgba(var(--hover-background), 100%) !important;}
 .hover_arrow_inner {background-image: none !important;}
 .section_title, .section_title a {color: darkturquoise !important;}
-.browseOptionImage {filter: grayscale(1) !important; top: 0px !important;}
+.browseOptionImage {filter: grayscale(1) !important; top: 0px !important; top: -2px !important;}
+.guideSubSectionSelection.selected {padding: 0px !important}
 /* When you click "See all comments" */
 .partnereventdisplay_EventDetailsPageContainer_2Ptra {background: #202020 !important;}
 .partnereventdisplay_EventBody_3aht- {background-image: radial-gradient(ellipse at top left, #151515, #101010) !important;}
