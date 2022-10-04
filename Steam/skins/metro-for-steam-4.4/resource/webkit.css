@@ -1,6 +1,7 @@
 :root {
 	--hover-background: 66, 16, 165; /* HEX: #4210a5 */
 	--scrollbar: #505050; /* Scrollbar color */
+  --Review-Awards: block; /* none = removed, block = on */
 
   --steam-footer-text: none; /* none = off | Inherit/block = on | Privacy, Legal, Cookies Valve Corporation at the bottom of pages */
 }
@@ -12,7 +13,8 @@
 
 /* Optional stuff */
 div#footer.compact .footer_content #footerText {display: var(--steam-footer-text) !important;}
-#game_area_legal {display: var(--steam-footer-text);}
+#game_area_legal {display: var(--steam-footer-text) !important;}
+.review_award_ctn {display: var(--Review-Awards) !important;}
 .game_purchase_action .game_purchase_price:before {content: "Not sale price" !important; color: orangered !important; font-size: small !important; border-right: 1px solid #626366 !important; padding-right: 6px !important;}
 
 /* ==========================> Store <========================== */
@@ -23,20 +25,20 @@ div#footer.compact .footer_content #footerText {display: var(--steam-footer-text
 	width: 100% !important;
 	height: 22px !important;
 	top: 13.4% !important;
-    z-index: 1 !important;
+  z-index: 1 !important;
 	background: #202020 !important;
 }
 #responsive_page_template_content > div.home_page_col_wrapper > div.home_page_content.home_gutter_outside > div > div:nth-child(1) > div:nth-child(1):after {
 	content: "Gift Cards" !important;
 	position: absolute !important;
 	color: #c6d4df !important;
-    font-size: 11px !important;
-    text-transform: uppercase !important;
+  font-size: 11px !important;
+  text-transform: uppercase !important;
 	width: 100% !important;
 	left: 0 !important;
 	height: 18px !important;
 	top: 13.7% !important;
-    z-index: 101 !important;
+  z-index: 101 !important;
 }
 #responsive_page_template_content > div.home_page_col_wrapper > div.home_page_content.home_gutter_outside > div > div:nth-child(1) > div:nth-child(1), #responsive_page_template_content > div.home_page_col_wrapper > div.home_page_content.home_gutter_outside > div > div:nth-child(1) > div:nth-child(1) > a {background: #101010 !important;}
 .gutter_header {background: #202020 !important; text-align: center !important;}
@@ -194,8 +196,9 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 #review_histograms_container {background-color: #202020 !important;}
 .user_reviews_filter_options {background-color: #151515 !important;}
 .user_reviews_filter_menu, .user_reviews_filter_display_as {border-left: 1px solid #252525 !important;}
+.reviews_info_ctn {border-bottom: none;}
 .user_reviews_filter_display_as select {background: lightgreen !important;} /* Summary button */
-#review_show_graph_button , #review_hide_graph_button{background: rgba(var(--hover-background), 100%) !important;}
+#review_show_graph_button , #review_hide_graph_button {background: rgba(var(--hover-background), 100%) !important; margin-top: 4.5px;}
 .user_reviews_filter_menu:hover, .user_reviews_filter_menu:hover .user_reviews_filter_menu_flyout, .user_reviews_filter_menu_flyout:hover {background-color: #353535 !important;}
 .user_reviews_filter_menu_flyout {color: #ccc !important;}
 .btn_darkblue_white_innerfade, .btn_darkblue_white_innerfade > span, .user_reviews_customize_language a {background: linear-gradient( to bottom, rgba(var(--hover-background), 60%) 5%, rgba(var(--hover-background), 100%) 95%) !important; color: #fff !important;}
@@ -205,7 +208,7 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 #app_reviews_playtime_slider .ui-widget-header {background: rgba(var(--hover-background), 100%) !important;}
 .review_box.short {background: linear-gradient(to right, rgba(var(--hover-background), 80%) -1%, rgba(var(--hover-background), 80%) 0%, rgba(var(--hover-background), 40%) 92%, rgba(var(--hover-background), 40%) 100%) !important;}
 .review_box {background-color: rgba( 20, 20, 20, 0.6 ) !Important; border-top: none !important; background-image: none !important;}
-.review_box .hr {border-top: 1px solid #252525 !important;}
+.review_box .hr {border-top: 1px solid #252525 !important; height: 0px !important;}
 .review_award {background-color: rgba(0, 0, 0, 0.4) !important;}
 .review_ctn {margin-bottom: 0px !important;}
 .short_header {color: var(--gpColor-BlueHi) !important; background-color: rgba( 0, 0, 0, 0.4 ) !important;}
@@ -384,6 +387,40 @@ button.DialogButton.Primary:hover {background: linear-gradient(to right, #42e278
 .eventcalendar_SidebarContainer_1DLtr .eventcalendar_Sidebar_2A05H .eventcalendar_FilterLink_1-Ujk {background-color: #303030 !important;}
 .eventcalendar_SidebarContainer_1DLtr .eventcalendar_Sidebar_2A05H .eventcalendar_FilterLink_1-Ujk:hover {box-shadow: 2px 2px 10px rgba(0, 0, 0, .4) !important;}
 .eventcalendar_SidebarContainer_1DLtr .eventcalendar_Sidebar_2A05H .eventcalendar_FilterOption_3k3Gi, .eventcalendar_SidebarContainer_1DLtr .eventcalendar_Sidebar_2A05H .eventcalendar_FilterSubOption_hHIh7 {background-color: #252525 !important;}
+
+/* ======> Reviews containers on game page <====== */
+.review_box .rightcol {width: 472px !important;}
+.reviews_info_ctn {text-align: center !important;}
+
+/* User part on review */
+.review_box .rightcol {margin: 0px 6px 0px 8px !important;}
+.review_box .leftcol {
+  width: 130px !important;
+  padding: 8px 0px 0px 0px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: -webkit-center !important;
+}
+.review_box .avatar {padding-right: 0px !important;}
+.review_box .persona_name {margin-top: 0px !important;}
+
+/* Top part of the name on right container (The purple ones) */
+.review_box .short_header .persona_name {
+  height: -webkit-fill-available !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.review_box .short_header .persona_name, .review_box .short_header .hours {
+  margin-top: 0px !important;
+  height: -webkit-fill-available !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.review_developer_response_container.multiple_listing.store {background-color: #151515 !important;}
+.review_developer_response_container.multiple_listing {margin-top: -25px !important; margin-bottom: 14px !important;}
+.review_box {margin-bottom: 14px !important;}
 
 /* ==========================> Community <========================== */
 

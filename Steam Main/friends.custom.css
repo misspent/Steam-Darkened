@@ -16,7 +16,8 @@
 .friendListFooter {display: none;}
 .chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj {background-color: #202020 !important;}
 /* Chat bar section */
-.chatentry_chatEntryControls_1WEr4, .chatentry_chatEntryActionsGroup_9UuAR {background-color: #151515 !important;}
+.chatentry_chatEntryControls_1WEr4 {background-color: #151515 !important;}
+.chatentry_chatEntryActionsGroup_9UuAR {background-color: #151515 !important; margin: 0px 4px 0px 8px !important;}
 .chatentry_chatSubmitButton_6Xysd.chatentry_disabled_Ui4aK, .chatentry_chatSubmitButton_6Xysd.chatentry_EmbedButton_1WXoD, .chatentry_chatSubmitButton_6Xysd.chatentry_EmoticonPickerButton_1j3sI {background-color: #252525 !important;}
 .chatentry_chatSubmitButton_6Xysd .SVGIcon_Submit path {fill: #c3c3c3 !important;}
 .chatentry_EmoticonPickerButton_1j3sI .SVGIcon_Emoticon line, .chatentry_EmoticonPickerButton_1j3sI .SVGIcon_Emoticon circle, .chatentry_EmoticonPickerButton_1j3sI .SVGIcon_Emoticon path, .chatentry_EmbedButton_1WXoD .SVGIcon_Paperclip path {stroke: #c3c3c3 !important;}
@@ -415,6 +416,7 @@
   max-width: 46px !important;
   margin-left: 0px !important;
   padding: 0;
+  display: none !important;
 }
 .ChatMessageEntryVoice.Disabled {
   opacity: 0.2;
@@ -1256,6 +1258,22 @@
 }
 .suggestdialog_suggestOption_DkUzD.suggestdialog_selected_EcLIN {
   background-color: #303030 !important;
+}
+
+.bbcode_ChatMessageSteamStore_Failed_POkia, .bbcode_ChatMessageSteamStore_tdVvE {
+  background: #181818 !important;
+}
+.bbcode_ChatMessageSteamStore_Header_2KIJQ {
+  background: linear-gradient(to right, rgba(var(--hover-background), 50%) 60%, rgba(var(--hover-background), 20%) 100%) !important;
+}
+.bbcode_ChatMessageSteamStore_ViewStore_2SBI6 {
+  background: linear-gradient(to bottom, #0a9ea0 30%, #0e4546 100%) !important;
+}
+.bbcode_ChatMessageSteamStore_ViewStore_2SBI6:hover {
+  background: linear-gradient(to bottom, #09c4c7 30%, #085c5e 100%) !important;
+}
+.bbcode_ChatMessageSteamStore_PricingContainer_23NxJ {
+  border: none !important;
 }
 
 .currentUserContainer .ContextMenuButton {
