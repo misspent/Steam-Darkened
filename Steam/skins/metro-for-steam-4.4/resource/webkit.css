@@ -1,7 +1,7 @@
 :root {
 	--hover-background: 66, 16, 165; /* HEX: #4210a5 */
 	--scrollbar: #505050; /* Scrollbar color */
-  --Review-Awards: block; /* none = removed, block = on */
+  --Review-Awards: flex; /* none = removed, flex = on */
 
   --steam-footer-text: none; /* none = off | Inherit/block = on | Privacy, Legal, Cookies Valve Corporation at the bottom of pages */
 }
