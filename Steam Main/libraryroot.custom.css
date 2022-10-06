@@ -9,6 +9,7 @@
 /* ==========================> Downloads <========================== */
 /* DropDowns/Context Menus */
 .contextmenu_contextMenu_LQkrb {background: #252525 !important;}
+.contextmenu_contextMenuItem_pFo3k:hover, .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU {background-color: #353535 !important;}
 
 /* .game_hover_box {background: linear-gradient(to bottom,  rgba(20,20,20,1) 0%,rgba(25,25,25,1) 100%);}
 .game_hover_box h4.hover_title {color: rgba(var(--hover-background), 100%) !important;}
@@ -175,7 +176,7 @@
 .appdetailsprimarylinkssection_LinksSection_3-V8v {background: rgba(14, 14, 14); padding-right: 0px; padding-left: 0px;}
 .appdetailsprimarylinkssection_LinksSection_3-V8v> div {background: radial-gradient(100% 80% at 64% 95%, rgba(30, 30, 30, 0.99) 40%, rgba(40, 40, 40, 0.99) 100%) !important;}
 
-.appdetailsspotlight_ReviewContainer_3LE-6, .writereview_RatingContainer_2SAb6 {background-color: #202020;}
+.appdetailsspotlight_ReviewContainer_3LE-6, .writereview_RatingContainer_2SAb6 {background-color: #202020; text-align: -webkit-center;}
 .writereview_ReviewThumbButton_1kCN0 {background: #353535; color: #ccc;}
 .writereview_ReviewThumbButton_1kCN0:not(.writereview_Selected_Z3L6K):hover {    background: linear-gradient(-60deg, rgba(var(--hover-background), 60%) 5%, rgba(var(--hover-background), 100%) 95%); filter: brightness(155%);}
 .writereview_RatingContainer_2SAb6 .writereview_LeftContainer_2aeAn .writereview_Playtime_qX4kN {color: rgba(var(--hover-background), 100%);font-weight: bold; filter: brightness(155%);}

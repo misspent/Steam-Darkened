@@ -230,6 +230,10 @@ a.communitylink_achievement.communitylink_achivement_plusmore:hover {background:
 .game_purchase_discount_countdown, .all_languages, a.game_area_details_specs_ctn .label, .game_review_summary.positive, a.communitylink_achievement.communitylink_achivement_plusmore, #game_highlights a, .details_block a, .block a.linkbar, .game_language_options td span, .review_box.partial .view_more a {color: darkturquoise !important;}
 .glance_ctn .user_reviews, .glance_ctn .dev_row .subtitle, .glance_ctn .release_date .subtitle, .glance_ctn .user_reviews .title, .glance_tags_label, .user_reviews_most_helpful_days {color: #828282 !important;}
 .review_box .vote_info, .recommendation_row .vote_info {color: #9ab1bf !important;}
+/* Page it takes you to when you click a tag */
+.partnersaledisplay_SaleBackground_dmyDb {background-color: #090909 !important;}
+.partnersaledisplay_SaleSection_2NfLq {background-image: linear-gradient(0deg, rgb(20, 20, 20) 0%, rgb(35, 35, 35) 100%) !important;}
+.facetedbrowse_FacetedBrowseControls_3fHFf {background: linear-gradient(0deg, rgb(20, 20, 20) 0%, rgb(35, 35, 35) 100%) !important;}
 /* Broadcast popup (bottom right) */
 .broadcast_embeddable_broadcast_floating_3Sg16 {border-color: #202020 !important;}
 .broadcast_embeddable_broadcast_floating_3Sg16 .broadcast_embeddable_PopOutVideoTitleBar_1vT_0 {background: #151515 !important;}
