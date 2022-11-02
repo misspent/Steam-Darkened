@@ -42,7 +42,7 @@ div#footer.compact .footer_content #footerText {display: var(--steam-footer-text
 }
 #responsive_page_template_content > div.home_page_col_wrapper > div.home_page_content.home_gutter_outside > div > div:nth-child(1) > div:nth-child(1), #responsive_page_template_content > div.home_page_col_wrapper > div.home_page_content.home_gutter_outside > div > div:nth-child(1) > div:nth-child(1) > a {background: #101010 !important;}
 .gutter_header {background: #202020 !important; text-align: center !important;}
-a.gutter_item {background: #151515 !important;}
+.home_page_gutter_block {background: #151515 !important;}
 .gutter_header, a.gutter_item {padding: 2px 0 !important; margin: 0px !important;}
 .home_page_gutter {left: -30px !important;}
 

@@ -71,6 +71,9 @@
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover, .downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5:hover.DialogButton:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover {
     background: #454545;
 }
+.downloads_SectionJumpBar_mw7VZ {
+    background-color: #252525 !important;
+}
 
 /* ==========================> Sidebar <========================== */
 .gamelistbar_GameListHomeAndSearch_2TKEa {
