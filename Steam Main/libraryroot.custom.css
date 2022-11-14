@@ -1,3 +1,15 @@
+:root {
+	--hover-background: 66, 16, 165; /* HEX: #4215a5 */
+	--scrollbar: #505050; /* Scrollbar color */
+	--librarybg: #252525; /* Library background color */
+
+	--scrollbar-toggle: block; /* None = no scrollbar | block = on */
+    --home-and-collection-toggle: flex; /* None = off | flex = on */
+}
+
+/* DO NOT ADD THE TOP PART TO THE GITHUB! IT IS ALREADY ADDED */
+
+
 /* Squares everywhere */
 *{border-radius: 0 !important;}
 
@@ -256,6 +268,8 @@
 .artworkmodal_ModalBox_1Lfu7 {background: radial-gradient(132% 155% at 50% 28%, rgba(10, 10, 10, 0.5) 0%, rgba(10, 10, 10, 0) 60%),#202020;} .artworkmodal_ArtworkContainer_1DyzX {background: #202020;}
 
 .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover  {background-color: #202020;}
+
+.comment_thread_ActivityCommentThread_39nna {background: #101010;}
 
 /* Community Content */
 .appdetailscommunityfeed_HeaderStyles_2lNdD {
