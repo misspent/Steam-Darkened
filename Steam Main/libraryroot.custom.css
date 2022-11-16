@@ -1,15 +1,3 @@
-:root {
-	--hover-background: 66, 16, 165; /* HEX: #4215a5 */
-	--scrollbar: #505050; /* Scrollbar color */
-	--librarybg: #252525; /* Library background color */
-
-	--scrollbar-toggle: block; /* None = no scrollbar | block = on */
-    --home-and-collection-toggle: flex; /* None = off | flex = on */
-}
-
-/* DO NOT ADD THE TOP PART TO THE GITHUB! IT IS ALREADY ADDED */
-
-
 /* Squares everywhere */
 *{border-radius: 0 !important;}
 
@@ -223,6 +211,9 @@
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {background: rgba(20, 20, 20, .8); padding: 0px;}
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur:hover {background-color: rgba(30, 30, 30, .8);}
 
+.appactivityday_Event_UVeN0 .appactivityday_PartnerEventFeaturedHeader_1WdC0 {
+    background: rgba(var(--hover-background), 100%);
+}
 .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
     background: linear-gradient(to right, rgba(20, 20, 20, 0.8) 0%, rgba(10, 10, 10, 0.8) 95%);
 }
