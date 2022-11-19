@@ -282,6 +282,9 @@ body.v6 .page_content.browse_reviews {background: #101010 !important;}
 /* Steam - News popup */
 .btn {background: linear-gradient(to right, rgba(var(--hover-background), 50%) 0%, rgba(var(--hover-background), 70%) 90%) !important;}
 .btn:hover {background: linear-gradient(to right, rgba(var(--hover-background), 75%) 0%, rgba(var(--hover-background), 100%) 100%) !important;}
+/* First launching steam popup */
+.messagelist_CarouselBar_O7VJK {background: linear-gradient(180deg, #121212 0%, rgba(16, 16, 16, 0.46) 100%);}
+.messagelist_MessageListPage_1N7O3 {background: linear-gradient(180deg, #141414 0%, #181818 100%);}
 
 /* DISCOVERY QUEUE */
 .page_header_ctn {background: none !important;}
