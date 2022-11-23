@@ -6,6 +6,9 @@
 /* New to library container */
 .appportrait_AppPortraitBanner_N8aJr {background-color: rgba(var(--hover-background), 100%); box-shadow: 0px 1px 8px 0px #202020;}
 
+/* First launching steam popup */
+.messagelist_CarouselBar_O7VJK {background: linear-gradient(180deg, #121212 0%, rgba(16, 16, 16, 0.46) 100%);}
+.messagelist_MessageListPage_1N7O3 {background: linear-gradient(180deg, #141414 0%, #181818 100%);}
 /* ==========================> Downloads <========================== */
 /* DropDowns/Context Menus */
 .contextmenu_contextMenu_LQkrb {background: #252525 !important;}
@@ -130,6 +133,7 @@
 .tooltip_ToolTipCustom_3Dt__, .appportraithover_AppPortraitHover_2sGn0, .tooltip_TextToolTip_29b2a {background-color: #252525;}
 .appportraithover_CapsuleBackground_AcLtE {filter: blur(18px) opacity(10%) saturate(0.7) !important;}
 
+
 /* Library Home section */
 .libraryhomenewupdates_GameIconAndName_3_xMy {background-color: rgba(55,55,55,.4)}
 .libraryhomenewupdates_GameIconAndName_3_xMy:hover {background-color: #303030;}
@@ -208,8 +212,8 @@
 .appactivityday_PartnerEventTypeUpdate_29bW1 {color: rgba(var(--hover-background), 100%); filter: brightness(200%);}
 .appactivityday_LeftSideMajorUpdateBar_3oMUS {background: transparent;}
 
-.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {background: rgba(20, 20, 20, .8); padding: 0px;}
-.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur:hover {background-color: rgba(30, 30, 30, .8);}
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {background: rgba(20, 20, 20, .8) !important; padding: 0px 6px;}
+.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur:hover {background-color: rgba(30, 30, 30, .8) !important;}
 
 .appactivityday_Event_UVeN0 .appactivityday_PartnerEventFeaturedHeader_1WdC0 {
     background: rgba(var(--hover-background), 100%);
