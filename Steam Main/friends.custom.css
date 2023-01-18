@@ -16,9 +16,9 @@
 .friendListFooter {display: none;}
 .chattabs_ChatTab_2Vrcp.chattabs_Active_Lrqoj {background-color: #202020 !important;}
 /* Chat bar section */
-.chatentry_chatEntryControls_1WEr4 {background-color: #151515 !important;}
-.chatentry_chatEntryActionsGroup_9UuAR {background-color: #151515 !important; margin: 0px 4px 0px 8px !important;}
-.chatentry_chatSubmitButton_6Xysd.chatentry_disabled_Ui4aK, .chatentry_chatSubmitButton_6Xysd.chatentry_EmbedButton_1WXoD, .chatentry_chatSubmitButton_6Xysd.chatentry_EmoticonPickerButton_1j3sI {background-color: #252525 !important;}
+.chatentry_chatEntryControls_1WEr4, .chatentry_chatEntryControls_3Ule3 {background-color: #151515 !important;}
+.chatentry_chatEntryActionsGroup_9UuAR, .chatentry_chatEntryActionsGroup_2WfNo {background-color: #151515 !important; margin: 0px 4px 0px 8px !important; color: #ccc !important;}
+.chatentry_chatSubmitButton_6Xysd.chatentry_disabled_Ui4aK, .chatentry_chatSubmitButton_6Xysd.chatentry_EmbedButton_1WXoD, .chatentry_chatSubmitButton_6Xysd.chatentry_EmoticonPickerButton_1j3sI, .chatentry_chatSubmitButton_RVIs8 {background-color: #252525 !important; color: #ccc !important;}
 .chatentry_chatSubmitButton_6Xysd .SVGIcon_Submit path {fill: #c3c3c3 !important;}
 .chatentry_EmoticonPickerButton_1j3sI .SVGIcon_Emoticon line, .chatentry_EmoticonPickerButton_1j3sI .SVGIcon_Emoticon circle, .chatentry_EmoticonPickerButton_1j3sI .SVGIcon_Emoticon path, .chatentry_EmbedButton_1WXoD .SVGIcon_Paperclip path {stroke: #c3c3c3 !important;}
 .messages_MsgWithAddons_32Uri:hover {background-color: #202020 !important;}
