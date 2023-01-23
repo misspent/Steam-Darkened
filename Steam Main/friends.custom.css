@@ -32,11 +32,30 @@
 /* Popup */
 .contextmenu_contextMenuItem_1LSq5:hover, .contextmenu_contextMenuItem_1LSq5.contextmenu_active_34JiP {background: #303030 !important;}
 
+
+
 /* ======> Emoji Picker <====== */
 .contextmenu_contextMenu_PP7LM {background: #151515;}
 .addonpicker_Tab_2CJ0L.addonpicker_Active_1ddEQ {border-bottom: 3px solid rgba(var(--hover-background), 100%);}
 .addonpicker_Tabs_1yVkT {border-bottom: 2px solid #202020;}
 .addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z- {  background-color: #202020;}
+
+/* ======> Emojis popup when you do :"text": In chat <====== */
+.suggestdialog_mentionDialog_1QU3c {background: #151515;}
+.suggestdialog_suggestOption_vquL9.suggestdialog_selected_boNOG {
+  color: #dfe3e6;
+  background-color: #252525;
+  padding-left: 22px;
+}
+
+/* ======> Popup when you want to upload an image/file <====== */
+.chatFileUploadPreviewContainer {background: #151515;}
+.chatFileUploadCancel {background-color: #252525;}
+.chatFileUploadCancel:hover {background-color: #303030;}
+.chatFileUploadCancel .SVGIcon_X_Line line {stroke: #b10c0c;}
+
+
+
 
 /* User's name and status */
 .currentUserContainer .labelHolder {
@@ -661,9 +680,6 @@
 .DialogLabelStrong,
 ._DialogInputContainer {
   color: rgb(140, 140, 140) !important;
-}
-.DialogCheckbox_Container {
-  padding: 0 !important;
 }
 
 ._DialogLayout:not(.DialogButton):not(.DialogContent),
@@ -2641,6 +2657,11 @@
 }
 
 .bbcode_ImageModalBackground_XfE_W {background: rgb(var(--clientBG));}
+
+
+
+
+
 
 
 
