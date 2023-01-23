@@ -32,6 +32,12 @@
 /* Popup */
 .contextmenu_contextMenuItem_1LSq5:hover, .contextmenu_contextMenuItem_1LSq5.contextmenu_active_34JiP {background: #303030 !important;}
 
+/* ======> Emoji Picker <====== */
+.contextmenu_contextMenu_PP7LM {background: #151515;}
+.addonpicker_Tab_2CJ0L.addonpicker_Active_1ddEQ {border-bottom: 3px solid rgba(var(--hover-background), 100%);}
+.addonpicker_Tabs_1yVkT {border-bottom: 2px solid #202020;}
+.addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z- {  background-color: #202020;}
+
 /* User's name and status */
 .currentUserContainer .labelHolder {
   justify-content: center !important;
@@ -2635,3 +2641,11 @@
 }
 
 .bbcode_ImageModalBackground_XfE_W {background: rgb(var(--clientBG));}
+
+
+
+
+
+
+
+
