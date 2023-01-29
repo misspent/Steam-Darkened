@@ -63,11 +63,16 @@ html, body, body.v6, .home_page_body_ctn, #MessageContent, div.profile_page.has_
 .home_cluster_ctn {background: none !important;}
 body.v6 #footer {background: #101010 !important;} /* Main Backgrounds */
 body.v6.game_bg {background: #202326 !important;}
+#widget {
+  border: 1px solid #181818 !important;
+  background-color: #252525 !important;
+}
 
 .spotlight_block .spotlight_content> h2, .spotlight_body {color: darksalmon !important;}
 .dailydeal_desc {color: #347133 !important;}
 body.v6 .store_nav .popup_block_new .popup_body {background: linear-gradient(90deg, rgba(20, 20, 20, 0.1) 1.89%, rgba(25, 25, 25, 0) 50%), linear-gradient(180deg, #404040 11.6%, #303030 54.73%, #202020 100%) !important;}
 body.v6 .store_nav .popup_menu_subheader {color: rgba(var(--hover-background), 100%); filter: brightness(155%) !important;}
+body.v6 h2 {margin-bottom: 0px !important;}
 #store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {background: linear-gradient(90deg, rgba(30, 30, 30, 1) 11.38%, rgba(40, 40, 40, 1) 25.23%, rgb(20, 20, 20) 100%) !important;}
 .store_nav .tab:hover > span, .store_nav .tab:hover, .store_nav .tab.focus > span, .store_nav .tab.focus {background: linear-gradient(90deg, rgba(var(--hover-background), 20%) 0%, rgba(var(--hover-background), 100%) 50%, rgba(var(--hover-background), 60%)) !important; color: #fff !important;}
 div.store_header_btn_gray {background: rgba(var(--hover-background), 100%) !important;}
@@ -282,9 +287,6 @@ body.v6 .page_content.browse_reviews {background: #101010 !important;}
 /* Steam - News popup */
 .btn {background: linear-gradient(to right, rgba(var(--hover-background), 50%) 0%, rgba(var(--hover-background), 70%) 90%) !important;}
 .btn:hover {background: linear-gradient(to right, rgba(var(--hover-background), 75%) 0%, rgba(var(--hover-background), 100%) 100%) !important;}
-/* First launching steam popup */
-.messagelist_CarouselBar_O7VJK {background: linear-gradient(180deg, #121212 0%, rgba(16, 16, 16, 0.46) 100%);}
-.messagelist_MessageListPage_1N7O3 {background: linear-gradient(180deg, #141414 0%, #181818 100%);}
 
 /* DISCOVERY QUEUE */
 .page_header_ctn {background: none !important;}
@@ -382,6 +384,12 @@ body.v6.wishlist.game_bg .game_page_background.game .responsive_store_nav_ctn_sp
 #popup_target > div > div.ModalPosition > div > div.DialogContent._DialogLayout > div > div.DialogFooter > button {background: linear-gradient(to right, #b73131 0%, #8e1010 60%) !important;} /* Dimiss button */
 #popup_target > div > div.ModalPosition > div > div.DialogContent._DialogLayout > div > div.DialogFooter > button:hover {background: linear-gradient(to right, #d63c3c 0%, #a21616 60%) !important;} /* Dimiss button hover */
 .creatorhomeembed_FollowButton_3sfAn {background-color: #256cbd !important;}
+/* When you click on one of the posts */
+.partnereventdisplay_EventDetailsPageContainer_3PgWN {background: #101010 !important;}
+.partnereventdisplay_EventBody_mnHzq {
+  background-color: #151515 !important;
+  background-image: none !important;
+}
 /* News Sidebar */
 .eventcalendar_SidebarContainer_1DLtr {background: #050505 !important;}
 .eventcalendar_NewsChannelGroup_3Zc7j .eventcalendar_NewsChannel_TOM8J.eventcalendar_NewsChannelOnPage_EhtJ_ {border-right: 4px solid rgba(var(--hover-background), 100%) !important; background: linear-gradient(30deg, rgba(var(--hover-background), 30%) 0%, rgba(var(--hover-background), 20%) 100%) !important;}
