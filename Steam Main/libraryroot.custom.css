@@ -124,22 +124,20 @@
 
 /* Tooltip/app details popup */
 .appdetailshover_AppDetailsHover_38FqI .appdetailshover_Background_rYBZB {background: radial-gradient(ellipse farthest-corner at 20% 30%, #202020 0%, #151515 50%, #202020 100%);}
-.appgrid_SortingDropDownContainer_1ZpBQ>div, .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer {background: #202020 !important; border: .5px solid #353535; border-left: none;}
+.appgrid_SortingDropDownContainer_1ZpBQ> div, .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer {background: #202020 !important; border: .5px solid #353535; border-left: none;}
 .miniprofile_miniProfileBackground_108IP {background: radial-gradient(ellipse farthest-corner at 20% 30%, #000000 0%, #101010 50%, #202020 100%);}
 .miniprofile_miniProfileContent_3QoRR.miniprofile_notInOrWatchingGame_34jjZ .miniprofile_miniProfileBottom_2MwqO, .miniprofile_miniProfileContent_3QoRR .miniprofile_miniProfileGameContainer_3gSTD {background: linear-gradient(to bottom, rgba(15, 15, 15, 0.7) 5%, rgba(15, 15, 15, 0.4) 95%) !important;}
-.appdetailsfriendssection_PlaytimeSection_1s3b9 {background: radial-gradient(circle at top left, rgba(var(--hover-background), 50%) 0%, rgba(var(--hover-background), 9%) 100%),linear-gradient(to bottom, rgba(var(--hover-background), 67%) 0%, rgba(var(--hover-background), 9%) 1px, rgba(var(--hover-background), 13%) 25%, rgba(var(--hover-background), 10%) 50%) !important;}
+.appdetailsfriendssection_PlaytimeSection_1s3b9 {background: radial-gradient(circle at top left, rgba(var(--hover-background), 50%) 0%, rgba(var(--hover-background), 9%) 100%), linear-gradient(to bottom, rgba(var(--hover-background), 67%) 0%, rgba(var(--hover-background), 9%) 1px, rgba(var(--hover-background), 13%) 25%, rgba(var(--hover-background), 10%) 50%) !important;}
 .appdetailsfriendssection_PlaytimeSection_1s3b9 .appdetailsfriendssection_PlaytimeContent_28Nso .appdetailsfriendssection_TimePlayed_KiUMH {color: lawngreen !important;}
-.appdetailsfriendssection_PlaytimeSection_1s3b9 .appdetailsfriendssection_PlaytimeContent_28Nso {color: rgba(255,255,255,.5) !important;}
+.appdetailsfriendssection_PlaytimeSection_1s3b9 .appdetailsfriendssection_PlaytimeContent_28Nso {color: rgba(255, 255, 255, .5) !important;}
 .tooltip_ToolTipCustom_3Dt__, .appportraithover_AppPortraitHover_2sGn0, .tooltip_TextToolTip_29b2a {background-color: #252525;}
 .appportraithover_CapsuleBackground_AcLtE {filter: blur(18px) opacity(10%) saturate(0.7) !important;}
 
-
 /* Library Home section */
-.libraryhomenewupdates_GameIconAndName_3_xMy {background-color: rgba(55,55,55,.4)}
+.libraryhomenewupdates_GameIconAndName_3_xMy {background-color: rgba(55, 55, 55, .4);}
 .libraryhomenewupdates_GameIconAndName_3_xMy:hover {background-color: #303030;}
-.libraryhomenewupdates_EventOptions_2-p7s>div {background-color: darkturquoise;}
+.libraryhomenewupdates_EventOptions_2-p7s> div {background-color: darkturquoise;}
 .appdetailssectionheader_SectionHeader_1Q2q_, .appdetailscommunityfeed_HeaderStyles_2lNdD {color: darkturquoise;}
-
 
 .libraryhome_UpdatesContainer_17uEB {
     background: radial-gradient(100% 100% at 33% 45%, #151515 30%, #101010 100%);
@@ -170,7 +168,7 @@
 /* Library game section */
 .appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {background-color: rgba(var(--hover-background), 100%) !important;}
 .spotlight_MajorEventContainer_3do5n {border-image-source: radial-gradient(100% 80% at 64% 95%, rgba(var(--hover-background), 45%) 0%, rgba(var(--hover-background), 70%) 40%, rgba(var(--hover-background), 80%) 100%) !important;}
-.appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {color: rgba(255,255,255, 0.6);}
+.appdetailsprimarylinkssection_Anchor_DY4_w .appdetailsprimarylinkssection_Link_1b6LY .appdetailsprimarylinkssection_Text_2sNDj {color: rgba(255, 255, 255, 0.6);}
 .appdetailsplaysection_MenuButton_3qDWQ.appdetailsplaysection_FavoriteButton_21hXW.appdetailsplaysection_Favorited_2WaHZ svg path {stroke: darkturquoise; fill: darkturquoise;}
 
 .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1, .appdetailsplaysection_InnerContainer_3Y87Y {
@@ -208,9 +206,11 @@
 
 .appactivityday_PartnerEventLargeImage_Container_Libri {background: black;}
 .appactivityday_PartnerEventLargeImage_Container_Libri:hover {background: #101010 !important;}
-.appactivityday_PartnerEventLargeUpdate_39Zk3, .appactivityday_Event_UVeN0.appactivityday_PartnerEventFeatured_3xi-H {border-image-source: radial-gradient(100% 80% at 64% 95%, rgba(var(--hover-background), 45%) 0%, rgba(var(--hover-background), 70%) 40%, rgba(var(--hover-background), 80%) 100%) !important;}
+.appactivityday_PartnerEventLargeUpdate_39Zk3 {border-image-source: radial-gradient(100% 80% at 64% 95%, rgba(var(--hover-background), 45%) 0%, rgba(var(--hover-background), 70%) 40%, rgba(var(--hover-background), 80%) 100%) !important;}
 .appactivityday_PartnerEventTypeUpdate_29bW1 {color: rgba(var(--hover-background), 100%); filter: brightness(200%);}
 .appactivityday_LeftSideMajorUpdateBar_3oMUS {background: transparent;}
+/* Featured */
+.appactivityday_Event_UVeN0.appactivityday_PartnerEventFeatured_3xi-H {border-image: radial-gradient(100% 80% at 64% 95%, rgba(var(--hover-background), 45%) 0%, rgba(var(--hover-background), 70%) 40%, rgba(var(--hover-background), 80%) 100%) !important;}
 
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur {background: rgba(20, 20, 20, .8) !important; padding: 0px 6px;}
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur:hover {background-color: rgba(30, 30, 30, .8) !important;}
@@ -241,16 +241,16 @@
     background: radial-gradient(100% 80% at 64% 95%, rgba(34, 34, 34, 0.3) 0%, rgba(50, 50, 50, 0.13) 40%, rgba(80, 80, 80, 0.1) 100%);
 }
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
-    background: radial-gradient(100% 80% at 64% 95%, rgba(34, 34, 34, 0.3) 0%, rgba(50, 50, 50, 0.13) 40%, rgba(80, 80, 80, 0.1) 100%);
+    background: radial-gradient(100% 80% at 64% 95%, rgba(34, 34, 34, 0.3) 0%, rgba(50, 50, 50, 0.13) 40%, rgba(80, 80, 80, 0.1) 100%) !important;
 }
 .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
-    background: radial-gradient(100% 80% at 64% 95%, rgba(20, 20, 20, 0.3) 0%, rgba(24, 24, 24, 0.5) 20%, rgba(30, 30, 30, 0.5) 100%);
+    background: radial-gradient(100% 80% at 64% 95%, rgba(20, 20, 20, 0.3) 0%, rgba(24, 24, 24, 0.5) 20%, rgba(30, 30, 30, 0.5) 100%) !important;
 }
 .appdetailsachievementssection_AdditionalItem_2aVnD {
 	background-color: #252525;
 }
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSection_33Cd4 {margin: 0px;}
-.libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {background: radial-gradient(circle at top left, rgba(15, 15, 15, 0.4) 0%, rgba(25, 25, 25, 0) 60%),#202020;}
+.libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {background: radial-gradient(circle at top left, rgba(15, 15, 15, 0.4) 0%, rgba(25, 25, 25, 0) 60%), #202020;}
 .DialogTextInputBase, ._DialogInputContainer {background: black;}
 .toggle_Toggle_3jXWQ .toggle_ToggleRail_GKYwH.toggle_Highlight_2l9tH {background-color: rgba(var(--hover-background), 60%);}
 .toggle_Toggle_3jXWQ .toggle_ToggleSwitch_2mW8B.toggle_On_1YqUA {background-color: #16a1e1; background-image: linear-gradient(to bottom, rgba(var(--hover-background), 100%), rgba(var(--hover-background), 100%));}
@@ -260,7 +260,7 @@
 }
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {background-color: darkturquoise;}
 
-.artworkmodal_ModalBox_1Lfu7 {background: radial-gradient(132% 155% at 50% 28%, rgba(10, 10, 10, 0.5) 0%, rgba(10, 10, 10, 0) 60%),#202020;} .artworkmodal_ArtworkContainer_1DyzX {background: #202020;}
+.artworkmodal_ModalBox_1Lfu7 {background: radial-gradient(132% 155% at 50% 28%, rgba(10, 10, 10, 0.5) 0%, rgba(10, 10, 10, 0) 60%), #202020;} .artworkmodal_ArtworkContainer_1DyzX {background: #202020;}
 
 .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover  {background-color: #202020;}
 
@@ -403,4 +403,4 @@
   background-color: var(--librarybg) !important;
 }
 .appdetails_PlayBar_2L3s2 {width: calc(100% - 0px) !important;}
-.LibraryDisplaySizeMedium .libraryhomenewupdates_PartnerEventRowCapsule_3YO5B {padding-bottom: 4px !important}
+.LibraryDisplaySizeMedium .libraryhomenewupdates_PartnerEventRowCapsule_3YO5B {padding-bottom: 4px !important;}
