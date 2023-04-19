@@ -256,7 +256,8 @@ body.v6 .game_description_column .game_page_autocollapse.sys_req h2 {text-align:
 .game_area_sys_req ul li strong {color: slateblue !important;}
 .game_area_sys_req ul { margin-left: 5px !important;}
 /* Items available for this game */
-.item_store_items_game_page_container {background: linear-gradient(135deg, #151515 0%, #202020 100%) !important;}
+.item_store_items_game_page_container {background: linear-gradient(135deg, #151515 0%, #202020 100%) !important; padding: 4px 4px 0px 4px;}
+.item_store_items_game_page_container > .item_def_grid_item {margin-right: 0px;}
 .item_store_overlay_link:hover {border: 2px solid darkturquoise !important;}
 .btnv6_lightblue_blue {background: linear-gradient( to bottom, rgba(var(--hover-background), 100%) 5%, rgba(var(--hover-background), 100%) 95%) !important; color: darkturquoise !important;}
 .btnv6_lightblue_blue > span {color: darkturquoise !important;}
