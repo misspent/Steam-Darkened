@@ -24,6 +24,8 @@
 .DialogTextInputBase:focus, .DialogTextInputBase:focus-within, .DialogTextInputBase:not(:disabled):hover {background: #252525 !important;}
 .pagedsettings_PagedSettingsDialog_PageListColumn_RTicB {background: #151515 !important;}
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0 {background: #101010 !important;}
+.pagedsettings_PagedSettingsDialog_PageContent_1I3N {background: #101010 !important;}
+.pagedsettings_PagedSettingsDialog_PageListItem_bkfjn.pagedsettings_Active_Myra7 {background: #202020 !important;} .pagedsettings_PagedSettingsDialog_PageListItem_bkfjn:not(.pagedsettings_Active_Myra7):hover {background-color: #252525 !important;}
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO, .appproperties_AppProperties_1FyBL .appproperties_Checkbox_2V2nc {background: #151515;}
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL, .downloadgraph_DownloadGraph_1BxZD {
